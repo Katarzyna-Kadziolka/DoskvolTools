@@ -1,2 +1,2 @@
-# BladesInTheDarkContentGenerator
-Gontent generator for RPG game Blades In The Dark
+# DoskvolTools
+Content generator for RPG game Blades In The Dark
