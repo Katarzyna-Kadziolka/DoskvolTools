@@ -3,14 +3,23 @@
 </script>
 
 <template>
-  <div class='app-nav-bar_container'>Doskvol Tools</div>
+  <div class='app-nav-bar_container'>
+    <img class='app-nav-bar_logo' src='@/assets/doskvol-tools-logo.png' alt='Doskvol Tools'>
+  </div>
 </template>
 
 <style scoped lang='scss'>
 .app-nav-bar {
   &_container {
     background: $color-secondary;
-    height: 6vh;
+    padding-left: 16px;
+    height: 7vh;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #484b54;
+  }
+  &_logo {
+    height: 3vh;
   }
 }
 </style>
