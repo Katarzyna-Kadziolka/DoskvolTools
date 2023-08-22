@@ -73,23 +73,11 @@
       <updated>1692693946251</updated>
       <workItem from="1692693950079" duration="6608000" />
       <workItem from="1692700668987" duration="3334000" />
-      <workItem from="1692704067984" duration="2476000" />
+      <workItem from="1692704067984" duration="4705000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/src/components/generator/GeneratorNavigation.vue</url>
-          <line>4</line>
-          <properties lambdaOrdinal="-1" />
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
