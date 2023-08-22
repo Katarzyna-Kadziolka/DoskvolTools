@@ -7,9 +7,20 @@ import "@fontsource/source-sans-pro"; // Defaults to weight 400
 import "@fontsource/source-sans-pro/400.css"; // Specify weight
 import "@fontsource/source-sans-pro/400-italic.css"; // Specify weight and style
 
+import { library } from '@fortawesome/fontawesome-svg-core'
+import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
+import { faCity, faPerson, faSpaghettiMonsterFlying, faToriiGate, faMask, faBuilding } from  '@fortawesome/free-solid-svg-icons'
+
+library.add(faBuilding)
+library.add(faCity)
+library.add(faPerson)
+library.add(faSpaghettiMonsterFlying)
+library.add(faToriiGate)
+library.add(faMask)
+
 const app = createApp(App)
 
 app.use(createPinia())
 app.use(router)
-
+app.component('font-awesome-icon', FontAwesomeIcon)
 app.mount('#app')

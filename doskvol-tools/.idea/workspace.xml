@@ -33,6 +33,11 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Projects\DoskvolTools\doskvol-tools\src\components\generator\GeneratorNavigationItem" />
+    </key>
+  </component>
   <component name="RunManager" selected="npm.dev">
     <configuration name="Debug" type="CompoundRunConfigurationType">
       <toRun name="Debug part" type="JavascriptDebugType" />
@@ -67,7 +72,8 @@
       <option name="presentableId" value="Default" />
       <updated>1692693946251</updated>
       <workItem from="1692693950079" duration="6608000" />
-      <workItem from="1692700668987" duration="1800000" />
+      <workItem from="1692700668987" duration="3334000" />
+      <workItem from="1692704067984" duration="949000" />
     </task>
     <servers />
   </component>

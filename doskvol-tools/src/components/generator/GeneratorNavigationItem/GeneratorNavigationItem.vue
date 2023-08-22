@@ -1,12 +1,13 @@
 <script setup lang='ts'>
 defineProps<{
   name: string
+  icon: string
 }>()
 </script>
 
 <template>
   <div class='generator-navigation-item_container'>
-    <img src=''>
+    <font-awesome-icon :icon=icon />
     <div >{{name}}</div>
   </div>
 </template>

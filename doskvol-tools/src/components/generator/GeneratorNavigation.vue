@@ -1,13 +1,39 @@
 <script setup lang='ts'>
-import GeneratorNavigationItem from '@/components/generator/GeneratorNavigationItem.vue'
+import type {NavigationItem} from '@/components/generator/GeneratorNavigationItem/NavigationItem';
+import GeneratorNavigationItem from '@/components/generator/GeneratorNavigationItem/GeneratorNavigationItem.vue'
 
-const items = ["Ulice", "Budynki", "Ludzie", "Czarty", "Kulty", "Skoki"]
+const items : NavigationItem[] = [
+  {
+    name: "Ulice",
+    icon: "fa-solid fa-city"
+  },
+  {
+    name: "Budynki",
+    icon: "fa-solid fa-building"
+  },
+  {
+    name: "Ludzie",
+    icon: "fa-solid fa-person"
+  },
+  {
+    name: "Czarty",
+    icon: "fa-solid fa-spaghetti-monster-flying"
+  },
+  {
+    name: "Kulty",
+    icon: "fa-solid fa-torii-gate"
+  },
+  {
+    name: "Skoki",
+    icon: "fa-solid fa-mask"
+  }
+]
 
 </script>
 
 <template>
   <div class='generator-navigation_container'>
-    <GeneratorNavigationItem v-for='item in items' :key='item' :name='item' />
+    <GeneratorNavigationItem v-for='item in items' :key='item.name' :name='item.name' :icon='item.icon' />
   </div>
 </template>
 
