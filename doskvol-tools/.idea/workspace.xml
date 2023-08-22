@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="4dbec060-34b6-4869-bada-8a34889abf2d" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
@@ -21,11 +24,16 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "ignore.virus.scanning.warn.message": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "ts.external.directory.path": "C:\\Projects\\DoskvolTools\\doskvol-tools\\node_modules\\typescript\\lib",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Compound.Debug">
+  <component name="RunManager" selected="npm.dev">
     <configuration name="Debug" type="CompoundRunConfigurationType">
       <toRun name="Debug part" type="JavascriptDebugType" />
       <toRun name="dev" type="js.build_tools.npm" />
@@ -58,7 +66,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1692693946251</updated>
-      <workItem from="1692693950079" duration="104000" />
+      <workItem from="1692693950079" duration="1084000" />
     </task>
     <servers />
   </component>
