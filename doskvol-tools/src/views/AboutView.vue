@@ -4,12 +4,17 @@
   </div>
 </template>
 
-<style>
+<style lang="scss">
 @media (min-width: 1024px) {
   .about {
     min-height: 100vh;
     display: flex;
     align-items: center;
   }
+  h1 {
+    color: $color-primary;
+  }
 }
 </style>
+<script setup lang="ts">
+</script>
