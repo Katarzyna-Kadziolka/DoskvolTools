@@ -28,12 +28,13 @@ const items : NavigationItem[] = [
     icon: "fa-solid fa-mask"
   }
 ]
+let activeItemName = "Ulice";
 
 </script>
 
 <template>
   <div class='generator-navigation_container'>
-    <GeneratorNavigationItem v-for='item in items' :key='item.name' :name='item.name' :icon='item.icon' />
+    <GeneratorNavigationItem v-for='item in items' :key='item.name' :name='item.name' :icon='item.icon' :is-active='activeItemName === item.name' />
   </div>
 </template>
 
