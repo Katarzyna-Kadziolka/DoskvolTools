@@ -40,10 +40,23 @@
       <recent name="C:\Projects\DoskvolTools\doskvol-tools\src\components\generator\GeneratorNavigationItem" />
     </key>
   </component>
-  <component name="RunManager" selected="Compound.Debug">
+  <component name="RunManager" selected="Vitest.GeneratorNavigationItem">
     <configuration name="Debug" type="CompoundRunConfigurationType">
       <toRun name="Debug part" type="JavascriptDebugType" />
       <toRun name="dev" type="js.build_tools.npm" />
+      <method v="2" />
+    </configuration>
+    <configuration name="GeneratorNavigationItem" type="JavaScriptTestRunnerVitest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <vitest-package value="$PROJECT_DIR$/node_modules/vitest" />
+      <working-dir value="$PROJECT_DIR$" />
+      <vitest-options value="--run" />
+      <envs />
+      <scope-kind value="SUITE" />
+      <test-file value="$PROJECT_DIR$/src/components/generator/__tests__/GeneratorNavigationItem.spec.ts" />
+      <test-names>
+        <test-name value="GeneratorNavigationItem" />
+      </test-names>
       <method v="2" />
     </configuration>
     <configuration name="Debug part" type="JavascriptDebugType" uri="http://127.0.0.1:5173/" useFirstLineBreakpoints="true">
@@ -63,7 +76,13 @@
       <item itemvalue="Compound.Debug" />
       <item itemvalue="JavaScript Debug.Debug part" />
       <item itemvalue="npm.dev" />
+      <item itemvalue="Vitest.GeneratorNavigationItem" />
     </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Vitest.GeneratorNavigationItem" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -76,7 +95,7 @@
       <workItem from="1692693950079" duration="6608000" />
       <workItem from="1692700668987" duration="3334000" />
       <workItem from="1692704067984" duration="10460000" />
-      <workItem from="1692790863954" duration="4613000" />
+      <workItem from="1692790863954" duration="6737000" />
     </task>
     <servers />
   </component>

@@ -9,7 +9,7 @@ defineProps<{
 <template>
   <div class='generator-navigation-item_container' :class="[isActive ? 'generator-navigation-item_active' : '']">
     <font-awesome-icon :icon=icon />
-    {{name}}
+    <span data-testid='item-name'>{{name}}</span>
   </div>
 </template>
 
