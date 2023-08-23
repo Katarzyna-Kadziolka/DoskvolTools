@@ -6,6 +6,10 @@ const router = createRouter({
   routes: [
     {
       path: '/',
+      redirect: { name: 'generatorView' }
+    },
+    {
+      path: '/generator',
       name: 'generatorView',
       component: GeneratorView
     },

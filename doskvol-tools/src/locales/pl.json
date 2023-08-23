@@ -1,0 +1,10 @@
+{
+  "generator-navigation": {
+    "building" : "Budynek",
+    "street" : "Ulica",
+    "character" : "Postać",
+    "fiend" : "Czart",
+    "cult" : "Kult",
+    "heist" : "Skok"
+  }
+}

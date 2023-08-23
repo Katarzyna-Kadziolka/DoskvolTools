@@ -5,7 +5,7 @@ import BuildingGenerator from '@/components/generator/buildingGenerator/Building
 import CharacterGenerator from '@/components/generator/characterGenerator/CharacterGenerator.vue'
 import FiendGenerator from '@/components/generator/fiendGenerator/FiendGenerator.vue'
 import CultGenerator from '@/components/generator/cultGenerator/CultGenerator.vue'
-import RaidGenerator from '@/components/generator/raidGenerator/RaidGenerator.vue'
+import HeistGenerator from '@/components/generator/heistGenerator/HeistGenerator.vue'
 import { ref } from 'vue'
 
 let activeGenerator = ref(0);
@@ -25,7 +25,7 @@ const onItemClicked = (itemId: number) => {
     <CharacterGenerator v-show='activeGenerator==2'/>
     <FiendGenerator v-show='activeGenerator==3'/>
     <CultGenerator v-show='activeGenerator==4'/>
-    <RaidGenerator v-show='activeGenerator==5'/>
+    <HeistGenerator v-show='activeGenerator==5'/>
   </div>
 </template>
 

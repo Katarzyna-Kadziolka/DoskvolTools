@@ -2,36 +2,38 @@
 import type {NavigationItem} from '@/components/generator/generatorNavigationItem/NavigationItem';
 import GeneratorNavigationItem from '@/components/generator/generatorNavigationItem/GeneratorNavigationItem.vue'
 import { ref } from 'vue'
+import {useI18n} from 'vue-i18n'
 
+const {t} = useI18n({useScope: "global"});
 const items : NavigationItem[] = [
   {
     id:0,
-    name: "Ulice",
+    name: t("generator-navigation.street"),
     icon: "fa-solid fa-city"
   },
   {
     id:1,
-    name: "Budynki",
+    name: t("generator-navigation.building"),
     icon: "fa-solid fa-building"
   },
   {
     id:2,
-    name: "Ludzie",
+    name: t("generator-navigation.character"),
     icon: "fa-solid fa-person"
   },
   {
     id:3,
-    name: "Czarty",
+    name: t("generator-navigation.fiend"),
     icon: "fa-solid fa-spaghetti-monster-flying"
   },
   {
     id:4,
-    name: "Kulty",
+    name: t("generator-navigation.cult"),
     icon: "fa-solid fa-torii-gate"
   },
   {
     id:5,
-    name: "Skoki",
+    name: t("generator-navigation.heist"),
     icon: "fa-solid fa-mask"
   }
 ]

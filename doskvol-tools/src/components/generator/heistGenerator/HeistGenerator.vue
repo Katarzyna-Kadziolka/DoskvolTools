@@ -2,7 +2,7 @@
 </script>
 
 <template>
-  <div>Raid!</div>
+  <div>Heist!</div>
 </template>
 
 <style scoped lang='scss'></style>
