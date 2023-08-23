@@ -36,10 +36,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Projects\DoskvolTools\doskvol-tools\src\components\generator" />
       <recent name="C:\Projects\DoskvolTools\doskvol-tools\src\components\generator\GeneratorNavigationItem" />
     </key>
   </component>
-  <component name="RunManager" selected="npm.dev">
+  <component name="RunManager" selected="Compound.Debug">
     <configuration name="Debug" type="CompoundRunConfigurationType">
       <toRun name="Debug part" type="JavascriptDebugType" />
       <toRun name="dev" type="js.build_tools.npm" />
@@ -75,7 +76,7 @@
       <workItem from="1692693950079" duration="6608000" />
       <workItem from="1692700668987" duration="3334000" />
       <workItem from="1692704067984" duration="10460000" />
-      <workItem from="1692790863954" duration="1280000" />
+      <workItem from="1692790863954" duration="4613000" />
     </task>
     <servers />
   </component>

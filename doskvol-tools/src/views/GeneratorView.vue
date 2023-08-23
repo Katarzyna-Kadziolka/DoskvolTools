@@ -1,31 +1,31 @@
 <script setup lang="ts">
-import GeneratorNavigation from '@/components/generator/GeneratorNavigation.vue'
-import StreetGenerator from '@/components/generator/streetGenerator/StreetGenerator.vue'
-import BuildingGenerator from '@/components/generator/buildingGenerator/BuildingGenerator.vue'
-import CharacterGenerator from '@/components/generator/characterGenerator/CharacterGenerator.vue'
-import FiendGenerator from '@/components/generator/fiendGenerator/FiendGenerator.vue'
-import CultGenerator from '@/components/generator/cultGenerator/CultGenerator.vue'
-import HeistGenerator from '@/components/generator/heistGenerator/HeistGenerator.vue'
 import { ref } from 'vue'
+import GeneratorNavigationItem from '@/components/generator/GeneratorNavigationItem.vue'
+import {useI18n} from 'vue-i18n'
+import { useRouter } from 'vue-router'
 
-let activeGenerator = ref(0);
-//TODO refactor, może Pinia do przechowania stanu, który generator jest aktywny?
+const {t} = useI18n({useScope: "global"});
+const router = useRouter();
+let activeItemName = ref("streetGenerator");
 
-const onItemClicked = (itemId: number) => {
-  activeGenerator.value = itemId
+const onItemClick = async (name: string) => {
+  activeItemName.value = name;
+  await router.push({name: name});
 }
 
 </script>
 
 <template>
   <div class='generator-view_container'>
-    <GeneratorNavigation @itemClicked='onItemClicked'/>
-    <StreetGenerator v-show='activeGenerator==0'/>
-    <BuildingGenerator v-show='activeGenerator==1'/>
-    <CharacterGenerator v-show='activeGenerator==2'/>
-    <FiendGenerator v-show='activeGenerator==3'/>
-    <CultGenerator v-show='activeGenerator==4'/>
-    <HeistGenerator v-show='activeGenerator==5'/>
+    <div class='generator-view_navigation'>
+      <GeneratorNavigationItem :name='t("generator-navigation.street")' icon='fa-solid fa-city' :is-active='activeItemName === "streetGenerator"' @click='() => onItemClick("streetGenerator")' />
+      <GeneratorNavigationItem :name='t("generator-navigation.building")' icon='fa-solid fa-building' :is-active='activeItemName === "buildingGenerator"' @click='() => onItemClick("buildingGenerator")'/>
+      <GeneratorNavigationItem :name='t("generator-navigation.character")' icon='fa-solid fa-person' :is-active='activeItemName === "characterGenerator"' @click='() => onItemClick("characterGenerator")'/>
+      <GeneratorNavigationItem :name='t("generator-navigation.fiend")' icon='fa-solid fa-spaghetti-monster-flying' :is-active='activeItemName === "fiendGenerator"' @click='() => onItemClick("fiendGenerator")'/>
+      <GeneratorNavigationItem :name='t("generator-navigation.cult")' icon='fa-solid fa-torii-gate' :is-active='activeItemName === "cultGenerator"' @click='() => onItemClick("cultGenerator")'/>
+      <GeneratorNavigationItem :name='t("generator-navigation.heist")' icon='fa-solid fa-mask' :is-active='activeItemName === "heistGenerator"' @click='() => onItemClick("heistGenerator")'/>
+    </div>
+    <router-view/>
   </div>
 </template>
 
@@ -34,6 +34,10 @@ const onItemClicked = (itemId: number) => {
   &_container {
     display: flex;
     flex-direction: row;
+  }
+  &_navigation {
+    width: 15vw;
+    margin-top: 24px;
   }
 }
 </style>
