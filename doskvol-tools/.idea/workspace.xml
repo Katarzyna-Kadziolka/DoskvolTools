@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8705c44b-c878-4e73-9438-1eade13a2b1e" name="Changes" comment="" />
+    <list default="true" id="4dbec060-34b6-4869-bada-8a34889abf2d" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,50 +13,57 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectId" id="2UI3HI6IlF73eT6hpBcTLZ6Klae" />
+  <component name="ProjectId" id="2UKgyr1XcKiE8Ehtw6y6euSwvRc" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "prettierjs.PrettierConfiguration.Package": "C:\\Projects\\DoskvolTools\\doskvol-tools\\doskvol-tools\\node_modules\\prettier",
-    "ts.external.directory.path": "C:\\Projects\\DoskvolTools\\doskvol-tools\\doskvol-tools\\node_modules\\typescript\\lib",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preference.i18nPlugin&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;C:\\Projects\\DoskvolTools\\doskvol-tools\\node_modules\\typescript\\lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Projects\DoskvolTools\doskvol-tools\src\components\generator" />
+      <recent name="C:\Projects\DoskvolTools\doskvol-tools\src\components\generator\GeneratorNavigationItem" />
+    </key>
+  </component>
   <component name="RunManager" selected="npm.dev">
-    <configuration name="DEBUG" type="CompoundRunConfigurationType">
-      <toRun name="Debug" type="JavascriptDebugType" />
+    <configuration name="Debug" type="CompoundRunConfigurationType">
+      <toRun name="Debug part" type="JavascriptDebugType" />
       <toRun name="dev" type="js.build_tools.npm" />
       <method v="2" />
     </configuration>
-    <configuration name="HelloWorld" type="JavaScriptTestRunnerVitest" temporary="true" nameIsGenerated="true">
+    <configuration name="GeneratorNavigationItem" type="JavaScriptTestRunnerVitest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
-      <vitest-package value="$PROJECT_DIR$/doskvol-tools/node_modules/vitest" />
-      <working-dir value="$PROJECT_DIR$/doskvol-tools" />
+      <vitest-package value="$PROJECT_DIR$/node_modules/vitest" />
+      <working-dir value="$PROJECT_DIR$" />
       <vitest-options value="--run" />
       <envs />
       <scope-kind value="SUITE" />
-      <test-file value="$PROJECT_DIR$/doskvol-tools/src/components/__tests__/HelloWorld.spec.ts" />
+      <test-file value="$PROJECT_DIR$/src/components/generator/__tests__/GeneratorNavigationItem.spec.ts" />
       <test-names>
-        <test-name value="HelloWorld" />
+        <test-name value="GeneratorNavigationItem" />
       </test-names>
       <method v="2" />
     </configuration>
-    <configuration name="Debug" type="JavascriptDebugType" uri="http://127.0.0.1:5173/" useFirstLineBreakpoints="true">
+    <configuration name="Debug part" type="JavascriptDebugType" uri="http://127.0.0.1:5173/" useFirstLineBreakpoints="true">
       <method v="2" />
     </configuration>
     <configuration name="dev" type="js.build_tools.npm" nameIsGenerated="true">
-      <package-json value="$PROJECT_DIR$/doskvol-tools/package.json" />
+      <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
       <scripts>
         <script value="dev" />
@@ -66,42 +73,33 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Compound.DEBUG" />
-      <item itemvalue="JavaScript Debug.Debug" />
+      <item itemvalue="Compound.Debug" />
+      <item itemvalue="JavaScript Debug.Debug part" />
       <item itemvalue="npm.dev" />
-      <item itemvalue="Vitest.HelloWorld" />
+      <item itemvalue="Vitest.GeneratorNavigationItem" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Vitest.HelloWorld" />
+        <item itemvalue="Vitest.GeneratorNavigationItem" />
       </list>
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="8705c44b-c878-4e73-9438-1eade13a2b1e" name="Changes" comment="" />
-      <created>1692613179080</created>
+      <changelist id="4dbec060-34b6-4869-bada-8a34889abf2d" name="Changes" comment="" />
+      <created>1692693946251</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1692613179080</updated>
-      <workItem from="1692613183068" duration="955000" />
+      <updated>1692693946251</updated>
+      <workItem from="1692693950079" duration="6608000" />
+      <workItem from="1692700668987" duration="3334000" />
+      <workItem from="1692704067984" duration="10460000" />
+      <workItem from="1692790863954" duration="6737000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/doskvol-tools/src/components/HelloWorld.vue</url>
-          <line>2</line>
-          <properties lambdaOrdinal="-1" />
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
