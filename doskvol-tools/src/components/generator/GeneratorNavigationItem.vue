@@ -16,7 +16,6 @@ defineProps<{
 <style scoped lang='scss'>
 .generator-navigation-item {
   &_container {
-    color: $font;
     display: flex;
     align-items: center;
     height: 5vh;

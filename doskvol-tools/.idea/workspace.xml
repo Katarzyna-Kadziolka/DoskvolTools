@@ -40,7 +40,7 @@
       <recent name="C:\Projects\DoskvolTools\doskvol-tools\src\components\generator\GeneratorNavigationItem" />
     </key>
   </component>
-  <component name="RunManager" selected="Vitest.GeneratorNavigationItem">
+  <component name="RunManager" selected="npm.dev">
     <configuration name="Debug" type="CompoundRunConfigurationType">
       <toRun name="Debug part" type="JavascriptDebugType" />
       <toRun name="dev" type="js.build_tools.npm" />
