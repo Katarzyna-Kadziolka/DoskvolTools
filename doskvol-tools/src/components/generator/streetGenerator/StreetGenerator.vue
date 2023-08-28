@@ -2,6 +2,7 @@
 import BaseRadioButtons from '../../common/BaseRadioButtons.vue'
 import {ref} from 'vue'
 import BaseButton from "@/components/common/BaseButton.vue";
+import BaseTable from "@/components/common/baseTable/BaseTable.vue";
 
 const commonness = ["Pospolity", "Rzadki"]
 const changes = ref("")
@@ -17,7 +18,7 @@ const onPickedChanges = (pickedValues: string) => {
     <BaseRadioButtons  name="commonness" :values=commonness  @pickedChanged="onPickedChanges"/>
     {{changes}}
     <BaseButton name="Wygeneruj" />
-    
+    <BaseTable />
   </div>
 
 </template>
