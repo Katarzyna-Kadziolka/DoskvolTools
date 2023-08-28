@@ -10,6 +10,9 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/components/generator/streetGenerator/StreetGenerator.vue" root0="FORCE_HIGHLIGHTING" />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -96,10 +99,22 @@
       <workItem from="1692700668987" duration="3334000" />
       <workItem from="1692704067984" duration="10460000" />
       <workItem from="1692790863954" duration="6737000" />
+      <workItem from="1693213055659" duration="87000" />
+      <workItem from="1693213178009" duration="778000" />
+      <workItem from="1693213981772" duration="1129000" />
+      <workItem from="1693215141091" duration="1018000" />
+      <workItem from="1693216188727" duration="1457000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="dependencySupport" implementationName="javascript:npm:prettier" />
+    <option featureType="dependencySupport" implementationName="executable:docker" />
+    <option featureType="dependencySupport" implementationName="javascript:npm:vite" />
+    <option featureType="dependencySupport" implementationName="executable:kubectl" />
+    <option featureType="dependencySupport" implementationName="javascript:npm:vue" />
   </component>
 </project>
