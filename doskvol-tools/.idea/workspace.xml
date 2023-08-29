@@ -42,6 +42,8 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Projects\DoskvolTools\doskvol-tools\src\components\common\baseRadio" />
+      <recent name="C:\Projects\DoskvolTools\doskvol-tools\src\components\common\baseTable" />
       <recent name="C:\Projects\DoskvolTools\doskvol-tools\src\components\generator" />
       <recent name="C:\Projects\DoskvolTools\doskvol-tools\src\components\generator\GeneratorNavigationItem" />
     </key>
@@ -111,7 +113,7 @@
       <workItem from="1693218782217" duration="1258000" />
       <workItem from="1693220071269" duration="2960000" />
       <workItem from="1693223713177" duration="61000" />
-      <workItem from="1693223819661" duration="308000" />
+      <workItem from="1693223819661" duration="5946000" />
     </task>
     <servers />
   </component>

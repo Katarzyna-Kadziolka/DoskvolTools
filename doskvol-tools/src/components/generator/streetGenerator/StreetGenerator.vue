@@ -1,21 +1,27 @@
 <script setup lang='ts'>
-import BaseRadioButtons from '../../common/BaseRadioButtons.vue'
+import BaseRadioGroup from '../../common/baseRadio/BaseRadioGroup.vue'
 import {ref} from 'vue'
 import BaseButton from "@/components/common/BaseButton.vue";
 import BaseTable from "@/components/common/baseTable/BaseTable.vue";
+import type {RadioOptions} from "@/components/common/baseRadio/RadioOptions";
 
-const commonness = ["Pospolity", "Rzadki"]
+const commonness : RadioOptions[] = [
+  {
+    label: "Pospolity",
+    value: "common"
+  },
+  {
+    label: "Rzadki",
+    value: "rare"
+  }
+]
 const changes = ref("")
-
-const onPickedChanges = (pickedValues: string) => {
-  changes.value = pickedValues
-}
 
 </script>
 
 <template>
   <div class="street-generator">
-    <BaseRadioButtons  name="commonness" :values=commonness  @pickedChanged="onPickedChanges"/>
+    <BaseRadioGroup  v-model="changes" name="commonness" :radioOptions="commonness"/>
     {{changes}}
     <BaseButton name="Wygeneruj" />
     <BaseTable />
