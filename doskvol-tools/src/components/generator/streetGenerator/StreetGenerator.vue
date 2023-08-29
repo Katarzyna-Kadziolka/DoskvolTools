@@ -17,6 +17,61 @@ const commonness : RadioOptions[] = [
 ]
 const changes = ref("")
 
+const tableData = {
+  title: "Wygląd",
+  rows: [
+    {
+      diceResult: {
+        from: 1,
+        to: 2
+      },
+      values: [
+        "cośA",
+        "cośB",
+        "cośC",
+        "cośD",
+        "cośE",
+        "cośF",
+        "coG",
+      ]
+    },
+    {
+      diceResult: {
+        from: 3,
+        to: 4
+      },
+      values: [
+        "cośAA",
+        "cośBB",
+        "cośCC",
+        "cośDD",
+        "cośEE",
+        "cośFF",
+        "coGG",
+      ]
+    },
+    {
+      diceResult: {
+        from: 6,
+        to: 6
+      },
+      values: [
+        "cośAB",
+        "cośBA",
+        "cośCB",
+        "cośDB",
+        "cośEB",
+        "cośFB",
+        "coGB",
+      ]
+    },
+  ]
+}
+const chosenValue = ref("")
+const onChosenTd = (value: string) => {
+  chosenValue.value = value;
+}
+
 </script>
 
 <template>
@@ -24,7 +79,8 @@ const changes = ref("")
     <BaseRadioGroup  v-model="changes" name="commonness" :radioOptions="commonness"/>
     {{changes}}
     <BaseButton name="Wygeneruj" />
-    <BaseTable />
+    <BaseTable :tableData="tableData"  @chosenTd="onChosenTd"/>
+    {{chosenValue}}
   </div>
 
 </template>

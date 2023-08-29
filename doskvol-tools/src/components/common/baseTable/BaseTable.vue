@@ -1,57 +1,17 @@
 <script setup lang="ts">
 
-const b = {
-  title: "coś",
-  rows: [
-    {
-      diceResult: {
-        from: 1,
-        to: 2
-      },
-      values: [
-        "cośA",
-        "cośB",
-        "cośC",
-        "cośD",
-        "cośE",
-        "cośF",
-        "coG",
-      ]
-    },
-    {
-      diceResult: {
-        from: 3,
-        to: 4
-      },
-      values: [
-        "cośA",
-        "cośB",
-        "cośC",
-        "cośD",
-        "cośE",
-        "cośF",
-        "coG",
-      ]
-    },
-    {
-      diceResult: {
-        from: 6,
-        to: 6
-      },
-      values: [
-        "cośA",
-        "cośB",
-        "cośC",
-        "cośD",
-        "cośE",
-        "cośF",
-        "coG",
-      ]
-    },
-  ]
-}
+import type {TableData} from "@/components/common/baseTable/TableData";
+import {ref} from "vue";
 
-const tableSize = b.rows[0].values.length;
+const props = defineProps<{
+  tableData: TableData,
+}>();
+
+const emit = defineEmits<{
+  (e: 'chosenTd', value: string)
+}>()
+
+const tableSize = props.tableData.rows[0].values.length;
 
 // function randomInteger(min: number, max: number) {
 //   return Math.floor(Math.random() * (max - min + 1)) + min;
@@ -62,10 +22,15 @@ const tableSize = b.rows[0].values.length;
 // if (randomRow === undefined) throw new Error("HELP");
 // const randomValue = randomRow.values[randomInteger(0, randomRow.values.length - 1)]
 //to będzie logika do random
-
+//TODO przenieść do odpowiedniego pliku
 const formatDiceResult = (from: number, to: number): string => {
   if (from === to) return from.toString();
   return `${from}-${to}`;
+}
+const chosenTd = ref("");
+const onTdClick = (value : string) => {
+  chosenTd.value = value;
+  emit('chosenTd', value);
 }
 
 </script>
@@ -73,19 +38,57 @@ const formatDiceResult = (from: number, to: number): string => {
 <template>
   <table>
     <tr>
-      <th>{{ b.title }}</th>
+      <th class="th-header">{{ tableData.title }}</th>
     </tr>
     <tr>
       <th></th>
       <th v-for="i in tableSize" :key="i">{{ i }}</th>
     </tr>
-    <tr v-for="item in b.rows" :key="item.diceResult.from">
+    <tr v-for="item in tableData.rows" :key="item.diceResult.from">
       <th>{{ formatDiceResult(item.diceResult.from, item.diceResult.to) }}</th>
-      <td v-for="value in item.values" :key="value">{{ value }}</td>
+      <td
+          v-for="value in item.values"
+          :key="value"
+          @click="onTdClick(value)"
+          :class="[chosenTd === value ? 'chosen' : '']"
+      >{{ value }}</td>
     </tr>
   </table>
 </template>
 
 <style scoped lang="scss">
+table {
+  padding: 8px;
+}
+td, th {
+  padding: 8px;
+  border: 0;
+}
+td {
+  cursor: pointer;
+  &:hover {
+    animation-name: hover-td;
+    animation-duration: 0.6s;
+    animation-fill-mode: forwards;
+  }
+  &.chosen {
+    background: $color-primary;
+  }
+}
+tr:nth-child(even) {
+  background-color: $color-background;
+}
+tr:nth-child(odd) {
+  background-color: $color-secondary;
+}
 
+.th-header {
+  background-color: $color-background;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+@keyframes hover-td {
+  to {background-color: $color-primary;}
+}
 </style>
