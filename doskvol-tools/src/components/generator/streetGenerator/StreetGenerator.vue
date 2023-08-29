@@ -4,6 +4,7 @@ import {ref} from 'vue'
 import BaseButton from "@/components/common/BaseButton.vue";
 import BaseTable from "@/components/common/baseTable/BaseTable.vue";
 import type {RadioOptions} from "@/components/common/baseRadio/RadioOptions";
+import BaseCard from "@/components/common/BaseCard.vue";
 
 const commonness : RadioOptions[] = [
   {
@@ -80,6 +81,9 @@ const onChosenTd = (value: string) => {
     {{changes}}
     <BaseButton name="Wygeneruj" />
     <BaseTable :tableData="tableData"  @chosenTd="onChosenTd"/>
+    <BaseCard>
+      Test
+    </BaseCard>
     {{chosenValue}}
   </div>
 
