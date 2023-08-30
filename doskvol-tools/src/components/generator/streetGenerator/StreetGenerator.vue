@@ -69,7 +69,7 @@ const tableData = {
   ]
 }
 const chosenValue = ref("")
-const onChosenTd = (value: string) => {
+const onChosenTableSection = (value: string) => {
   chosenValue.value = value;
 }
 
@@ -80,7 +80,7 @@ const onChosenTd = (value: string) => {
     <BaseRadioGroup  v-model="changes" name="commonness" :radioOptions="commonness"/>
     {{changes}}
     <BaseButton name="Wygeneruj" />
-    <BaseTable :tableData="tableData"  @chosenTd="onChosenTd"/>
+    <BaseTable :tableData="tableData"  @chosenTd="onChosenTableSection"/>
     <BaseCard>
       Test
     </BaseCard>
