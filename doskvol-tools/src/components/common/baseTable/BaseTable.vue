@@ -4,11 +4,12 @@ import type {TableData} from "@/components/common/baseTable/TableData";
 import {ref} from "vue";
 
 const props = defineProps<{
+  modelValue: string,
   tableData: TableData,
 }>();
 
 const emit = defineEmits<{
-  (e: 'chosenTd', value: string)
+  (e: 'update:modelValue', value: string)
 }>()
 
 const tableSize = props.tableData.rows[0].values.length;
@@ -27,10 +28,10 @@ const formatDiceResult = (from: number, to: number): string => {
   if (from === to) return from.toString();
   return `${from}-${to}`;
 }
-const chosenTableSection = ref("");
+const chosenTableSection = ref(props.modelValue);
 const onTdClick = (value : string) => {
   chosenTableSection.value = value;
-  emit('chosenTd', value);
+  emit('update:modelValue', value);
 }
 
 </script>

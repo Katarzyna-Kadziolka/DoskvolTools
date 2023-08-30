@@ -69,10 +69,6 @@ const tableData = {
   ]
 }
 const chosenValue = ref("")
-const onChosenTableSection = (value: string) => {
-  chosenValue.value = value;
-}
-
 </script>
 
 <template>
@@ -80,7 +76,7 @@ const onChosenTableSection = (value: string) => {
     <BaseRadioGroup  v-model="changes" name="commonness" :radioOptions="commonness"/>
     {{changes}}
     <BaseButton name="Wygeneruj" />
-    <BaseTable :tableData="tableData"  @chosenTd="onChosenTableSection"/>
+    <BaseTable :tableData="tableData" v-model="chosenValue" />
     <BaseCard>
       Test
     </BaseCard>
