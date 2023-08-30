@@ -27,9 +27,9 @@ const formatDiceResult = (from: number, to: number): string => {
   if (from === to) return from.toString();
   return `${from}-${to}`;
 }
-const chosenTd = ref("");
+const chosenTableSection = ref("");
 const onTdClick = (value : string) => {
-  chosenTd.value = value;
+  chosenTableSection.value = value;
   emit('chosenTd', value);
 }
 
@@ -50,7 +50,7 @@ const onTdClick = (value : string) => {
           v-for="value in item.values"
           :key="value"
           @click="onTdClick(value)"
-          :class="[chosenTd === value ? 'chosen' : '']"
+          :class="[chosenTableSection === value ? 'chosen' : '']"
       >{{ value }}</td>
     </tr>
   </table>
