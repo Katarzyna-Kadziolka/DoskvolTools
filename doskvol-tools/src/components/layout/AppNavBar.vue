@@ -16,7 +16,7 @@
     height: 7vh;
     display: flex;
     align-items: center;
-    border-bottom: 1px solid #484b54;
+    border-bottom: 1px solid $color-border;
   }
   &_logo {
     height: 3vh;

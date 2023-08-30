@@ -7,7 +7,9 @@ defineProps<{
 </script>
 
 <template>
-  <div class='generator-navigation-item_container' :class="[isActive ? 'generator-navigation-item_active' : '']">
+  <div
+      class='generator-navigation-item_container'
+      :class="[isActive ? 'generator-navigation-item_active' : '']">
     <font-awesome-icon :icon=icon />
     <span data-testid='item-name'>{{name}}</span>
   </div>
