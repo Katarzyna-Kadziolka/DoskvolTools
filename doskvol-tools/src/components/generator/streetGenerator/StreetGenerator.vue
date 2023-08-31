@@ -1,22 +1,31 @@
 <script setup lang='ts'>
-import BaseRadioGroup from '../../common/baseRadio/BaseRadioGroup.vue'
-import {ref} from 'vue'
 import BaseButton from "@/components/common/BaseButton.vue";
 import BaseTable from "@/components/common/baseTable/BaseTable.vue";
-import type {RadioOptions} from "@/components/common/baseRadio/RadioOptions";
 import BaseCard from "@/components/common/BaseCard.vue";
 import {useStreetStore} from "@/stores/StreetStore";
 import {storeToRefs} from "pinia";
 import {useI18n} from 'vue-i18n'
-import {useStreetGeneratorContent} from "@/components/generator/streetGenerator/StreetGeneratorContent";
+import {useStreetGenerator} from "@/components/generator/streetGenerator/StreetGeneratorContent";
 import StreetGeneratorResultElement from "@/components/generator/streetGenerator/StreetGeneratorResultElement.vue";
+import getRandomFromTable from "@/components/generator/RandomTableResult";
 
 const {t} = useI18n({useScope: "global"});
 
 const store = useStreetStore();
 const {street} = storeToRefs(store);
 
-const streetData = useStreetGeneratorContent();
+const streetData = useStreetGenerator();
+
+const generateRandom = () => {
+  street.value.mood = getRandomFromTable(streetData.getMood())
+  street.value.impressionsSights = getRandomFromTable(streetData.getImpressionsSights())
+  street.value.impressionsSounds = getRandomFromTable(streetData.getImpressionsSounds())
+  street.value.impressionsSmells = getRandomFromTable(streetData.getImpressionsSmells())
+  street.value.use = getRandomFromTable(streetData.getUse())
+  street.value.type = getRandomFromTable(streetData.getType())
+  street.value.details = getRandomFromTable(streetData.getDetails())
+  street.value.props = getRandomFromTable(streetData.getProps())
+}
 
 </script>
 
@@ -44,7 +53,7 @@ const streetData = useStreetGeneratorContent();
         <StreetGeneratorResultElement :title="t('streets.details.title')" :value="street.details"/>
         <StreetGeneratorResultElement :title="t('streets.props.title')" :value="street.props"/>
       </div>
-      <BaseButton :name="t('generator-ui.generate')"/>
+      <BaseButton :name="t('generator-ui.generate')" @click="generateRandom"/>
     </BaseCard>
   </div>
 </template>

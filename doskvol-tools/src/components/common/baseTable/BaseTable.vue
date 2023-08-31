@@ -1,7 +1,7 @@
 <script setup lang="ts">
 
 import type {TableData} from "@/components/common/baseTable/TableData";
-import {ref} from "vue";
+import {ref, watchEffect} from "vue";
 
 const props = defineProps<{
   modelValue: string,
@@ -13,22 +13,15 @@ const emit = defineEmits<{
 }>()
 
 const tableSize = props.tableData.rows[0].values.length;
-
-// function randomInteger(min: number, max: number) {
-//   return Math.floor(Math.random() * (max - min + 1)) + min;
-// }
-//
-// const randomDiceResult = randomInteger(0, b.rows[b.rows.length - 1].diceResult.to);
-// const randomRow = b.rows.find(x => randomDiceResult <= x.diceResult.to);
-// if (randomRow === undefined) throw new Error("HELP");
-// const randomValue = randomRow.values[randomInteger(0, randomRow.values.length - 1)]
-//to będzie logika do random
-//TODO przenieść do odpowiedniego pliku
 const formatDiceResult = (from: number, to: number): string => {
   if (from === to) return from.toString();
   return `${from}-${to}`;
 }
+
 const chosenTableSection = ref(props.modelValue);
+watchEffect(() => {
+  chosenTableSection.value = props.modelValue
+})
 const onTdClick = (value : string) => {
   chosenTableSection.value = value;
   emit('update:modelValue', value);
@@ -65,11 +58,10 @@ td, th {
   padding: 8px;
   border: 0;
 }
-th {
-  min-width: 32px;
-}
+
 td {
   cursor: pointer;
+  word-wrap: break-word;
 
   &:hover {
     animation-name: hover-td;

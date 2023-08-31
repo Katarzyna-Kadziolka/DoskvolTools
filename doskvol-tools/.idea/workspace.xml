@@ -118,7 +118,7 @@
       <workItem from="1693220071269" duration="2960000" />
       <workItem from="1693223713177" duration="61000" />
       <workItem from="1693223819661" duration="14647000" />
-      <workItem from="1693390317220" duration="18448000" />
+      <workItem from="1693390317220" duration="20918000" />
     </task>
     <servers />
   </component>
@@ -131,5 +131,17 @@
     <option featureType="dependencySupport" implementationName="javascript:npm:vite" />
     <option featureType="dependencySupport" implementationName="executable:kubectl" />
     <option featureType="dependencySupport" implementationName="javascript:npm:vue" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/components/common/baseTable/BaseTable.vue</url>
+          <line>59</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

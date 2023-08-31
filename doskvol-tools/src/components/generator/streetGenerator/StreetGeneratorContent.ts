@@ -1,8 +1,10 @@
 import type {TableData} from "@/components/common/baseTable/TableData";
 import {useI18n} from 'vue-i18n'
-export function useStreetGeneratorContent() {
+import randomInteger from "@/composables/Random";
+
+export function useStreetGenerator() {
     const {t} = useI18n({useScope: "global"});
-    function getMood() : TableData {
+    function getMood(): TableData {
         return {
             title: t("streets.mood.title"),
             rows: [
@@ -23,7 +25,8 @@ export function useStreetGeneratorContent() {
             ]
         }
     }
-    function getImpressionsSights() : TableData {
+
+    function getImpressionsSights(): TableData {
         return {
             title: t("streets.impressions-sights.title"),
             rows: [
@@ -44,7 +47,8 @@ export function useStreetGeneratorContent() {
             ]
         }
     }
-    function getImpressionsSounds() : TableData {
+
+    function getImpressionsSounds(): TableData {
         return {
             title: t("streets.impressions-sounds.title"),
             rows: [
@@ -65,7 +69,8 @@ export function useStreetGeneratorContent() {
             ]
         }
     }
-    function getImpressionsSmells() : TableData {
+
+    function getImpressionsSmells(): TableData {
         return {
             title: t("streets.impressions-smells.title"),
             rows: [
@@ -86,7 +91,8 @@ export function useStreetGeneratorContent() {
             ]
         }
     }
-    function getUse() : TableData {
+
+    function getUse(): TableData {
         return {
             title: t("streets.use.title"),
             rows: [
@@ -135,7 +141,8 @@ export function useStreetGeneratorContent() {
             ]
         }
     }
-    function getType() : TableData {
+
+    function getType(): TableData {
         return {
             title: t("streets.type.title"),
             rows: [
@@ -184,7 +191,8 @@ export function useStreetGeneratorContent() {
             ]
         }
     }
-    function getDetails() : TableData {
+
+    function getDetails(): TableData {
         return {
             title: t("streets.details.title"),
             rows: [
@@ -275,7 +283,8 @@ export function useStreetGeneratorContent() {
             ]
         }
     }
-    function getProps() : TableData {
+
+    function getProps(): TableData {
         return {
             title: t("streets.props.title"),
             rows: [
