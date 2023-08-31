@@ -7,6 +7,10 @@
     "cult" : "Kult",
     "heist" : "Skok"
   },
+  "generator-ui": {
+    "generate" : "Wygeneruj",
+    "copy" : "Kopiuj"
+  },
   "streets" : {
     "mood" : {
       "title" : "Nastrój",

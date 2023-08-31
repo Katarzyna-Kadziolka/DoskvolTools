@@ -4,7 +4,7 @@ import AppNavBar from '@/components/layout/AppNavBar.vue'
 </script>
 
 <template>
-  <AppNavBar />
+  <AppNavBar class="app_nav-bar"/>
   <div class='app_container'>
     <RouterView />
   </div>
@@ -14,11 +14,13 @@ import AppNavBar from '@/components/layout/AppNavBar.vue'
   .app {
     &_container {
       background: $color-background;
-      width: 100%;
-      height: 100%;
-      position:fixed;
-      padding:0;
+      padding: 48px 0 0;
       margin:0;
+      overflow-y: auto;
+    }
+    &_nav-bar {
+      position: fixed;
+      width: 100vw;
     }
   }
 
