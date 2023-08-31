@@ -9,11 +9,12 @@ import {useStreetStore} from "@/stores/StreetStore";
 import {storeToRefs} from "pinia";
 import {useI18n} from 'vue-i18n'
 import {useStreetGeneratorContent} from "@/components/generator/streetGenerator/StreetGeneratorContent";
+import StreetGeneratorResultElement from "@/components/generator/streetGenerator/StreetGeneratorResultElement.vue";
 
 const {t} = useI18n({useScope: "global"});
 
 const store = useStreetStore();
-const { street } = storeToRefs(store);
+const {street} = storeToRefs(store);
 
 const streetData = useStreetGeneratorContent();
 
@@ -21,26 +22,29 @@ const streetData = useStreetGeneratorContent();
 
 <template>
   <div class="street-generator_container">
-      <div>
-        <BaseTable v-model="street.mood" :table-data="streetData.getMood()" />
-        <BaseTable v-model="street.impressionsSights" :table-data="streetData.getImpressionsSights()" />
-        <BaseTable v-model="street.impressionsSounds" :table-data="streetData.getImpressionsSounds()" />
-        <BaseTable v-model="street.impressionsSmells" :table-data="streetData.getImpressionsSmells()" />
-        <BaseTable v-model="street.use" :table-data="streetData.getUse()" />
-        <BaseTable v-model="street.type" :table-data="streetData.getType()" />
-        <BaseTable v-model="street.details" :table-data="streetData.getDetails()" />
-        <BaseTable v-model="street.props" :table-data="streetData.getProps()" />
-      </div>
+    <div>
+      <BaseTable v-model="street.mood" :table-data="streetData.getMood()"/>
+      <BaseTable v-model="street.impressionsSights" :table-data="streetData.getImpressionsSights()"/>
+      <BaseTable v-model="street.impressionsSounds" :table-data="streetData.getImpressionsSounds()"/>
+      <BaseTable v-model="street.impressionsSmells" :table-data="streetData.getImpressionsSmells()"/>
+      <BaseTable v-model="street.use" :table-data="streetData.getUse()"/>
+      <BaseTable v-model="street.type" :table-data="streetData.getType()"/>
+      <BaseTable v-model="street.details" :table-data="streetData.getDetails()"/>
+      <BaseTable v-model="street.props" :table-data="streetData.getProps()"/>
+    </div>
     <BaseCard class="street-generator_base-card">
-      <span>{{ t("streets.mood.title") }}: {{street.mood}}</span>
-      <span>{{ t("streets.impressions-sights.title") }}: {{street.impressionsSights}}</span>
-      <span>{{ t("streets.impressions-sounds.title") }}: {{street.impressionsSounds}}</span>
-      <span>{{ t("streets.impressions-smells.title") }}: {{street.impressionsSmells}}</span>
-      <span>{{ t("streets.use.title") }}: {{street.use}}</span>
-      <span>{{ t("streets.type.title") }}: {{street.type}}</span>
-      <span>{{ t("streets.details.title") }}: {{street.details}}</span>
-      <span>{{ t("streets.props.title") }}: {{street.props}}</span>
-      <BaseButton :name="t('generator-ui.generate')" class="street-generator_generate-button" />
+      <div class="street-generator_base-card-result">
+        <span class="street-generator_title">{{t("generator-navigation.street").toLocaleUpperCase()}}</span>
+        <StreetGeneratorResultElement :title="t('streets.mood.title')" :value="street.mood"/>
+        <StreetGeneratorResultElement :title="t('streets.impressions-sights.title')" :value="street.impressionsSights"/>
+        <StreetGeneratorResultElement :title="t('streets.impressions-sounds.title')" :value="street.impressionsSounds"/>
+        <StreetGeneratorResultElement :title="t('streets.impressions-smells.title')" :value="street.impressionsSmells"/>
+        <StreetGeneratorResultElement :title="t('streets.use.title')" :value="street.use"/>
+        <StreetGeneratorResultElement :title="t('streets.type.title')" :value="street.type"/>
+        <StreetGeneratorResultElement :title="t('streets.details.title')" :value="street.details"/>
+        <StreetGeneratorResultElement :title="t('streets.props.title')" :value="street.props"/>
+      </div>
+      <BaseButton :name="t('generator-ui.generate')"/>
     </BaseCard>
   </div>
 </template>
@@ -48,22 +52,33 @@ const streetData = useStreetGeneratorContent();
 <style scoped lang='scss'>
 .street-generator {
   &_container {
-    margin-top: 50px;
+    margin-top: 40px;
     display: grid;
     grid-template-columns: 2fr 1fr;
     width: 100%;
   }
+
   &_base-card {
     display: flex;
     flex-direction: column;
-    height: 50vh;
+    justify-content: space-between;
+    min-height: 50vh;
     width: 20vw;
     position: fixed;
     right: 32px;
-    top:64px;
+    top: 128px;
   }
-  &_generate-button {
 
+  &_title {
+    font-size: 1.2rem;
+    text-align: center;
+    margin-bottom: 8px;
+  }
+  &_base-card-result {
+    display: flex;
+    flex-direction: column;
+    row-gap: 8px;
+    margin-bottom: 24px;
   }
 }
 </style>

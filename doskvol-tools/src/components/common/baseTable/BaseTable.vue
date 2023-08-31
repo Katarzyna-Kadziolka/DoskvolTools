@@ -9,7 +9,7 @@ const props = defineProps<{
 }>();
 
 const emit = defineEmits<{
-  (e: 'update:modelValue', value: string)
+  (e: 'update:modelValue', value: string) : void
 }>()
 
 const tableSize = props.tableData.rows[0].values.length;
@@ -37,10 +37,8 @@ const onTdClick = (value : string) => {
 </script>
 
 <template>
+  <span class="th-header">{{ tableData.title }}</span>
   <table>
-    <tr>
-      <th class="th-header">{{ tableData.title }}</th>
-    </tr>
     <tr>
       <th></th>
       <th v-for="i in tableSize" :key="i">{{ i }}</th>
@@ -59,14 +57,20 @@ const onTdClick = (value : string) => {
 
 <style scoped lang="scss">
 table {
-  padding: 8px;
+  margin-bottom: 32px;
+  width: 100%;
+  table-layout: fixed;
 }
 td, th {
   padding: 8px;
   border: 0;
 }
+th {
+  min-width: 32px;
+}
 td {
   cursor: pointer;
+
   &:hover {
     animation-name: hover-td;
     animation-duration: 0.6s;
@@ -76,17 +80,19 @@ td {
     background: $color-primary;
   }
 }
-tr:nth-child(even) {
+tr:nth-child(odd) {
   background-color: $color-background;
 }
-tr:nth-child(odd) {
+tr:nth-child(even) {
   background-color: $color-secondary;
 }
 
 .th-header {
   background-color: $color-background;
-  font-size: 1.5rem;
-  text-align: center;
+  font-size: 1.2rem;
+  width: 100%;
+  text-align: start;
+  padding-left: 8px;
 }
 
 @keyframes hover-td {
