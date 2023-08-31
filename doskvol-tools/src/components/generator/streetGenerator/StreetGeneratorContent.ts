@@ -1,6 +1,5 @@
 import type {TableData} from "@/components/common/baseTable/TableData";
 import {useI18n} from 'vue-i18n'
-import randomInteger from "@/composables/Random";
 
 export function useStreetGenerator() {
     const {t} = useI18n({useScope: "global"});
