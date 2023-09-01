@@ -45,9 +45,9 @@ const generateRandom = () => {
       <div class="street-generator_base-card-result">
         <span class="street-generator_title">{{t("generator-navigation.street").toLocaleUpperCase()}}</span>
         <StreetGeneratorResultElement :title="t('streets.mood.title')" :value="street.mood"/>
-        <StreetGeneratorResultElement :title="t('streets.impressions-sights.title')" :value="street.impressionsSights"/>
-        <StreetGeneratorResultElement :title="t('streets.impressions-sounds.title')" :value="street.impressionsSounds"/>
-        <StreetGeneratorResultElement :title="t('streets.impressions-smells.title')" :value="street.impressionsSmells"/>
+        <StreetGeneratorResultElement :title="t('streets.impressions.sights.title')" :value="street.impressionsSights"/>
+        <StreetGeneratorResultElement :title="t('streets.impressions.sounds.title')" :value="street.impressionsSounds"/>
+        <StreetGeneratorResultElement :title="t('streets.impressions.smells.title')" :value="street.impressionsSmells"/>
         <StreetGeneratorResultElement :title="t('streets.use.title')" :value="street.use"/>
         <StreetGeneratorResultElement :title="t('streets.type.title')" :value="street.type"/>
         <StreetGeneratorResultElement :title="t('streets.details.title')" :value="street.details"/>

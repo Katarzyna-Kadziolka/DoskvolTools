@@ -1,239 +1,241 @@
 {
   "generator-navigation": {
-    "building" : "Budynek",
-    "street" : "Ulica",
-    "character" : "Postać",
-    "fiend" : "Czart",
-    "cult" : "Kult",
-    "heist" : "Skok"
+    "building": "Budynek",
+    "street": "Ulica",
+    "character": "Postać",
+    "fiend": "Czart",
+    "cult": "Kult",
+    "heist": "Skok"
   },
   "generator-ui": {
-    "generate" : "Wygeneruj",
-    "copy" : "Kopiuj"
+    "generate": "Wygeneruj",
+    "copy": "Kopiuj"
   },
-  "streets" : {
-    "mood" : {
-      "title" : "Nastrój",
-      "1" : {
-        "1" : "Mroczno lub zimno",
-        "2" : "Jasno lub tłoczno",
-        "3" : "Cicho lub wytwornie",
-        "4" : "Pusto lub zmurszale",
-        "5" : "Ciasno lub głośno",
-        "6" : "Przytulnie lub ciepło"
+  "streets": {
+    "mood": {
+      "title": "Nastrój",
+      "1": {
+        "1": "Mroczno lub zimno",
+        "2": "Jasno lub tłoczno",
+        "3": "Cicho lub wytwornie",
+        "4": "Pusto lub zmurszale",
+        "5": "Ciasno lub głośno",
+        "6": "Przytulnie lub ciepło"
       }
     },
-    "impressions-sights" : {
-      "title" : "Odczucia wzrokowe",
-      "1" : {
-        "1" : "Kałuże wody, plamy oleju",
-        "2" : "Drgające cienie, migoczące światła",
-        "3" : "Mgła, opary, szron",
-        "4" : "Ulotne sylwetki, echa w polu duchowym",
-        "5" : "Sadza, chmury popiołu, brud",
-        "6" : "Wyładowania elektryczne, kable, mechanizmy"
+    "impressions": {
+      "sights": {
+        "title": "Odczucia wzrokowe",
+        "1": {
+          "1": "Kałuże wody, plamy oleju",
+          "2": "Drgające cienie, migoczące światła",
+          "3": "Mgła, opary, szron",
+          "4": "Ulotne sylwetki, echa w polu duchowym",
+          "5": "Sadza, chmury popiołu, brud",
+          "6": "Wyładowania elektryczne, kable, mechanizmy"
+        }
+      },
+      "sounds": {
+        "title": "Odczucia dźwiękowe",
+        "1": {
+          "1": "Maszyneria, robotnicy",
+          "2": "Trzepoczące sukno, zawodzący wiatr",
+          "3": "Śmiech, muzyka, śpiew",
+          "4": "Szepty, echa, dziwne głosy",
+          "5": "Grzmoty, zacinający deszcz",
+          "6": "Dzwony, zegar wybijający godzinę, rogi na nabrzeżu"
+        }
+      },
+      "smells": {
+        "title": "Odczucia zapachowe",
+        "1": {
+          "1": "Piece kuchenne, paleniska",
+          "2": "Wilgotne drewno, zgnilizna, odpadki",
+          "3": "Zwierzęta, skóry, krew",
+          "4": "PuChemikalia, destylaty, wyziewysto",
+          "5": "Deszczówka, ocean",
+          "6": "Ozon, wyładowania elektroplazmowe"
+        }
       }
     },
-    "impressions-sounds" : {
-      "title" : "Odczucia dźwiękowe",
-      "1" : {
-        "1" : "Maszyneria, robotnicy",
-        "2" : "Trzepoczące sukno, zawodzący wiatr",
-        "3" : "Śmiech, muzyka, śpiew",
-        "4" : "Szepty, echa, dziwne głosy",
-        "5" : "Grzmoty, zacinający deszcz",
-        "6" : "Dzwony, zegar wybijający godzinę, rogi na nabrzeżu"
+    "use": {
+      "title": "Przeznaczenie",
+      "1": {
+        "1": "Mieszkania",
+        "2": "Rzemiosło",
+        "3": "Praca",
+        "4": "Sklepy",
+        "5": "Handel",
+        "6": "Hotele"
+      },
+      "2": {
+        "1": "Prawo, urzędy",
+        "2": "Przestrzeń publiczna",
+        "3": "Władza",
+        "4": "Fabryki",
+        "5": "Transport",
+        "6": "Wypoczynek"
+      },
+      "3": {
+        "1": "Słabości",
+        "2": "Rozrywka",
+        "3": "Magazyny",
+        "4": "Uprawy",
+        "5": "Uczelnia",
+        "6": "Artyści"
       }
     },
-    "impressions-smells" : {
-      "title" : "Odczucia zapachowe",
-      "1" : {
-        "1" : "Piece kuchenne, paleniska",
-        "2" : "Wilgotne drewno, zgnilizna, odpadki",
-        "3" : "Zwierzęta, skóry, krew",
-        "4" : "PuChemikalia, destylaty, wyziewysto",
-        "5" : "Deszczówka, ocean",
-        "6" : "Ozon, wyładowania elektroplazmowe"
+    "type": {
+      "title": "Rodzaj",
+      "1": {
+        "1": "Wąska uliczka",
+        "2": "Ciasna aleja",
+        "3": "Kręta ulica",
+        "4": "Droga gruntowa",
+        "5": "Most",
+        "6": "Droga wodna"
+      },
+      "2": {
+        "1": "Zamknięty dziedziniec",
+        "2": "Otwarty plac",
+        "3": "Brukowana aleja",
+        "4": "Tunel",
+        "5": "Szeroki bulwar",
+        "6": "Rondo"
+      },
+      "3": {
+        "1": "Nasyp",
+        "2": "Podtopiona",
+        "3": "Estakada",
+        "4": "Podziemna",
+        "5": "Grząska",
+        "6": "Prywatna, zagrodzona"
       }
     },
-    "use" : {
-      "title" : "Przeznaczenie",
-      "1" : {
-        "1" : "Mieszkania",
-        "2" : "Rzemiosło",
-        "3" : "Praca",
-        "4" : "Sklepy",
-        "5" : "Handel",
-        "6" : "Hotele"
+    "details": {
+      "title": "Szczegóły",
+      "1": {
+        "1": "Metalowe wsporniki",
+        "2": "Artyst. bramy, ogrodzenia",
+        "3": "Dymiące kominy",
+        "4": "Met. kraty, włazy, drzwi",
+        "5": "Mechanizmy zegarowe",
+        "6": "Olinowanie, kable"
       },
-      "2" : {
-        "1" : "Prawo, urzędy",
-        "2" : "Przestrzeń publiczna",
-        "3" : "Władza",
-        "4" : "Fabryki",
-        "5" : "Transport",
-        "6" : "Wypoczynek"
+      "2": {
+        "1": "Schody, rampy, tarasy",
+        "2": "Drewniane rusztowania",
+        "3": "Pomosty",
+        "4": "Zagospodarowane dachy",
+        "5": "Tory, wagony kolejowe",
+        "6": "Ukryte przejścia"
       },
-      "3" : {
-        "1" : "Słabości",
-        "2" : "Rozrywka",
-        "3" : "Magazyny",
-        "4" : "Uprawy",
-        "5" : "Uczelnia",
-        "6" : "Artyści"
+      "3": {
+        "1": "Sztandary,flagi",
+        "2": "Dekoracje świąteczne",
+        "3": "Tłum, parada, zamieszki",
+        "4": "Uliczni artyści",
+        "5": "Prowizoryczne stragany",
+        "6": "Skrzyżowanie dróg"
+      },
+      "4": {
+        "1": "Symbole gangów",
+        "2": "Posterunki patrolowe",
+        "3": "Czujki",
+        "4": "Dyby, publiczna kara",
+        "5": "Krzykacz, wizjoner",
+        "6": "Słupy ogłoszeniowe"
+      },
+      "5": {
+        "1": "Bezpańskie zwierzęta ",
+        "2": "Tereny zielone",
+        "3": "Błoto, bajoro",
+        "4": "Plac budowy, wyburzenia",
+        "5": "Cuchnący odpływ, dym",
+        "6": "Sieroty, żebracy"
+      },
+      "6": {
+        "1": "Starożytne ruiny",
+        "2": "Łypiące gargulce",
+        "3": "Symbole ochronne",
+        "4": "Upiorna pustka",
+        "5": "Kwarantanna, zakaz wstępu",
+        "6": "Dary wotywne"
       }
     },
-    "type" : {
-      "title" : "Rodzaj",
-      "1" : {
-        "1" : "Wąska uliczka",
-        "2" : "Ciasna aleja",
-        "3" : "Kręta ulica",
-        "4" : "Droga gruntowa",
-        "5" : "Most",
-        "6" : "Droga wodna"
+    "props": {
+      "title": "Rekwizyty",
+      "1": {
+        "1": "Sieci, liny",
+        "2": "Skrzynie",
+        "3": "Kable, łańcuchy",
+        "4": "Odpływy",
+        "5": "Pompy wodne",
+        "6": "Beczki z olejem"
       },
-      "2" : {
-        "1" : "Zamknięty dziedziniec",
-        "2" : "Otwarty plac",
-        "3" : "Brukowana aleja",
-        "4" : "Tunel",
-        "5" : "Szeroki bulwar",
-        "6" : "Rondo"
+      "2": {
+        "1": "Stos cegieł",
+        "2": "Żelazne pręty",
+        "3": "Drewniane płyty",
+        "4": "Kostka brukowa",
+        "5": "Kamienie",
+        "6": "Worki cementu"
       },
-      "3" : {
-        "1" : "Nasyp",
-        "2" : "Podtopiona",
-        "3" : "Estakada",
-        "4" : "Podziemna",
-        "5" : "Grząska",
-        "6" : "Prywatna, zagrodzona"
-      }
-    },
-    "details" : {
-      "title" : "Szczegóły",
-      "1" : {
-        "1" : "Metalowe wsporniki",
-        "2" : "Artyst. bramy, ogrodzenia",
-        "3" : "Dymiące kominy",
-        "4" : "Met. kraty, włazy, drzwi",
-        "5" : "Mechanizmy zegarowe",
-        "6" : "Olinowanie, kable"
+      "3": {
+        "1": "Kratka ściekowa",
+        "2": "Gnijące odpadki",
+        "3": "Kałuże błota",
+        "4": "Złom",
+        "5": "Padlina",
+        "6": "Zawilgłe śmieci"
       },
-      "2" : {
-        "1" : "Schody, rampy, tarasy",
-        "2" : "Drewniane rusztowania",
-        "3" : "Pomosty",
-        "4" : "Zagospodarowane dachy",
-        "5" : "Tory, wagony kolejowe",
-        "6" : "Ukryte przejścia"
+      "4": {
+        "1": "Powozy",
+        "2": "Ręczne wózki",
+        "3": "Łodzie",
+        "4": "Barki transportowe",
+        "5": "Gondole",
+        "6": "Wozy"
       },
-      "3" : {
-        "1" : "Sztandary,flagi",
-        "2" : "Dekoracje świąteczne",
-        "3" : "Tłum, parada, zamieszki",
-        "4" : "Uliczni artyści",
-        "5" : "Prowizoryczne stragany",
-        "6" : "Skrzyżowanie dróg"
+      "5": {
+        "1": "Żurawie, dźwigi",
+        "2": "Paki towarów",
+        "3": "Sztaby metali",
+        "4": "Kuźnica",
+        "5": "Węgiel lub paliwo",
+        "6": "Odpady"
       },
-      "4" : {
-        "1" : "Symbole gangów",
-        "2" : "Posterunki patrolowe",
-        "3" : "Czujki",
-        "4" : "Dyby, publiczna kara",
-        "5" : "Krzykacz, wizjoner",
-        "6" : "Słupy ogłoszeniowe"
+      "6": {
+        "1": "Latarnie",
+        "2": "Kable elektryczne",
+        "3": "Skrzynki przyłączeniowe",
+        "4": "Wieża oświetleniowa",
+        "5": "Wieża zegarowa",
+        "6": "Słup ogłoszeniowy"
       },
-      "5" : {
-        "1" : "Bezpańskie zwierzęta ",
-        "2" : "Tereny zielone",
-        "3" : "Błoto, bajoro",
-        "4" : "Plac budowy, wyburzenia",
-        "5" : "Cuchnący odpływ, dym",
-        "6" : "Sieroty, żebracy"
+      "7": {
+        "1": "Uschnięte drzewa",
+        "2": "Pomnik",
+        "3": "Fontanna",
+        "4": "Omszałe ruiny",
+        "5": "Rumowisko",
+        "6": "Nędzna rudera"
       },
-      "6" : {
-        "1" : "Starożytne ruiny",
-        "2" : "Łypiące gargulce",
-        "3" : "Symbole ochronne",
-        "4" : "Upiorna pustka",
-        "5" : "Kwarantanna, zakaz wstępu",
-        "6" : "Dary wotywne"
-      }
-    },
-    "props" : {
-      "title" : "Rekwizyty",
-      "1" : {
-        "1" : "Sieci, liny",
-        "2" : "Skrzynie",
-        "3" : "Kable, łańcuchy",
-        "4" : "Odpływy",
-        "5" : "Pompy wodne",
-        "6" : "Beczki z olejem"
+      "8": {
+        "1": "Barykada",
+        "2": "Brama",
+        "3": "Posterunek",
+        "4": "Stos gruzów",
+        "5": "Śluza kanałowa",
+        "6": "Bariera piorunów"
       },
-      "2" : {
-        "1" : "Stos cegieł",
-        "2" : "Żelazne pręty",
-        "3" : "Drewniane płyty",
-        "4" : "Kostka brukowa",
-        "5" : "Kamienie",
-        "6" : "Worki cementu"
-      },
-      "3" : {
-        "1" : "Kratka ściekowa",
-        "2" : "Gnijące odpadki",
-        "3" : "Kałuże błota",
-        "4" : "Złom",
-        "5" : "Padlina",
-        "6" : "Zawilgłe śmieci"
-      },
-      "4" : {
-        "1" : "Powozy",
-        "2" : "Ręczne wózki",
-        "3" : "Łodzie",
-        "4" : "Barki transportowe",
-        "5" : "Gondole",
-        "6" : "Wozy"
-      },
-      "5" : {
-        "1" : "Żurawie, dźwigi",
-        "2" : "Paki towarów",
-        "3" : "Sztaby metali",
-        "4" : "Kuźnica",
-        "5" : "Węgiel lub paliwo",
-        "6" : "Odpady"
-      },
-      "6" : {
-        "1" : "Latarnie",
-        "2" : "Kable elektryczne",
-        "3" : "Skrzynki przyłączeniowe",
-        "4" : "Wieża oświetleniowa",
-        "5" : "Wieża zegarowa",
-        "6" : "Słup ogłoszeniowy"
-      },
-      "7" : {
-        "1" : "Uschnięte drzewa",
-        "2" : "Pomnik",
-        "3" : "Fontanna",
-        "4" : "Omszałe ruiny",
-        "5" : "Rumowisko",
-        "6" : "Nędzna rudera"
-      },
-      "8" : {
-        "1" : "Barykada",
-        "2" : "Brama",
-        "3" : "Posterunek",
-        "4" : "Stos gruzów",
-        "5" : "Śluza kanałowa",
-        "6" : "Bariera piorunów"
-      },
-      "9" : {
-        "1" : "Stragan z jedzeniem",
-        "2" : "Kram kupiecki",
-        "3" : "Beczki, baryłki",
-        "4" : "Licha kapliczka",
-        "5" : "Kiosk z gazetami",
-        "6" : "Palisada"
+      "9": {
+        "1": "Stragan z jedzeniem",
+        "2": "Kram kupiecki",
+        "3": "Beczki, baryłki",
+        "4": "Licha kapliczka",
+        "5": "Kiosk z gazetami",
+        "6": "Palisada"
       }
     }
   }
