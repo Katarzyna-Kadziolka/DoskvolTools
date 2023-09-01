@@ -1,7 +1,7 @@
 <script setup lang="ts">
 
 import type {TableData} from "@/components/common/baseTable/TableData";
-import {ref} from "vue";
+import {ref, watchEffect} from "vue";
 
 const props = defineProps<{
   modelValue: string,
@@ -9,26 +9,19 @@ const props = defineProps<{
 }>();
 
 const emit = defineEmits<{
-  (e: 'update:modelValue', value: string)
+  (e: 'update:modelValue', value: string) : void
 }>()
 
 const tableSize = props.tableData.rows[0].values.length;
-
-// function randomInteger(min: number, max: number) {
-//   return Math.floor(Math.random() * (max - min + 1)) + min;
-// }
-//
-// const randomDiceResult = randomInteger(0, b.rows[b.rows.length - 1].diceResult.to);
-// const randomRow = b.rows.find(x => randomDiceResult <= x.diceResult.to);
-// if (randomRow === undefined) throw new Error("HELP");
-// const randomValue = randomRow.values[randomInteger(0, randomRow.values.length - 1)]
-//to będzie logika do random
-//TODO przenieść do odpowiedniego pliku
 const formatDiceResult = (from: number, to: number): string => {
   if (from === to) return from.toString();
   return `${from}-${to}`;
 }
+
 const chosenTableSection = ref(props.modelValue);
+watchEffect(() => {
+  chosenTableSection.value = props.modelValue
+})
 const onTdClick = (value : string) => {
   chosenTableSection.value = value;
   emit('update:modelValue', value);
@@ -37,10 +30,8 @@ const onTdClick = (value : string) => {
 </script>
 
 <template>
+  <span class="th-header">{{ tableData.title }}</span>
   <table>
-    <tr>
-      <th class="th-header">{{ tableData.title }}</th>
-    </tr>
     <tr>
       <th></th>
       <th v-for="i in tableSize" :key="i">{{ i }}</th>
@@ -59,14 +50,19 @@ const onTdClick = (value : string) => {
 
 <style scoped lang="scss">
 table {
-  padding: 8px;
+  margin-bottom: 32px;
+  width: 100%;
+  table-layout: fixed;
 }
 td, th {
   padding: 8px;
   border: 0;
 }
+
 td {
   cursor: pointer;
+  word-wrap: break-word;
+
   &:hover {
     animation-name: hover-td;
     animation-duration: 0.6s;
@@ -76,17 +72,19 @@ td {
     background: $color-primary;
   }
 }
-tr:nth-child(even) {
+tr:nth-child(odd) {
   background-color: $color-background;
 }
-tr:nth-child(odd) {
+tr:nth-child(even) {
   background-color: $color-secondary;
 }
 
 .th-header {
   background-color: $color-background;
-  font-size: 1.5rem;
-  text-align: center;
+  font-size: 1.2rem;
+  width: 100%;
+  text-align: start;
+  padding-left: 8px;
 }
 
 @keyframes hover-td {

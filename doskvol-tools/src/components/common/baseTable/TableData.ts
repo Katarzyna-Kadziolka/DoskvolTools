@@ -3,11 +3,11 @@ export interface TableData {
     rows: Row[]
 }
 
-interface Row {
+export interface Row {
     diceResult: DiceResult,
     values: string[],
 }
-interface DiceResult {
+export interface DiceResult {
     from: number,
     to: number
 }

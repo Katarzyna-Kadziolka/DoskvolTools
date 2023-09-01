@@ -25,7 +25,7 @@ const onItemClick = async (name: string) => {
       <GeneratorNavigationItem :name='t("generator-navigation.cult")' icon='fa-solid fa-torii-gate' :is-active='activeItemName === "cultGenerator"' @click='() => onItemClick("cultGenerator")'/>
       <GeneratorNavigationItem :name='t("generator-navigation.heist")' icon='fa-solid fa-mask' :is-active='activeItemName === "heistGenerator"' @click='() => onItemClick("heistGenerator")'/>
     </div>
-    <router-view/>
+    <router-view class="generator-view_router-view"/>
   </div>
 </template>
 
@@ -38,6 +38,10 @@ const onItemClick = async (name: string) => {
   &_navigation {
     width: 15vw;
     margin-top: 24px;
+    position: fixed;
+  }
+  &_router-view {
+    margin-left: 15vw;
   }
 }
 </style>
