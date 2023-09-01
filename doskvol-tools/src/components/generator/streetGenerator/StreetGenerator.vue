@@ -5,9 +5,9 @@ import BaseCard from "@/components/common/BaseCard.vue";
 import {useStreetStore} from "@/stores/StreetStore";
 import {storeToRefs} from "pinia";
 import {useI18n} from 'vue-i18n'
-import {useStreetGenerator} from "@/components/generator/streetGenerator/StreetGeneratorContent";
+import {useStreetGenerator} from "@/components/generator/streetGenerator/Composables/StreetGeneratorContent";
 import StreetGeneratorResultElement from "@/components/generator/streetGenerator/StreetGeneratorResultElement.vue";
-import getRandomFromTable from "@/components/generator/RandomTableResult";
+import useRandom from "@/composables/Random";
 
 const {t} = useI18n({useScope: "global"});
 
@@ -15,6 +15,7 @@ const store = useStreetStore();
 const {street} = storeToRefs(store);
 
 const streetData = useStreetGenerator();
+const { getRandomFromTable } = useRandom();
 
 const generateRandom = () => {
   street.value.mood = getRandomFromTable(streetData.getMood())

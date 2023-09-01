@@ -1,4 +1,3 @@
-import { ref, computed } from 'vue'
 import { defineStore } from 'pinia'
 import type {Street} from "@/components/generator/streetGenerator/Street";
 
