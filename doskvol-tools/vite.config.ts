@@ -8,6 +8,7 @@ export default defineConfig({
   plugins: [
     vue(),
   ],
+  base: "/doskvol-tools/",
   resolve: {
     alias: {
       '@': fileURLToPath(new URL('./src', import.meta.url))
