@@ -2,11 +2,12 @@
 import { ref } from 'vue'
 import GeneratorNavigationItem from '@/components/generator/GeneratorNavigationItem.vue'
 import {useI18n} from 'vue-i18n'
-import { useRouter } from 'vue-router'
+import {useRoute, useRouter} from 'vue-router'
 
 const {t} = useI18n({useScope: "global"});
 const router = useRouter();
-let activeItemName = ref("streetGenerator");
+const route = useRoute();
+let activeItemName = ref(route.name);
 
 const onItemClick = async (name: string) => {
   activeItemName.value = name;
