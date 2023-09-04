@@ -6,7 +6,7 @@ import {useStreetStore} from "@/stores/StreetStore";
 import {storeToRefs} from "pinia";
 import {useI18n} from 'vue-i18n'
 import {useStreetGenerator} from "@/components/generator/streetGenerator/Composables/StreetGeneratorContent";
-import StreetGeneratorResultElement from "@/components/generator/streetGenerator/StreetGeneratorResultElement.vue";
+import GeneratorResultElement from "@/components/generator/GeneratorResultElement.vue";
 import useRandom from "@/composables/Random";
 
 const {t} = useI18n({useScope: "global"});
@@ -45,14 +45,14 @@ const generateRandom = () => {
     <BaseCard class="street-generator_base-card">
       <div class="street-generator_base-card-result">
         <span class="street-generator_title">{{t("generator-navigation.street").toLocaleUpperCase()}}</span>
-        <StreetGeneratorResultElement :title="t('streets.mood.title')" :value="street.mood"/>
-        <StreetGeneratorResultElement :title="t('streets.impressions.sights.title')" :value="street.impressionsSights"/>
-        <StreetGeneratorResultElement :title="t('streets.impressions.sounds.title')" :value="street.impressionsSounds"/>
-        <StreetGeneratorResultElement :title="t('streets.impressions.smells.title')" :value="street.impressionsSmells"/>
-        <StreetGeneratorResultElement :title="t('streets.use.title')" :value="street.use"/>
-        <StreetGeneratorResultElement :title="t('streets.type.title')" :value="street.type"/>
-        <StreetGeneratorResultElement :title="t('streets.details.title')" :value="street.details"/>
-        <StreetGeneratorResultElement :title="t('streets.props.title')" :value="street.props"/>
+        <GeneratorResultElement :title="t('streets.mood.title')" :value="street.mood"/>
+        <GeneratorResultElement :title="t('streets.impressions.sights.title')" :value="street.impressionsSights"/>
+        <GeneratorResultElement :title="t('streets.impressions.sounds.title')" :value="street.impressionsSounds"/>
+        <GeneratorResultElement :title="t('streets.impressions.smells.title')" :value="street.impressionsSmells"/>
+        <GeneratorResultElement :title="t('streets.use.title')" :value="street.use"/>
+        <GeneratorResultElement :title="t('streets.type.title')" :value="street.type"/>
+        <GeneratorResultElement :title="t('streets.details.title')" :value="street.details"/>
+        <GeneratorResultElement :title="t('streets.props.title')" :value="street.props"/>
       </div>
       <BaseButton :name="t('generator-ui.generate')" @click="generateRandom"/>
     </BaseCard>
