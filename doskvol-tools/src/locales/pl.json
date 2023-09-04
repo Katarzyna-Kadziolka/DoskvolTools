@@ -265,6 +265,7 @@
       }
     },
     "use" : {
+      "title" : "Przeznaczenie",
       "common" : {
         "title" : "Przeznaczenie: Powszechne",
         "1" : {
