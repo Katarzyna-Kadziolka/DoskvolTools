@@ -1,76 +1,80 @@
 import type {DiceResult, TableData} from "@/components/common/baseTable/TableData";
-import useGenerator from "@/components/generator/composables/Generator";
+import useGenerator from "@/components/generator/composables/Generator"
 
-export function useStreetGenerator() {
+export function useBuildGenerator() {
     const { getTableData } = useGenerator();
-    function getMood(): TableData {
+    function getExteriorMaterial(): TableData {
         const diceResult : DiceResult[] = [{
+            from: 1,
+            to: 1
+        }];
+        return getTableData("buildings.exterior.material", diceResult);
+    }
+    function getExteriorDetails(): TableData {
+        const diceResult : DiceResult[] = [{
+            from: 1,
+            to: 1
+        }];
+        return getTableData("buildings.exterior.details", diceResult);
+    }
+    function getCommonUse(): TableData {
+        const diceResult : DiceResult[] = [
+            {
                 from: 1,
                 to: 1
-        }];
-        return getTableData("streets.mood", diceResult)
-    }
-
-    function getImpressionsSights(): TableData {
-        const diceResult : DiceResult[] = [{
-            from: 1,
-            to: 1
-        }];
-        return getTableData("streets.impressions.sights", diceResult)
-    }
-
-    function getImpressionsSounds(): TableData {
-        const diceResult : DiceResult[] = [{
-            from: 1,
-            to: 1
-        }];
-        return getTableData("streets.impressions.sounds", diceResult)
-    }
-
-    function getImpressionsSmells(): TableData {
-        const diceResult : DiceResult[] = [{
-            from: 1,
-            to: 1
-        }];
-        return getTableData("streets.impressions.smells", diceResult)
-    }
-
-    function getUse(): TableData {
-        const diceResult : DiceResult[] = [
+            },
             {
-                from: 1,
+                from:2,
+                to: 2
+            },
+            {
+                from: 3,
                 to: 3
             },
             {
-                from:4,
+                from: 4,
+                to: 4
+            },
+            {
+                from: 5,
                 to: 5
             },
             {
                 from: 6,
                 to: 6
-            }
+            },
         ];
-        return getTableData("streets.use", diceResult)
+        return getTableData("buildings.use.common", diceResult);
     }
-
-    function getType(): TableData {
+    function getRareUse(): TableData {
         const diceResult : DiceResult[] = [
             {
                 from: 1,
+                to: 1
+            },
+            {
+                from:2,
+                to: 2
+            },
+            {
+                from: 3,
                 to: 3
             },
             {
-                from:4,
+                from: 4,
+                to: 4
+            },
+            {
+                from: 5,
                 to: 5
             },
             {
                 from: 6,
                 to: 6
-            }
+            },
         ];
-        return getTableData("streets.type", diceResult)
+        return getTableData("buildings.use.rare", diceResult);
     }
-
     function getDetails(): TableData {
         const diceResult : DiceResult[] = [
             {
@@ -98,10 +102,9 @@ export function useStreetGenerator() {
                 to: 6
             },
         ];
-        return getTableData("streets.details", diceResult)
+        return getTableData("buildings.details", diceResult);
     }
-
-    function getProps(): TableData {
+    function getItems(): TableData {
         const diceResult : DiceResult[] = [
             {
                 from: 1,
@@ -122,35 +125,16 @@ export function useStreetGenerator() {
             {
                 from: 5,
                 to: 5
-            },
-            {
-                from: 6,
-                to: 6
-            },
-            {
-                from: 7,
-                to: 7
-            },
-            {
-                from: 8,
-                to: 8
-            },
-            {
-                from: 9,
-                to: 9
-            },
+            }
         ];
-        return getTableData("streets.props", diceResult)
+        return getTableData("buildings.items", diceResult);
     }
-
     return {
-        getMood,
-        getImpressionsSights,
-        getImpressionsSounds,
-        getImpressionsSmells,
-        getUse,
-        getType,
+        getExteriorMaterial,
+        getExteriorDetails,
+        getCommonUse,
+        getRareUse,
         getDetails,
-        getProps
+        getItems
     }
 }
