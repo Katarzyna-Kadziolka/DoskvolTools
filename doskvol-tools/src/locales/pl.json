@@ -912,7 +912,7 @@
         "6" : "Oszust. Pewien dotyczący go ważny szczegół jest zmyślony"
       }
     },
-    "names" : {
+    "name" : {
       "title" : "Imię",
       "1" : {
         "1" : "Adric",
@@ -1027,7 +1027,7 @@
         "6" : "Zamira"
       }
     },
-    "familyNames" : {
+    "familyName" : {
       "title" : "Nazwisko Rodowe",
       "1" : {
         "1" : "Ankhayat",
@@ -1094,7 +1094,7 @@
         "6" : "Welker"
       }
     },
-    "aliases" : {
+    "alias" : {
       "title" : "Przydomek",
       "1" : {
         "1" : "Bicz",
