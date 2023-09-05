@@ -10,6 +10,6 @@ export interface Character {
     interests: string,
     quirks: string,
     name: string,
-    familyNames: string,
+    familyName: string,
     alias: string
 }

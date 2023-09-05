@@ -6,7 +6,7 @@ export const useCharacterStore = defineStore('character', {
         character: {
             name: '',
             alias: '',
-            familyNames: '',
+            familyName: '',
             gender: '',
             goals: '',
             heritage: '',
