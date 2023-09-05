@@ -242,7 +242,7 @@
   "buildings": {
     "exterior" : {
       "material" : {
-        "title" : "Materiał Elewacji",
+        "title" : "Materiał elewacji",
         "1" : {
           "1" : "Szara cegła",
           "2" : "Kamień i drewno",
@@ -253,7 +253,7 @@
         }
       },
       "details" : {
-        "title" : "Detale Elewacji",
+        "title" : "Detale elewacji",
         "1" : {
           "1" : "Płytki",
           "2" : "Kowalstwo artystyczne",
@@ -461,6 +461,302 @@
         "4" : "Broń, szmaty, amunicja",
         "5" : "Zabawki, ubranka dziecięce, kołyska",
         "6" : "Sztanga, talk, drążek"
+      }
+    }
+  },
+  "characters" : {
+    "gender" : {
+      "title" : "Płeć",
+      "1" : {
+        "1" : "Mężczyzna",
+        "2" : "Mężczyzna",
+        "3" : "Kobieta",
+        "4" : "Kobieta",
+        "5" : "Nieokreślony, ukryty",
+        "6" : "Rzuć ponownie"
+      }
+    },
+    "heritage" : {
+      "title" : "Rodowód",
+      "1" : {
+        "1" : "Akorosjanin",
+        "2" : "Akorosjanin",
+        "3" : "Akorosjanin",
+        "4" : "Cudzoziemiec",
+        "5" : "Cudzoziemiec",
+        "6" : "Cudzoziemiec"
+      }
+    },
+    "foreigners" : {
+      "title" : "Cudzoziemiec",
+      "1" : {
+        "1" : "Skowlanin",
+        "2" : "Skowlanin",
+        "3" : "Iruwiańczyk",
+        "4" : "Mieszkaniec Wysp Sztyletowych",
+        "5" : "Sewerosjanin",
+        "6" : "Tycherosjanin"
+      }
+    },
+    "looks" : {
+      "title" : "Wygląd",
+      "1" : {
+        "1" : "Szeroki",
+        "2" : "Śliczny",
+        "3" : "Ogorzały",
+        "4" : "Subtelny",
+        "5" : "Przystojny",
+        "6" : "Atletyczny"
+      },
+      "2" : {
+        "1" : "Szczupły",
+        "2" : "Ciemnej karnacji",
+        "3" : "Jasnej karnacji",
+        "4" : "Gruby",
+        "5" : "Delikatny",
+        "6" : "Poznaczony bliznami"
+      },
+      "3" : {
+        "1" : "Kościsty",
+        "2" : "Zmęczony",
+        "3" : "Szorstki",
+        "4" : "Pulchny",
+        "5" : "Żylasty",
+        "6" : "Żylasty"
+      },
+      "4" : {
+        "1" : "Niski",
+        "2" : "Wysoki",
+        "3" : "Seksowny",
+        "4" : "Dziki",
+        "5" : "Elegancki",
+        "6" : "Zgarbiony"
+      },
+      "5" : {
+        "1" : "Atrakcyjny",
+        "2" : "Pospolity",
+        "3" : "Stary",
+        "4" : "Młody",
+        "5" : "Stylowy",
+        "6" : "Dziwny"
+      },
+      "6" : {
+        "1" : "Oszpecony, okaleczony",
+        "2" : "Okulary, monokl",
+        "3" : "Proteza, kalectwo",
+        "4" : "Długie włosy, broda, peruka",
+        "5" : "Krótko ścięty, łysy",
+        "6" : "Wytatuowany"
+      }
+    },
+    "style" : {
+      "title" : "Ubiór",
+      "1" : {
+        "1" : "Trikorn",
+        "2" : "Długi płaszcz",
+        "3" : "Kaptur z woalem",
+        "4" : "Krótka peleryna",
+        "5" : "Czapka marynarska",
+        "6" : "Lekka kurtka"
+      },
+      "2" : {
+        "1" : "Płaszcz z kapturem",
+        "2" : "Wysokie buty",
+        "3" : "Buciory robocze",
+        "4" : "Maska i suknia",
+        "5" : "Garnitur",
+        "6" : "Koszula z kołnierzem"
+      },
+      "3" : {
+        "1" : "Szelki",
+        "2" : "Szorstka tunika",
+        "3" : "Spódniczka",
+        "4" : "Szeroki pas",
+        "5" : "Dopasowana suknia",
+        "6" : "Cieżki płaszcz"
+      },
+      "4" : {
+        "1" : "Grube palto",
+        "2" : "Lekkie buty",
+        "3" : "Luźne jedwabie",
+        "4" : "Modne spodnie",
+        "5" : "Woskowany płaszcz",
+        "6" : "Długi szal"
+      },
+      "5" : {
+        "1" : "Skóry",
+        "2" : "Body z węgorza",
+        "3" : "Skóry i futro",
+        "4" : "Mundur",
+        "5" : "Łachmany",
+        "6" : "Dopasowane getry"
+      },
+      "6" : {
+        "1" : "Fartuch",
+        "2" : "Ciężkie rękawice",
+        "3" : "Maska",
+        "4" : "Pas z narzędziami",
+        "5" : "Kula inwalidzka, laska",
+        "6" : "Wózek inwalidzki"
+      }
+    },
+    "goals" : {
+      "title" : "Cele",
+      "1" : {
+        "1" : "Bogactwo",
+        "2" : "Władza",
+        "3" : "Wpływy",
+        "4" : "Prestiż, sława",
+        "5" : "Kontrola",
+        "6" : "Wiedza"
+      },
+      "2" : {
+        "1" : "Przyjemność",
+        "2" : "Zemsta",
+        "3" : "Wolność",
+        "4" : "Osiągnięcia",
+        "5" : "Szczęście",
+        "6" : "Niesława, strach"
+      },
+      "3" : {
+        "1" : "Szacunek",
+        "2" : "Miłość",
+        "3" : "Zmiana",
+        "4" : "Chaos, zniszczenie",
+        "5" : "Sprawiedliwość",
+        "6" : "Współpraca"
+      }
+    },
+    "preferredMethods" : {
+      "title" : "Preferowane Metody Działania",
+      "1" : {
+        "1" : "Przemoc",
+        "2" : "Groźby",
+        "3" : "Negocjacje",
+        "4" : "Analiza",
+        "5" : "Manipulacja",
+        "6" : "Strategia"
+      },
+      "2" : {
+        "1" : "Kradzież",
+        "2" : "Moce tajemne",
+        "3" : "Handel",
+        "4" : "Ciężka praca",
+        "5" : "Prawo, polityka",
+        "6" : "Sabotaż"
+      },
+      "3" : {
+        "1" : "Podstęp",
+        "2" : "Alchemia",
+        "3" : "Szantaż",
+        "4" : "Praca zespołowa",
+        "5" : "Szpiegostwo",
+        "6" : "Chaos"
+      }
+    },
+    "professions" : {
+      "title" : "Zawód",
+      "common" : {
+        "title" : "Zawody: Powszechne",
+        "1" : {
+          "1" : "Piekarz",
+          "2" : "Golibroda",
+          "3" : "Kowal",
+          "4" : "Piwowar",
+          "5" : "Rzeźnik",
+          "6" : "Cieśla"
+        },
+        "2" : {
+          "1" : "Stelmach",
+          "2" : "Sprzedawca świec",
+          "3" : "Urzędnik",
+          "4" : "Szewc",
+          "5" : "Bednarz",
+          "6" : "Hodowca"
+        },
+        "3" : {
+          "1" : "Woźnica",
+          "2" : "Farbiarz",
+          "3" : "Hafciarz",
+          "4" : "Sprzedawca ryb",
+          "5" : "Gondolier",
+          "6" : "Strażnik"
+        },
+        "4" : {
+          "1" : "Rymarz",
+          "2" : "Murarz",
+          "3" : "Kupiec",
+          "4" : "Dekarz",
+          "5" : "Powroźnik",
+          "6" : "Kobiernik"
+        },
+        "5" : {
+          "1" : "Służący",
+          "2" : "Cieśla okrętowy",
+          "3" : "Przestępca",
+          "4" : "Krawiec",
+          "5" : "Grabarz",
+          "6" : "Majsterkowicz"
+        },
+        "6" : {
+          "1" : "Uliczny handlarz",
+          "2" : "Tkacz",
+          "3" : "Stolarz",
+          "4" : "Pasterz kóz",
+          "5" : "Posłaniec",
+          "6" : "Marynarz"
+        }
+      },
+      "rare" : {
+        "title" : "Zawody: Rzadkie",
+        "1" : {
+          "1" : "Adwokat",
+          "2" : "Architekt",
+          "3" : "Artysta",
+          "4" : "Pisarz",
+          "5" : "Komornik",
+          "6" : "Bartnik"
+        },
+        "2" : {
+          "1" : "Bankier",
+          "2" : "Łowca nagród",
+          "3" : "Zegarmistrz",
+          "4" : "Kurtyzana",
+          "5" : "Kuśnierz",
+          "6" : "Szklarz"
+        },
+        "3" : {
+          "1" : "Dyplomata",
+          "2" : "Strażnik więzienny",
+          "3" : "Jubiler",
+          "4" : "Pijawka",
+          "5" : "Ślusarz",
+          "6" : "Sędzia"
+        },
+        "4" : {
+          "1" : "Muzyk",
+          "2" : "Konsyliarz",
+          "3" : "Hydraulik",
+          "4" : "Drukarz",
+          "5" : "Uczony",
+          "6" : "Skryba"
+        },
+        "5" : {
+          "1" : "Iskrownik",
+          "2" : "Poborca podatkowy",
+          "3" : "Skarbnik",
+          "4" : "Szeptuch",
+          "5" : "Kompozytor",
+          "6" : "Zarządca"
+        },
+        "6" : {
+          "1" : "Kapitan",
+          "2" : "Strażnik Dusz",
+          "3" : "Dziennikarz",
+          "4" : "Odkrywca",
+          "5" : "Majcher Kolejowy",
+          "6" : "Żołnierz"
+        }
       }
     }
   }

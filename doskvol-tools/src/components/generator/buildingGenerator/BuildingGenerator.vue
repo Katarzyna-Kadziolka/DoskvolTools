@@ -24,7 +24,7 @@ const generateRandom = () => {
   building.value.items = getRandomFromTable(buildingData.getItems())
 
   const tableVariant : Variant = generateRandomVariant()
-  if(tableVariant === (`common` as unknown as Variant)) {
+  if(tableVariant === "common") {
     building.value.use = getRandomFromTable(buildingData.getCommonUse())
   }
   else {
@@ -35,11 +35,11 @@ const generateRandom = () => {
 const generateRandomVariant = () => {
   const tablesVariants : TableVariant[] = [
     {
-      tableTitle: `common`,
+      tableTitle: "common",
       rarity: 4
     },
     {
-      tableTitle: `rare`,
+      tableTitle: "rare",
       rarity: 2
     }
   ]
