@@ -28,14 +28,9 @@ const onTdClick = (value : string) => {
 }
 
 const activeId = computed(() => {
-  for (let i = 0; i < props.tableData.rows.length; i++) {
-    for(let j = 0; j < props.tableData.rows[i].values.length; j++) {
-      if(props.tableData.rows[i].values[j].content === chosenTableSection.value) {
-        return props.tableData.rows[i].values[j].id
-      }
-    }
-  }
-  return -1
+  const activeCell = props.tableData.rows.flatMap(x => x.values).find(x => x.content === chosenTableSection.value);
+  if(activeCell) return activeCell.id
+  return -1;
 })
 
 </script>
