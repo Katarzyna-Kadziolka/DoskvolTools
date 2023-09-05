@@ -52,7 +52,7 @@
           "1": "Piece kuchenne, paleniska",
           "2": "Wilgotne drewno, zgnilizna, odpadki",
           "3": "Zwierzęta, skóry, krew",
-          "4": "PuChemikalia, destylaty, wyziewysto",
+          "4": "Chemikalia, destylaty, wyziewysto",
           "5": "Deszczówka, ocean",
           "6": "Ozon, wyładowania elektroplazmowe"
         }
@@ -628,7 +628,7 @@
       }
     },
     "preferredMethods" : {
-      "title" : "Preferowane Metody Działania",
+      "title" : "Preferowane metody działania",
       "1" : {
         "1" : "Przemoc",
         "2" : "Groźby",

@@ -46,7 +46,7 @@ defineEmits<{
     width: 20vw;
     position: fixed;
     right: 32px;
-    top: 128px;
+    top: 92px;
   }
 
   &_title {

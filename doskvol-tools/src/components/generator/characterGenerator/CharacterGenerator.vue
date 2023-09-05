@@ -31,6 +31,10 @@ const generateRandom = () => {
   character.value.trait = getRandomFromTable(characterData.getTraits());
   character.value.heritage = getRandomFromTable(characterData.getHeritages());
 
+  while (character.value.gender === t("characters.gender.1.6")) {
+    character.value.gender = getRandomFromTable(characterData.getGenders());
+  }
+
   if(character.value.heritage === t("characters.heritage.1.6")) {
     character.value.heritage = getRandomFromTable(characterData.getForeigners());
   }
