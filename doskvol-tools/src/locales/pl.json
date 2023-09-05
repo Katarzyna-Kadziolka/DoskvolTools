@@ -8,7 +8,7 @@
     "heist": "Skok"
   },
   "generator-ui": {
-    "generate": "Wygeneruj",
+    "generate": "Losuj",
     "copy": "Kopiuj"
   },
   "streets": {
@@ -236,6 +236,527 @@
         "4": "Licha kapliczka",
         "5": "Kiosk z gazetami",
         "6": "Palisada"
+      }
+    }
+  },
+  "buildings": {
+    "exterior" : {
+      "material" : {
+        "title" : "Materiał elewacji",
+        "1" : {
+          "1" : "Szara cegła",
+          "2" : "Kamień i drewno",
+          "3" : "Obrobiony kamień",
+          "4" : "Drewniane panele",
+          "5" : "Płyta gipsowa i drewno",
+          "6" : "Blacha"
+        }
+      },
+      "details" : {
+        "title" : "Detale elewacji",
+        "1" : {
+          "1" : "Płytki",
+          "2" : "Kowalstwo artystyczne",
+          "3" : "Szklane zdobienia",
+          "4" : "Kamień",
+          "5" : "Drewno",
+          "6" : "Detale architektoniczne"
+        }
+      }
+    },
+    "use" : {
+      "title" : "Przeznaczenie",
+      "common" : {
+        "title" : "Przeznaczenie: Powszechne",
+        "1" : {
+          "1" : "Noclegownia",
+          "2" : "Karczma",
+          "3" : "Gospoda",
+          "4" : "Dom gier",
+          "5" : "Melina narkotykowa",
+          "6" : "Burdel"
+        },
+        "2" : {
+          "1" : "Targ",
+          "2" : "Warsztat",
+          "3" : "Piekarnia",
+          "4" : "Rzeźnia",
+          "5" : "Kuźnia",
+          "6" : "Zakład krawiecki"
+        },
+        "3" : {
+          "1" : "Dom pracy przymusowej",
+          "2" : "Stadnina kóz",
+          "3" : "Browar",
+          "4" : "Posterunek straży",
+          "5" : "Sąd, więzienie ",
+          "6" : "Dok"
+        },
+        "4" : {
+          "1" : "Ruiny",
+          "2" : "Domy szeregowe",
+          "3" : "Kamienica czynszowa",
+          "4" : "Apartamentowiec",
+          "5" : "Mały dom",
+          "6" : "Łaźnia"
+        },
+        "5" : {
+          "1" : "Kapliczka",
+          "2" : "Salon tatuażu",
+          "3" : "Konsyliarz",
+          "4" : "Podziemny krąg",
+          "5" : "Plac, fontanna",
+          "6" : "Grota"
+        },
+        "6" : {
+          "1" : "Magazyn",
+          "2" : "Zagroda",
+          "3" : "Fabryka",
+          "4" : "Rafineria",
+          "5" : "Hodowla węgorzy",
+          "6" : "Ogród grzybowy"
+        }
+      },
+      "rare" : {
+        "title" : "Przeznaczenie: Rzadkie",
+        "1" : {
+          "1" : "Hala targowa",
+          "2" : "Restauracja",
+          "3" : "Bar, klub",
+          "4" : "Uczelnia",
+          "5" : "Salon",
+          "6" : "Kafejka"
+        },
+        "2" : {
+          "1" : "Kwiaciarnia",
+          "2" : "Trafika",
+          "3" : "Księgarnia",
+          "4" : "Jubiler",
+          "5" : "Sukiennik",
+          "6" : "Galeria"
+        },
+        "3" : {
+          "1" : "Apteka",
+          "2" : "Stajnie",
+          "3" : "Gorzelnia",
+          "4" : "Kupiec winny",
+          "5" : "Doświadczony rzemieślnik",
+          "6" : "Hangar na łodzie"
+        },
+        "4" : {
+          "1" : "Teatr",
+          "2" : "Opera",
+          "3" : "Apartamentowiec",
+          "4" : "Rezydencja miejska",
+          "5" : "Posiadłość",
+          "6" : "Willa"
+        },
+        "5" : {
+          "1" : "Klinika",
+          "2" : "Świątynia",
+          "3" : "Cysterna",
+          "4" : "Posterunek straży",
+          "5" : "Park",
+          "6" : "Pomnik"
+        },
+        "6" : {
+          "1" : "Archiwum",
+          "2" : "Spirytualista",
+          "3" : "Bank",
+          "4" : "Alchemik",
+          "5" : "Elektrownia",
+          "6" : "Ogród radiacyjny"
+        }
+      }
+    },
+    "details" : {
+      "title" : "Szczegóły",
+      "1" : {
+        "1" : "Kapiąca woda",
+        "2" : "Skrzypiąca podłoga",
+        "3" : "Buzujący ogień",
+        "4" : "Przydymione lampy",
+        "5" : "Brzęczące oświetlenie elektryczne",
+        "6" : "Tykające zegary"
+      },
+      "2" : {
+        "1" : "Rośliny, kwiaty",
+        "2" : "Draperie, dzieła sztuki",
+        "3" : "Okiennice",
+        "4" : "Ciężke zasłony, grube dywany",
+        "5" : "Pył, resztki",
+        "6" : "Zużyty, uszkodzony"
+      },
+      "3" : {
+        "1" : "Wytarte, postrzępione",
+        "2" : "Praktyczne umeblowanie",
+        "3" : "Eleganckie ozdoby",
+        "4" : "Luksusowy, komfortowy",
+        "5" : "Funkcjonalna prostota",
+        "6" : "Spartańska surowość"
+      },
+      "4" : {
+        "1" : "Kręcone schody, drabiny",
+        "2" : "Ukryte drzwi ",
+        "3" : "Pomosty, kładki",
+        "4" : "Świetliki",
+        "5" : "Balkon",
+        "6" : "Piwnica"
+      },
+      "5" : {
+        "1" : "Przeciągi, zimno",
+        "2" : "Solidny, cichy",
+        "3" : "Przytulny, ciepły",
+        "4" : "Wysokie sklepienia, przestronny",
+        "5" : "Niski, ciasny",
+        "6" : "Rozklekotany, zrujnowany"
+      },
+      "6" : {
+        "1" : "Dziwne urządzenie",
+        "2" : "Dziwne artefakty",
+        "3" : "Symbole ochronne, stare runy",
+        "4" : "Bezładna mieszanina osobliwości",
+        "5" : "Starodawne wyposażenie",
+        "6" : "Kapliczka, ołtarz"
+      }
+    },
+    "items" : {
+      "title" : "Przedmioty",
+      "1" : {
+        "1" : "Tablica, biurka, papiery",
+        "2" : "Mapy, wykresy, diagramy",
+        "3" : "Książki, zwoje, biblioteczki",
+        "4" : "Kałamarz, sekretarzyk",
+        "5" : "Zegar, gablota, półki",
+        "6" : "Stół, krzesła, notatniki"
+      },
+      "2" : {
+        "1" : "Łóżko, komoda, toaletka",
+        "2" : "Łożka piętrowe, stołki, skrzynie",
+        "3" : "Umywalka, lustro",
+        "4" : "Sofa, otomana, pozytywka",
+        "5" : "Kozetki, stół, lampy, dzban",
+        "6" : "Kotary, poduszki, poduchy"
+      },
+      "3" : {
+        "1" : "Lada, zlew, szafki",
+        "2" : "Palenisko, przybory kuchenne",
+        "3" : "Stół jadalny, krzesła",
+        "4" : "Plansza do gry, karty, kości",
+        "5" : "Spiżarnia, haki na mięso",
+        "6" : "Wino, piwo, whisky"
+      },
+      "4" : {
+        "1" : "Posąg, obraz, cokół",
+        "2" : "Klatka na ptaki, pióro, dziennik",
+        "3" : "Książka, świeca, dzwonek",
+        "4" : "Kominek, fotel, dywan",
+        "5" : "Story, wazy, kwiaty",
+        "6" : "Instrumenty, nuty"
+      },
+      "5" : {
+        "1" : "Fotel lekarski, medykamenty",
+        "2" : "Palnik, fiolki, zlewki laboratoryjne",
+        "3" : "Stół warsztatowy, narzędzia",
+        "4" : "Broń, szmaty, amunicja",
+        "5" : "Zabawki, ubranka dziecięce, kołyska",
+        "6" : "Sztanga, talk, drążek"
+      }
+    }
+  },
+  "characters" : {
+    "gender" : {
+      "title" : "Płeć",
+      "1" : {
+        "1" : "Mężczyzna",
+        "2" : "Mężczyzna",
+        "3" : "Kobieta",
+        "4" : "Kobieta",
+        "5" : "Nieokreślony, ukryty",
+        "6" : "Rzuć ponownie"
+      }
+    },
+    "heritage" : {
+      "title" : "Rodowód",
+      "1" : {
+        "1" : "Akorosjanin",
+        "2" : "Akorosjanin",
+        "3" : "Akorosjanin",
+        "4" : "Cudzoziemiec",
+        "5" : "Cudzoziemiec",
+        "6" : "Cudzoziemiec"
+      }
+    },
+    "foreigners" : {
+      "title" : "Cudzoziemiec",
+      "1" : {
+        "1" : "Skowlanin",
+        "2" : "Skowlanin",
+        "3" : "Iruwiańczyk",
+        "4" : "Mieszkaniec Wysp Sztyletowych",
+        "5" : "Sewerosjanin",
+        "6" : "Tycherosjanin"
+      }
+    },
+    "looks" : {
+      "title" : "Wygląd",
+      "1" : {
+        "1" : "Szeroki",
+        "2" : "Śliczny",
+        "3" : "Ogorzały",
+        "4" : "Subtelny",
+        "5" : "Przystojny",
+        "6" : "Atletyczny"
+      },
+      "2" : {
+        "1" : "Szczupły",
+        "2" : "Ciemnej karnacji",
+        "3" : "Jasnej karnacji",
+        "4" : "Gruby",
+        "5" : "Delikatny",
+        "6" : "Poznaczony bliznami"
+      },
+      "3" : {
+        "1" : "Kościsty",
+        "2" : "Zmęczony",
+        "3" : "Szorstki",
+        "4" : "Pulchny",
+        "5" : "Żylasty",
+        "6" : "Żylasty"
+      },
+      "4" : {
+        "1" : "Niski",
+        "2" : "Wysoki",
+        "3" : "Seksowny",
+        "4" : "Dziki",
+        "5" : "Elegancki",
+        "6" : "Zgarbiony"
+      },
+      "5" : {
+        "1" : "Atrakcyjny",
+        "2" : "Pospolity",
+        "3" : "Stary",
+        "4" : "Młody",
+        "5" : "Stylowy",
+        "6" : "Dziwny"
+      },
+      "6" : {
+        "1" : "Oszpecony, okaleczony",
+        "2" : "Okulary, monokl",
+        "3" : "Proteza, kalectwo",
+        "4" : "Długie włosy, broda, peruka",
+        "5" : "Krótko ścięty, łysy",
+        "6" : "Wytatuowany"
+      }
+    },
+    "style" : {
+      "title" : "Ubiór",
+      "1" : {
+        "1" : "Trikorn",
+        "2" : "Długi płaszcz",
+        "3" : "Kaptur z woalem",
+        "4" : "Krótka peleryna",
+        "5" : "Czapka marynarska",
+        "6" : "Lekka kurtka"
+      },
+      "2" : {
+        "1" : "Płaszcz z kapturem",
+        "2" : "Wysokie buty",
+        "3" : "Buciory robocze",
+        "4" : "Maska i suknia",
+        "5" : "Garnitur",
+        "6" : "Koszula z kołnierzem"
+      },
+      "3" : {
+        "1" : "Szelki",
+        "2" : "Szorstka tunika",
+        "3" : "Spódniczka",
+        "4" : "Szeroki pas",
+        "5" : "Dopasowana suknia",
+        "6" : "Cieżki płaszcz"
+      },
+      "4" : {
+        "1" : "Grube palto",
+        "2" : "Lekkie buty",
+        "3" : "Luźne jedwabie",
+        "4" : "Modne spodnie",
+        "5" : "Woskowany płaszcz",
+        "6" : "Długi szal"
+      },
+      "5" : {
+        "1" : "Skóry",
+        "2" : "Body z węgorza",
+        "3" : "Skóry i futro",
+        "4" : "Mundur",
+        "5" : "Łachmany",
+        "6" : "Dopasowane getry"
+      },
+      "6" : {
+        "1" : "Fartuch",
+        "2" : "Ciężkie rękawice",
+        "3" : "Maska",
+        "4" : "Pas z narzędziami",
+        "5" : "Kula inwalidzka, laska",
+        "6" : "Wózek inwalidzki"
+      }
+    },
+    "goals" : {
+      "title" : "Cele",
+      "1" : {
+        "1" : "Bogactwo",
+        "2" : "Władza",
+        "3" : "Wpływy",
+        "4" : "Prestiż, sława",
+        "5" : "Kontrola",
+        "6" : "Wiedza"
+      },
+      "2" : {
+        "1" : "Przyjemność",
+        "2" : "Zemsta",
+        "3" : "Wolność",
+        "4" : "Osiągnięcia",
+        "5" : "Szczęście",
+        "6" : "Niesława, strach"
+      },
+      "3" : {
+        "1" : "Szacunek",
+        "2" : "Miłość",
+        "3" : "Zmiana",
+        "4" : "Chaos, zniszczenie",
+        "5" : "Sprawiedliwość",
+        "6" : "Współpraca"
+      }
+    },
+    "preferredMethods" : {
+      "title" : "Preferowane Metody Działania",
+      "1" : {
+        "1" : "Przemoc",
+        "2" : "Groźby",
+        "3" : "Negocjacje",
+        "4" : "Analiza",
+        "5" : "Manipulacja",
+        "6" : "Strategia"
+      },
+      "2" : {
+        "1" : "Kradzież",
+        "2" : "Moce tajemne",
+        "3" : "Handel",
+        "4" : "Ciężka praca",
+        "5" : "Prawo, polityka",
+        "6" : "Sabotaż"
+      },
+      "3" : {
+        "1" : "Podstęp",
+        "2" : "Alchemia",
+        "3" : "Szantaż",
+        "4" : "Praca zespołowa",
+        "5" : "Szpiegostwo",
+        "6" : "Chaos"
+      }
+    },
+    "professions" : {
+      "title" : "Zawód",
+      "common" : {
+        "title" : "Zawody: Powszechne",
+        "1" : {
+          "1" : "Piekarz",
+          "2" : "Golibroda",
+          "3" : "Kowal",
+          "4" : "Piwowar",
+          "5" : "Rzeźnik",
+          "6" : "Cieśla"
+        },
+        "2" : {
+          "1" : "Stelmach",
+          "2" : "Sprzedawca świec",
+          "3" : "Urzędnik",
+          "4" : "Szewc",
+          "5" : "Bednarz",
+          "6" : "Hodowca"
+        },
+        "3" : {
+          "1" : "Woźnica",
+          "2" : "Farbiarz",
+          "3" : "Hafciarz",
+          "4" : "Sprzedawca ryb",
+          "5" : "Gondolier",
+          "6" : "Strażnik"
+        },
+        "4" : {
+          "1" : "Rymarz",
+          "2" : "Murarz",
+          "3" : "Kupiec",
+          "4" : "Dekarz",
+          "5" : "Powroźnik",
+          "6" : "Kobiernik"
+        },
+        "5" : {
+          "1" : "Służący",
+          "2" : "Cieśla okrętowy",
+          "3" : "Przestępca",
+          "4" : "Krawiec",
+          "5" : "Grabarz",
+          "6" : "Majsterkowicz"
+        },
+        "6" : {
+          "1" : "Uliczny handlarz",
+          "2" : "Tkacz",
+          "3" : "Stolarz",
+          "4" : "Pasterz kóz",
+          "5" : "Posłaniec",
+          "6" : "Marynarz"
+        }
+      },
+      "rare" : {
+        "title" : "Zawody: Rzadkie",
+        "1" : {
+          "1" : "Adwokat",
+          "2" : "Architekt",
+          "3" : "Artysta",
+          "4" : "Pisarz",
+          "5" : "Komornik",
+          "6" : "Bartnik"
+        },
+        "2" : {
+          "1" : "Bankier",
+          "2" : "Łowca nagród",
+          "3" : "Zegarmistrz",
+          "4" : "Kurtyzana",
+          "5" : "Kuśnierz",
+          "6" : "Szklarz"
+        },
+        "3" : {
+          "1" : "Dyplomata",
+          "2" : "Strażnik więzienny",
+          "3" : "Jubiler",
+          "4" : "Pijawka",
+          "5" : "Ślusarz",
+          "6" : "Sędzia"
+        },
+        "4" : {
+          "1" : "Muzyk",
+          "2" : "Konsyliarz",
+          "3" : "Hydraulik",
+          "4" : "Drukarz",
+          "5" : "Uczony",
+          "6" : "Skryba"
+        },
+        "5" : {
+          "1" : "Iskrownik",
+          "2" : "Poborca podatkowy",
+          "3" : "Skarbnik",
+          "4" : "Szeptuch",
+          "5" : "Kompozytor",
+          "6" : "Zarządca"
+        },
+        "6" : {
+          "1" : "Kapitan",
+          "2" : "Strażnik Dusz",
+          "3" : "Dziennikarz",
+          "4" : "Odkrywca",
+          "5" : "Majcher Kolejowy",
+          "6" : "Żołnierz"
+        }
       }
     }
   }
