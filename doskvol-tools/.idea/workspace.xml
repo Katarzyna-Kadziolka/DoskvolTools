@@ -138,7 +138,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/src/components/common/baseTable/BaseTable.vue</url>
-          <line>59</line>
+          <line>70</line>
           <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>
