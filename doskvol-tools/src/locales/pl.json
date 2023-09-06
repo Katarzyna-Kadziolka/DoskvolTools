@@ -1486,6 +1486,7 @@
   },
   "scores" : {
     "client" : {
+      "title" : "Klient",
       "civilian" : {
         "title" : "Klient: Cywilny",
         "1" : {
@@ -1532,6 +1533,7 @@
       }
     },
     "target" : {
+      "title" : "Cel",
       "civilian" : {
         "title" : "Cel: Cywilny",
         "1" : {
@@ -1578,6 +1580,7 @@
       }
     },
     "work" : {
+      "title" : "Robota",
       "skullduggery" : {
         "title" : "Robota: Szwindel",
         "1" : {
