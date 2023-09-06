@@ -10,7 +10,7 @@ export default function useRandom() {
       const randomDiceResult = getRandomInteger(0, table.rows[table.rows.length - 1].diceResult.to);
       const randomRow = table.rows.find(x => randomDiceResult <= x.diceResult.to);
       if (randomRow === undefined) throw new Error("HELP");
-      return randomRow.values[getRandomInteger(0, randomRow.values.length - 1)]
+      return randomRow.values[getRandomInteger(0, randomRow.values.length - 1)].content
    }
    function getRandomTableVariant(tables: TableVariant[]): Variant {
       const {getRandomInteger} = useRandom();

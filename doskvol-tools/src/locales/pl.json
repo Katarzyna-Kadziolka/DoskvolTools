@@ -52,7 +52,7 @@
           "1": "Piece kuchenne, paleniska",
           "2": "Wilgotne drewno, zgnilizna, odpadki",
           "3": "Zwierzęta, skóry, krew",
-          "4": "PuChemikalia, destylaty, wyziewysto",
+          "4": "Chemikalia, destylaty, wyziewysto",
           "5": "Deszczówka, ocean",
           "6": "Ozon, wyładowania elektroplazmowe"
         }
@@ -628,7 +628,7 @@
       }
     },
     "preferredMethods" : {
-      "title" : "Preferowane Metody Działania",
+      "title" : "Preferowane metody działania",
       "1" : {
         "1" : "Przemoc",
         "2" : "Groźby",
@@ -757,6 +757,392 @@
           "5" : "Majcher Kolejowy",
           "6" : "Żołnierz"
         }
+      }
+    },
+    "traits" : {
+      "title" : "Cecha",
+      "1" : {
+        "1" : "Czarujący",
+        "2" : "Zimny",
+        "3" : "Nonszalancki",
+        "4" : "Bezczelny",
+        "5" : "Podejrzliwy",
+        "6" : "Obsesyjny"
+      },
+      "2" : {
+        "1" : "Sprytny",
+        "2" : "Cichy",
+        "3" : "Humorzasty",
+        "4" : "Zaciekły",
+        "5" : "Nieuważny",
+        "6" : "Skryty"
+      },
+      "3" : {
+        "1" : "Bezwględny",
+        "2" : "Wyrachowany",
+        "3" : "Nieposłuszny",
+        "4" : "Łaskawy",
+        "5" : "Wnikliwy",
+        "6" : "Nieuczciwy"
+      },
+      "4" : {
+        "1" : "Cierpliwy",
+        "2" : "Nikczemny",
+        "3" : "Wyrafinowany",
+        "4" : "Paranoiczny",
+        "5" : "Szczęśliwy",
+        "6" : "Elitarystyczny"
+      },
+      "5" : {
+        "1" : "Brutalny",
+        "2" : "Pomocny",
+        "3" : "Arogancki",
+        "4" : "Pewny siebie",
+        "5" : "Zarozumiały",
+        "6" : "Śmiały"
+      },
+      "6" : {
+        "1" : "Wybuchowy",
+        "2" : "Szczery",
+        "3" : "Subtelny",
+        "4" : "Melancholijny",
+        "5" : "Zagadkowy",
+        "6" : "Spokojny"
+      }
+    },
+    "interests" : {
+      "title" : "Zainteresowania",
+      "1" : {
+        "1" : "Whisky, wino, piwo",
+        "2" : "Jedzenie, restauracje",
+        "3" : "Ubrania, biżuteria, futra",
+        "4" : "Sztuka, opera, teatr",
+        "5" : "Obrazy, szkice, rzeźby",
+        "6" : "Historia, legendy"
+      },
+      "2" : {
+        "1" : "Architektura, meble",
+        "2" : "Poezja, powieści, pisarstwo",
+        "3" : "Podziemne kręgi, pojedynki",
+        "4" : "Zapomniane Bóstwa",
+        "5" : "Kościół Cielesnej Ekstazy",
+        "6" : "Ścieżka Szeptów"
+      },
+      "3" : {
+        "1" : "Płacząca Pani, jałmużna",
+        "2" : "Antyki, artefakty",
+        "3" : "Konie, jeździectwo",
+        "4" : "Gadżety, nowe technologie",
+        "5" : "Kolekcjoner uzbrojenia",
+        "6" : "Muzyka, instrumenty, taniec"
+      },
+      "4" : {
+        "1" : "Polowanie, strzelectwo",
+        "2" : "Gotowanie, ogrodnictwo",
+        "3" : "Hazard, karty, kości",
+        "4" : "Filozofia przyrody",
+        "5" : "Narkotyki, esencje, tytoń",
+        "6" : "Seks, romanse, schadzki"
+      },
+      "5" : {
+        "1" : "Przyjęcia, wydarzenia",
+        "2" : "Odkrycia, przygody",
+        "3" : "Zwierzęta domowe",
+        "4" : "Rzemiosło",
+        "5" : "Statki, łodzie",
+        "6" : "Polityka, dziennikarstwo"
+      },
+      "6" : {
+        "1" : "Księgi tajemne, rytuały",
+        "2" : "Spektrologia, elektroplazma",
+        "3" : "Alchemia, medycyna",
+        "4" : "Esencje, alchemia",
+        "5" : "Wiedza o demonach, legendy",
+        "6" : "Legendy sprzed kataklizmu"
+      }
+    },
+    "quirks" : {
+      "title" : "Osobliwości",
+      "1" : {
+        "1" : "Przesądny, Wierzy w omeny, magię liczb",
+        "2" : "Oddany rodzinie",
+        "3" : "Wżeniowy w ważną/potężną rodzinę",
+        "4" : "Zajmowana pozycja pozwala szpiegować inną frakcję",
+        "5" : "Samotnik. Preferuje kontakty przez posłańców",
+        "6" : "Ogromne długi (wobec banków/łotrów/rodziny)"
+      },
+      "2" : {
+        "1" : "Ślepy na wady przyjaciół, sojuszników, rodziny itd.",
+        "2" : "Opustoszały, później przywrócony. Niepodatny na duchy",
+        "3" : "Choruje przewlekle i wymaga stałej opieki",
+        "4" : "W tajemnicy (otwarcie?) opętany przez ducha",
+        "5" : "Element demonicznych planów (świadomy lub nie)",
+        "6" : "Dumny ze swojego dziedzictwa, tradycji, języka"
+      },
+      "3" : {
+        "1" : "Przejmujący się plotkami i zachowaniem pozorów",
+        "2" : "Nadużywa narkotyków/alhoholu",
+        "3" : "Utrzymuje swoją pozycję za pomocą szantażu",
+        "4" : "Podejmuje decyzje za radą innych",
+        "5" : "Popełnił zbrodnie podczas Wojny Unifikacyjnej",
+        "6" : "Prowadzi podwójne życie pod fałszywą tożsamością"
+      },
+      "4" : {
+        "1" : "Czarna owca/wyrzutek rodziny lub organizacji",
+        "2" : "Przebywa w więzieniu lub areszcie domowym szlachcica",
+        "3" : "Podróżnik. Koneksje poza Doskvol",
+        "4" : "Rewolucjonista. Spiskuje przeciwko Imperium",
+        "5" : "Odziedziczył pozycję. Może na nią nie zasługiwać",
+        "6" : "Osobistość. Spopularyzowana przez prozę/pieśni/teatr"
+      },
+      "5" : {
+        "1" : "Skandaliczna reputacja (zasłużona lub nie)",
+        "2" : "Otoczony przez pochlebców, lizusów i petentów",
+        "3" : "Nieskalana reputacja. Wielce poważany",
+        "4" : "Uprzedzony wobec jakiejś kultury/klasy/przekonań",
+        "5" : "Wizjoner. Ma radykalne zapatrywania na przyszłość",
+        "6" : "Przeklęty, nawiedzany, prześladowany (duch lub demon)"
+      },
+      "6" : {
+        "1" : "Głęboka fobia lub nieracjonalna odraza",
+        "2" : "Gruntowe wykształcenie w każdej dziedzinie nauki",
+        "3" : "Prowadzi szczegółowe dzienniki, zapiski, rejestry",
+        "4" : "Ślepo wierzy w jakiś ideał, grupę lub tradycję",
+        "5" : "Glęboko konserwatywny. Przeciwnik nowych idei",
+        "6" : "Oszust. Pewien dotyczący go ważny szczegół jest zmyślony"
+      }
+    },
+    "name" : {
+      "title" : "Imię",
+      "1" : {
+        "1" : "Adric",
+        "2" : "Aldo",
+        "3" : "Amosen",
+        "4" : "Andrel",
+        "5" : "Arden",
+        "6" : "Arlyn"
+      },
+      "2" : {
+        "1" : "Arquo",
+        "2" : "Arvus",
+        "3" : "Ashlyn",
+        "4" : "Branon",
+        "5" : "Brace",
+        "6" : "Brance"
+      },
+      "3" : {
+        "1" : "Brena",
+        "2" : "Bricks",
+        "3" : "Candra",
+        "4" : "Carissa",
+        "5" : "Carro",
+        "6" : "Casslyn"
+      },
+      "4" : {
+        "1" : "Cavelle",
+        "2" : "Clave",
+        "3" : "Corille",
+        "4" : "Cross",
+        "5" : "Crowl",
+        "6" : "Cyrene"
+      },
+      "5" : {
+        "1" : "Daphnia",
+        "2" : "Darha",
+        "3" : "Drav",
+        "4" : "Edlun",
+        "5" : "Emeline",
+        "6" : "Evi"
+      },
+      "6" : {
+        "1" : "Grine",
+        "2" : "Hakan",
+        "3" : "Helles",
+        "4" : "Hix",
+        "5" : "Holtz",
+        "6" : "Kamelin"
+      },
+      "7" : {
+        "1" : "Kan",
+        "2" : "Kelyr",
+        "3" : "Kobb",
+        "4" : "Kristov",
+        "5" : "Laudius",
+        "6" : "Lauria"
+      },
+      "8" : {
+        "1" : "Lenia",
+        "2" : "Lizete",
+        "3" : "Lorette",
+        "4" : "Lucella",
+        "5" : "Lynthia",
+        "6" : "Mara"
+      },
+      "9" : {
+        "1" : "Milos",
+        "2" : "Morlan",
+        "3" : "Myre",
+        "4" : "Narcus",
+        "5" : "Naria",
+        "6" : "Noggs"
+      },
+      "10" : {
+        "1" : "Odrienne",
+        "2" : "Orlan",
+        "3" : "Phin",
+        "4" : "Polonia",
+        "5" : "Quess",
+        "6" : "Remira"
+      },
+      "11" : {
+        "1" : "Ring",
+        "2" : "Roethe",
+        "3" : "Sesereth",
+        "4" : "Sethla",
+        "5" : "Skannon",
+        "6" : "Stavrul"
+      },
+      "12" : {
+        "1" : "Stev",
+        "2" : "Syra",
+        "3" : "Talitha",
+        "4" : "Tesslyn",
+        "5" : "Thena",
+        "6" : "Timoth"
+      },
+      "13" : {
+        "1" : "Tocker",
+        "2" : "Una",
+        "3" : "Vaurin",
+        "4" : "Veleris",
+        "5" : "Veretta",
+        "6" : "Vestine"
+      },
+      "14" : {
+        "1" : "Vey",
+        "2" : "Volette",
+        "3" : "Vond",
+        "4" : "Weaver",
+        "5" : "Wester",
+        "6" : "Zamira"
+      }
+    },
+    "familyName" : {
+      "title" : "Nazwisko Rodowe",
+      "1" : {
+        "1" : "Ankhayat",
+        "2" : "Arran",
+        "3" : "Athanoch",
+        "4" : "Basran",
+        "5" : "Boden",
+        "6" : "Booker"
+      },
+      "2" : {
+        "1" : "Bowman",
+        "2" : "Breakiron",
+        "3" : "Brogan",
+        "4" : "Clelland",
+        "5" : "Clermont",
+        "6" : "Coleburn"
+      },
+      "3" : {
+        "1" : "Comber",
+        "2" : "Daava",
+        "3" : "Dalmore",
+        "4" : "Danfield",
+        "5" : "Dunvil",
+        "6" : "Farros"
+      },
+      "4" : {
+        "1" : "Grine",
+        "2" : "Haig",
+        "3" : "Helker",
+        "4" : "Helles",
+        "5" : "Hellyers",
+        "6" : "Jayan"
+      },
+      "5" : {
+        "1" : "Jeduin",
+        "2" : "Kardera",
+        "3" : "Karstas",
+        "4" : "Keel",
+        "5" : "Kessarin",
+        "6" : "Kinclaith"
+      },
+      "6" : {
+        "1" : "Lomond",
+        "2" : "Maroden",
+        "3" : "Michter",
+        "4" : "Morriston",
+        "5" : "Penderyn",
+        "6" : "Prichard"
+      },
+      "7" : {
+        "1" : "Rowan",
+        "2" : "Sevoy",
+        "3" : "Skelkallan",
+        "4" : "Skora",
+        "5" : "Slane",
+        "6" : "Strangford"
+      },
+      "8" : {
+        "1" : "Strathmill",
+        "2" : "Templeton",
+        "3" : "Tyrconnell",
+        "4" : "Vale",
+        "5" : "Walund",
+        "6" : "Welker"
+      }
+    },
+    "alias" : {
+      "title" : "Przydomek",
+      "1" : {
+        "1" : "Bicz",
+        "2" : "Brzoza",
+        "3" : "Cegła",
+        "4" : "Chwytacz",
+        "5" : "Cierń",
+        "6" : "Dwunastka"
+      },
+      "2" : {
+        "1" : "Dzwon",
+        "2" : "Echo",
+        "3" : "Garbarz",
+        "4" : "Gwóźdź",
+        "5" : "Hak",
+        "6" : "Igła"
+      },
+      "3" : {
+        "1" : "Kijaszek",
+        "2" : "Krzemień",
+        "3" : "Księżyc",
+        "4" : "Kurant",
+        "5" : "Lodziarz",
+        "6" : "Loczek"
+      },
+      "4" : {
+        "1" : "Mgła",
+        "2" : "Młotek",
+        "3" : "Obrońca",
+        "4" : "Ogr",
+        "5" : "Oset",
+        "6" : "Ostroga"
+      },
+      "5" : {
+        "1" : "Pierścieniarz",
+        "2" : "Pieśniarz",
+        "3" : "Robal",
+        "4" : "Rubin",
+        "5" : "Sreberko",
+        "6" : "Strzelec"
+      },
+      "6" : {
+        "1" : "Śmieciarz",
+        "2" : "Świerszcz",
+        "3" : "Tykacz",
+        "4" : "Wikliniarz",
+        "5" : "Wrona",
+        "6" : "Wykreślacz"
       }
     }
   }

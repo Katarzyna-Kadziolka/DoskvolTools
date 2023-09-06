@@ -1,7 +1,7 @@
 <script setup lang='ts'>
 import {useI18n} from 'vue-i18n'
 import {storeToRefs} from "pinia";
-import {useBuildGenerator} from "@/components/generator/buildingGenerator/Composables/BuildingGeneratorContent";
+import {useBuildGenerator} from "@/components/generator/buildingGenerator/composables/BuildingGeneratorContent";
 import useRandom from "@/composables/Random";
 import {useBuildingStore} from "@/stores/BuildingStore";
 import type {TableVariant, Variant} from "@/types/TableVariant";
