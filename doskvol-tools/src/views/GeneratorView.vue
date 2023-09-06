@@ -24,7 +24,7 @@ const onItemClick = async (name: string) => {
       <GeneratorNavigationItem :name='t("generator-navigation.character")' icon='fa-solid fa-person' :is-active='activeItemName === "characterGenerator"' @click='() => onItemClick("characterGenerator")'/>
       <GeneratorNavigationItem :name='t("generator-navigation.devil")' icon='fa-solid fa-spaghetti-monster-flying' :is-active='activeItemName === "devilGenerator"' @click='() => onItemClick("devilGenerator")'/>
       <GeneratorNavigationItem :name='t("generator-navigation.cult")' icon='fa-solid fa-torii-gate' :is-active='activeItemName === "cultGenerator"' @click='() => onItemClick("cultGenerator")'/>
-      <GeneratorNavigationItem :name='t("generator-navigation.heist")' icon='fa-solid fa-mask' :is-active='activeItemName === "heistGenerator"' @click='() => onItemClick("heistGenerator")'/>
+      <GeneratorNavigationItem :name='t("generator-navigation.scores")' icon='fa-solid fa-mask' :is-active='activeItemName === "scoresGenerator"' @click='() => onItemClick("scoresGenerator")'/>
     </div>
     <router-view class="generator-view_router-view"/>
   </div>
