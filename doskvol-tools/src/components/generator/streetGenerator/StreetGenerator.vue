@@ -17,14 +17,14 @@ const streetData = useStreetGenerator();
 const { getRandomFromTable } = useRandom();
 
 const generateRandom = () => {
-  street.value.mood = getRandomFromTable(streetData.getMood())
-  street.value.impressionsSights = getRandomFromTable(streetData.getImpressionsSights())
-  street.value.impressionsSounds = getRandomFromTable(streetData.getImpressionsSounds())
-  street.value.impressionsSmells = getRandomFromTable(streetData.getImpressionsSmells())
-  street.value.use = getRandomFromTable(streetData.getUse())
-  street.value.type = getRandomFromTable(streetData.getType())
-  street.value.details = getRandomFromTable(streetData.getDetails())
-  street.value.props = getRandomFromTable(streetData.getProps())
+  street.value.mood = getRandomFromTable(streetData.getMood());
+  street.value.impressionsSights = getRandomFromTable(streetData.getImpressionsSights());
+  street.value.impressionsSounds = getRandomFromTable(streetData.getImpressionsSounds());
+  street.value.impressionsSmells = getRandomFromTable(streetData.getImpressionsSmells());
+  street.value.use = getRandomFromTable(streetData.getUse());
+  street.value.type = getRandomFromTable(streetData.getType());
+  street.value.details = getRandomFromTable(streetData.getDetails());
+  street.value.props = getRandomFromTable(streetData.getProps());
 }
 
 </script>
