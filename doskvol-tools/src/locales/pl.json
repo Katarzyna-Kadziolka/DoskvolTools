@@ -1379,5 +1379,109 @@
         "6" : "Pochłaniająca wszystko kula"
       }
     }
+  },
+  "cults" : {
+    "forgottenGods" : {
+      "title" : "Zapomniany bóg",
+      "1" : {
+        "1" : "Jeden Wewnątrz Wielu",
+        "2" : "Srebrny Ogień",
+        "3" : "Błogi Akord",
+        "4" : "Upadła Gwiazda",
+        "5" : "Władca Otchłani",
+        "6" : "Cicha Pieśń"
+      },
+      "2" : {
+        "1" : "Pani Ciernistych Krzewów",
+        "2" : "Nasza Krew Przelana w Chwale ",
+        "3" : "Tryk",
+        "4" : "Puste Naczynie",
+        "5" : "Zamknięte Oko",
+        "6" : "Dłoń Smutku"
+      },
+      "3" : {
+        "1" : "Wiecznie Złakniony",
+        "2" : "Tysiąc Twarzy",
+        "3" : "Pajęczyna Bólu",
+        "4" : "Filary Nocy",
+        "5" : "Spalony Król",
+        "6" : "Ojciec Otchłani"
+      },
+      "4" : {
+        "1" : "Zapomniany Legion",
+        "2" : "Niezłomne Słońce",
+        "3" : "Objawienie",
+        "4" : "Promienne Słowo",
+        "5" : "Całun Królowej",
+        "6" : "Rozjemca"
+      },
+      "5" : {
+        "1" : "Chmura Rozpaczy",
+        "2" : "Przerwany Krąg",
+        "3" : "Zdobywca",
+        "4" : "Zabijająca w Ciemności",
+        "5" : "Sen Poza Śmiercią",
+        "6" : "Krwista Fala"
+      },
+      "6" : {
+        "1" : "Strażnik Bram",
+        "2" : "Moloch Pustki",
+        "3" : "Strażnik Płomienia",
+        "4" : "Tron Sądu",
+        "5" : "Utracona Korona",
+        "6" : "Złoty Jeleń"
+      }
+    },
+    "cultPractices" : {
+      "title" : "Obrzęd kultu",
+      "1" : {
+        "1" : "Ofiara: Pożarta przez rytualnie uświęcone zwierzęta / rozszarpana przez oszalałych kultystów",
+        "2" : "Ofiara: Walcząca o życie z namaszczonym bojownikiem kultu",
+        "3" : "Ofiara: Rytualnie wykrwawiana na poświęcony ołtarz",
+        "4" : "Ofiara: Stopniowo faszerowana narkotykami zmieniającymi stan świadomości",
+        "5" : "Ofiara: Rytualnie zamordowana i uznana za namaszczonego duchowego bojownika",
+        "6" : "Ofiara: Uśmiercona metodą tajemną (porażenie prądem, strzaskanie duszy, klątwa zgonu)"
+      },
+      "2" : {
+        "1" : "Nabożeństwo: Orgia przyjemności (seksu, jedzenia, tańców, muzyki) i/lub bólu",
+        "2" : "Nabożeństwo: Pieśni sakralne lub modły odprawiane bez przerwy przez wiele dni",
+        "3" : "Nabożeństwo: Zgromadzenie w świętym splocie podczas astrologicznej koniunkcji",
+        "4" : "Nabożeństwo: Pielgrzymka do św. miejsca lub bytu na martwych ziemiach / na oceanie",
+        "5" : "Nabożeństwo: Grupowa wizja / senna podróż wywołana esencją, narkotykami, medytacją",
+        "6" : "Nabożeństwo: Odegranie / pantomima świętego wydarzenia"
+      },
+      "3" : {
+        "1" : "Przejęcie: Kolekcja oczu / serc / krwi mistyków lub demonów",
+        "2" : "Przejęcie: Odłamki świętego przedmiotu (klejnotu, miecza, czaszki, kamienia)",
+        "3" : "Przejęcie: Autentyczne święte zapiski proroka / nauczyciela / świętego",
+        "4" : "Przejęcie: Odcięte części ciała (głowy, ręce, języki) heretyków lub apostatów",
+        "5" : "Nabytek: Nieruchomości powiązane ze świętą geometrią/mistycznymi wydarzeniami",
+        "6" : "Przejęcie: Duchy proroków / mistyków / założycieli / wrogów zakonu"
+      },
+      "4" : {
+        "1" : "Zniszczenie: Rytualne spalenie świętych przedmiotów (wizerunków, ciała, włosów)",
+        "2" : "Zniszczenie: Rytualne pozbycie się ducha lub demona",
+        "3" : "Zniszczenie: Złamanie pieczęci, aby bóstwo mogło wkroczyć do materialnego świata",
+        "4" : "Zniszczenie: Strzaskanie przedmiotów / ołtarzy / świątyń wrogiego wyznania",
+        "5" : "Zniszczenie: Unicestwienie broni / przedmiotów / miejsc, które mogą skrzywdzić bóstwo",
+        "6" : "Zniszczenie: Czynników społecznych / prawnych / kulturowych zagrażających kultowi"
+      },
+      "5" : {
+        "1" : "Konsekracja: Oczyszczenie przez kąpiel w świętej cieczy (krwi, winie, mleku, oleju itd.)",
+        "2" : "Konsekracja: Oczyszczenie bram, które umożliwiają bóstwu przejście do świata materialnego",
+        "3" : "Konsekracja: Chrzest / pobłogosławienie akolity lub przedm. poprzez zanurzenie w studni dusz",
+        "4" : "Konsekracja: Pobłogosławienie wyznawców kultu za pomocą tatuaży / skaryfikacji / okaleczenia",
+        "5" : "Konsekracja: Stworzenie błogosławionych bożków / dzieł sztuki / miejsc rytualnych / artefaktów",
+        "6" : "Konsekracja: Symbole / runy / duchy mające odstraszać wrogów kultu"
+      },
+      "6" : {
+        "1" : "Profanacja: Poniżenie lub skalanie jednego z zaprzysięgłych wrogów kultu",
+        "2" : "Profanacja: Zbezczeszczenie miejsca / przedmiotu / rytuału / tradycji, aby zawłaszczyć ich moc",
+        "3" : "Profanacja: Skalanie miejsca / przedmiotu / rytuału, aby poniżyć inny kult",
+        "4" : "Profanacja: Manipulowanie przedstawicielami władz/instytucjami, aby przejąć ich wpływy",
+        "5" : "Profanacja: Zdeprawowanie akolitów, aby przygotować ich do przemiany",
+        "6" : "Profanacja: Bezmyślny, bezcelowy chaos, zasiewanie ziaren anarchii"
+      }
+    }
   }
 }
