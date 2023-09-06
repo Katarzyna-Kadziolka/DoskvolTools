@@ -1145,5 +1145,239 @@
         "6" : "Wykreślacz"
       }
     }
+  },
+  "devils" : {
+    "names" : {
+      "title" : "Imię",
+      "1" : {
+        "1" : "Korvaeth",
+        "2" : "Sevraxis",
+        "3" : "Argaz",
+        "4" : "Zalvroxos",
+        "5" : "Kethtera",
+        "6" : "Arkeveron"
+      },
+      "2" : {
+        "1" : "Ixis",
+        "2" : "Kyronax",
+        "3" : "Voldranai",
+        "4" : "Esketra",
+        "5" : "Ardranax",
+        "6" : "Kylastra"
+      },
+      "3" : {
+        "1" : "Oryxus",
+        "2" : "Ahazu",
+        "3" : "Tyraxis",
+        "4" : "Azarax",
+        "5" : "Vaskari",
+        "6" : "Xarasus"
+      }
+    },
+    "demonFeatures" : {
+      "title" : "Cechy demonów",
+      "1" : {
+        "1" : "Czarne rekinie ślepia",
+        "2" : "Łuski (onyksowe, opalizujące, kryształowe, metaliczne itd.)",
+        "3" : "Ostre szpony",
+        "4" : "Kościste wyrostk",
+        "5" : "Wiele oczu",
+        "6" : "Chłoszczący ogon"
+      },
+      "2" : {
+        "1" : "Skórzaste skrzydła",
+        "2" : "Kolce",
+        "3" : "Żarzące się ślepia lub znaki na ciele",
+        "4" : "Włosy lub sierść (unoszące się, jakby były pod wodą, płonące zimnym ogniem itd.)",
+        "5" : "Pióra",
+        "6" : "Wiele rąk"
+      },
+      "3" : {
+        "1" : "Macki",
+        "2" : "Twarda skorupa, metaliczne płyty",
+        "3" : "Światła przygasają lub rozbłyskuja",
+        "4" : "Rośliny więdną lub gwałtowie kwitną",
+        "5" : "Mechanizmy zacinają się lub psują",
+        "6" : "Płyny zamarzają, wrą, zmieniają się w krew lub popiół"
+      }
+    },
+    "traits" : {
+      "title" : "Cecha",
+      "1" : {
+        "1" : "Zazdrosny",
+        "2" : "Zrozpaczony",
+        "3" : "Brutalny",
+        "4" : "Histeryczny",
+        "5" : "Płochliwy",
+        "6" : "Niestabilny"
+      },
+      "2" : {
+        "1" : "Ciekawski",
+        "2" : "Zwodniczy",
+        "3" : "Sprytny",
+        "4" : "Dociekliwy",
+        "5" : "Mądry",
+        "6" : "Czarujący"
+      },
+      "3" : {
+        "1" : "Profetyczny",
+        "2" : "Wnikliwy",
+        "3" : "Lojalny",
+        "4" : "Objawiający",
+        "5" : "Pomocny",
+        "6" : "Pouczający"
+      },
+      "4" : {
+        "1" : "Czujny",
+        "2" : "Terytorialny",
+        "3" : "Dominujący",
+        "4" : "Uparty",
+        "5" : "Śmiały",
+        "6" : "Wymagający"
+      },
+      "5" : {
+        "1" : "Rozgniewany",
+        "2" : "Gwałtowny",
+        "3" : "Agresywny",
+        "4" : "Dziki",
+        "5" : "Nieokrzesany",
+        "6" : "Mściwy"
+      },
+      "6" : {
+        "1" : "Wściekły",
+        "2" : "Chaotyczny",
+        "3" : "Dziwaczny",
+        "4" : "Niszczycielski",
+        "5" : "Szalony",
+        "6" : "Niegodziwy"
+      }
+    },
+    "ghostlySecondaryEffects" : {
+      "title" : "Pomniejsze zjawiska nadnaturalne",
+      "1" : {
+        "1" : "Mróz, chłód",
+        "2" : "Przeszywający wiatr",
+        "3" : "Powidoki przeszłości",
+        "4" : "Wyładowania elektryczne",
+        "5" : "Dziwne cienie",
+        "6" : "Niewyraźne echa"
+      },
+      "2" : {
+        "1" : "Mgła, opar",
+        "2" : "Silny wiatr",
+        "3" : "Intensywne wizualne echa",
+        "4" : "Silny magnetyzm",
+        "5" : "Niepokojące cienie",
+        "6" : "Ogłuszający hałas"
+      },
+      "3" : {
+        "1" : "Lodowata mgła",
+        "2" : "Porywisty wiatr",
+        "3" : "Nieprzenikniona czerń",
+        "4" : "Błyskawice",
+        "5" : "Oblepiające cienie ",
+        "6" : "Głosy w głowie"
+      }
+    },
+    "demonAspect" : {
+      "title" : "Demoniczny aspekt",
+      "1" : {
+        "1" : "Humanoid o cechach zwierzęcia lub żywiołu",
+        "2" : "Humanoid o cechach zwierzęcia lub żywiołu",
+        "3" : "Humanoid o cechach zwierzęcia lub żywiołu",
+        "4" : "Zwierzę",
+        "5" : "Potwór",
+        "6" : "Bezkształtny"
+      }
+    },
+    "affinity" : {
+      "title" : "Żywioł",
+      "1" : {
+        "1" : "Ocean, woda",
+        "2" : "Ciemność",
+        "3" : "Ziemia, metal",
+        "4" : "Ogień, dym",
+        "5" : "Niebo, gwiazdy",
+        "6" : "Burza, wiatr"
+      }
+    },
+    "demonDesires" : {
+      "title" : "Demoniczne żądze",
+      "1" : {
+        "1" : "Zamęt",
+        "2" : "Morderstwo",
+        "3" : "Sprawiedliwość",
+        "4" : "Zepsucie",
+        "5" : "Władza",
+        "6" : "Kontrola"
+      },
+      "2" : {
+        "1" : "Wiedza",
+        "2" : "Rozkosz",
+        "3" : "Cierpienie",
+        "4" : "Wojna",
+        "5" : "Zemsta",
+        "6" : "Chaos"
+      },
+      "3" : {
+        "1" : "Wolność",
+        "2" : "Okrucieństwo",
+        "3" : "Manipulacja",
+        "4" : "Oszustwo",
+        "5" : "Groza",
+        "6" : "Łupy"
+      }
+    },
+    "summonedHorrors" : {
+      "title" : "Przyzwane potworności",
+      "1" : {
+        "1" : "Cuchnąca smołą",
+        "2" : "Wijąca się masa",
+        "3" : "Radiacyjna istota",
+        "4" : "Kryształowe odłamki",
+        "5" : "Pełzająca narośl ",
+        "6" : "Ożywiony gaz"
+      },
+      "2" : {
+        "1" : "Chmura płonącego popiołu ",
+        "2" : "Cienisty byt",
+        "3" : "Rój insektów",
+        "4" : "Toksyczny opar",
+        "5" : "Ognista istota",
+        "6" : "Płynna istota"
+      },
+      "3" : {
+        "1" : "Istota obdarta ze skóry",
+        "2" : "Istota w łachmanach",
+        "3" : "Mrożący ogień",
+        "4" : "Niemożliwa geometria",
+        "5" : "Monstrualne zwierzę",
+        "6" : "Połyskujące sfery"
+      },
+      "4" : {
+        "1" : "Dziwaczna maszyneria",
+        "2" : "Psychiczna mgła",
+        "3" : "Pulsujące wnętrzności",
+        "4" : "Metaliczna istota",
+        "5" : "Splot cierniowy",
+        "6" : "Hipnotyzujące światła"
+      },
+      "5" : {
+        "1" : "Ropiejący ślimak",
+        "2" : "Przerażające wibracje",
+        "3" : "Chłostające haki",
+        "4" : "Szkielet z czarnego szkła",
+        "5" : "Płynna rtęć",
+        "6" : "Oblepiająca ciemność"
+      },
+      "6" : {
+        "1" : "Lewitująca mackowatość ",
+        "2" : "Mdły opar",
+        "3" : "Wirująca wydzielina",
+        "4" : "Wężowy byt",
+        "5" : "Insektoid",
+        "6" : "Pochłaniająca wszystko kula"
+      }
+    }
   }
 }

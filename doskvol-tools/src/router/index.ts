@@ -3,7 +3,7 @@ import GeneratorView from '../views/GeneratorView.vue'
 import BuildingGenerator from '@/components/generator/buildingGenerator/BuildingGenerator.vue'
 import StreetGenerator from '@/components/generator/streetGenerator/StreetGenerator.vue'
 import CharacterGenerator from '@/components/generator/characterGenerator/CharacterGenerator.vue'
-import FiendGenerator from '@/components/generator/fiendGenerator/FiendGenerator.vue'
+import DevilGenerator from '@/components/generator/devilGenerator/DevilGenerator.vue'
 import CultGenerator from '@/components/generator/cultGenerator/CultGenerator.vue'
 import HeistGenerator from '@/components/generator/heistGenerator/HeistGenerator.vue'
 
@@ -39,9 +39,9 @@ const router = createRouter({
           component: CharacterGenerator
         },
         {
-          path: 'fiend',
-          name: 'fiendGenerator',
-          component: FiendGenerator
+          path: 'devil',
+          name: 'devilGenerator',
+          component: DevilGenerator
         },
         {
           path: 'cult',
