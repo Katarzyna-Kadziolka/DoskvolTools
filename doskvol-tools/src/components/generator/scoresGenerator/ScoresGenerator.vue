@@ -22,9 +22,9 @@ const generateRandom = () => {
   score.value.connectedToPerson = getRandomFromTable(scoreData.getConnectedToPerson());
   score.value.twistOrComplication = getRandomFromTable(scoreData.getTwistOrComplication());
 
-  const clientType : Variant = generateRandomClientOrTargetType();
-  const targetType : Variant = generateRandomClientOrTargetType();
-  const workType : Variant = generateRandomWorkType();
+  const clientType = generateRandomClient();
+  const targetType = generateRandomTargetType();
+  const workType = generateRandomWorkType();
 
   setClientType(clientType);
   setTargetType(targetType);
@@ -34,19 +34,19 @@ const setWorkType = (workType: Variant) => {
   switch (workType) {
     case "skullduggery": {
       score.value.work = getRandomFromTable(scoreData.getWorkSkullduggery());
-      return;
+      break;
     }
     case "violence": {
       score.value.work = getRandomFromTable(scoreData.getWorkViolence());
-      return;
+      break;
     }
     case "underworld": {
       score.value.work = getRandomFromTable(scoreData.getWorkUnderworld());
-      return;
+      break;
     }
     case "unnatural": {
       score.value.work = getRandomFromTable(scoreData.getWorkUnnatural());
-      return;
+      break;
     }
   }
 }
@@ -54,19 +54,19 @@ const setClientType = (clientType: Variant) => {
   switch (clientType) {
     case "civilian": {
       score.value.client = getRandomFromTable(scoreData.getClientCivilian());
-      return;
+      break;
     }
     case "criminal": {
       score.value.client = getRandomFromTable(scoreData.getClientCriminal());
-      return;
+      break;
     }
     case "political": {
       score.value.client = getRandomFromTable(scoreData.getClientPolitical());
-      return;
+      break;
     }
     case "strange": {
       score.value.client = getRandomFromTable(scoreData.getClientStrange());
-      return;
+      break;
     }
   }
 }
@@ -74,23 +74,44 @@ const setTargetType = (targetType: Variant) => {
   switch (targetType) {
     case "civilian": {
       score.value.target = getRandomFromTable(scoreData.getTargetCivilian());
-      return;
+      break;
     }
     case "criminal": {
       score.value.target = getRandomFromTable(scoreData.getTargetCriminal());
-      return;
+      break;
     }
     case "political": {
       score.value.target = getRandomFromTable(scoreData.getTargetPolitical());
-      return;
+      break;
     }
     case "strange": {
       score.value.target = getRandomFromTable(scoreData.getTargetStrange());
-      return;
+      break;
     }
   }
 }
-const generateRandomClientOrTargetType = () => {
+const generateRandomClient = () => {
+  const tablesVariants : TableVariant[] = [
+    {
+      tableTitle: "civilian",
+      rarity: 1
+    },
+    {
+      tableTitle: "criminal",
+      rarity: 1
+    },
+    {
+      tableTitle: "political",
+      rarity: 1
+    },
+    {
+      tableTitle: "strange",
+      rarity: 1
+    },
+  ]
+  return getRandomTableVariant(tablesVariants);
+}
+const generateRandomTargetType = () => {
   const tablesVariants : TableVariant[] = [
     {
       tableTitle: "civilian",
