@@ -14,5 +14,7 @@
   padding: 16px;
   border-radius: 15px;
   border: 1px solid $color-border;
+  display: flex;
+  flex-direction: column;
 }
 </style>

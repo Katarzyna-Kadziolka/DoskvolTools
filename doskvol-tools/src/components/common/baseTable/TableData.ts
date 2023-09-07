@@ -5,9 +5,14 @@ export interface TableData {
 
 export interface Row {
     diceResult: DiceResult,
-    values: string[],
+    values: Cell[],
 }
 export interface DiceResult {
     from: number,
     to: number
+}
+
+export interface Cell {
+    content: string,
+    id: number
 }

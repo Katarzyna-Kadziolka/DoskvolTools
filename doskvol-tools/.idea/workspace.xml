@@ -34,8 +34,10 @@
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.standard&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.standard&quot;: &quot;&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.sourceCode.JavaScript&quot;,
@@ -45,11 +47,11 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Projects\DoskvolTools\doskvol-tools\src\components\generator" />
       <recent name="C:\Projects\DoskvolTools\doskvol-tools\src\components\generator\streetGenerator" />
       <recent name="C:\Projects\DoskvolTools\doskvol-tools\src\composables\generators" />
       <recent name="C:\Projects\DoskvolTools\doskvol-tools\src\components\common\baseRadio" />
       <recent name="C:\Projects\DoskvolTools\doskvol-tools\src\components\common\baseTable" />
-      <recent name="C:\Projects\DoskvolTools\doskvol-tools\src\components\generator" />
     </key>
   </component>
   <component name="RunManager" selected="npm.dev">
@@ -120,6 +122,7 @@
       <workItem from="1693223819661" duration="14647000" />
       <workItem from="1693390317220" duration="26059000" />
       <workItem from="1693566740024" duration="785000" />
+      <workItem from="1693934628521" duration="15630000" />
     </task>
     <servers />
   </component>
@@ -138,7 +141,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/src/components/common/baseTable/BaseTable.vue</url>
-          <line>59</line>
+          <line>65</line>
           <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>

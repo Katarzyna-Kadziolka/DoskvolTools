@@ -1,7 +1,7 @@
 <script setup lang="ts">
 
 import type {TableData} from "@/components/common/baseTable/TableData";
-import {ref, watchEffect} from "vue";
+import {computed, ref, watchEffect} from "vue";
 
 const props = defineProps<{
   modelValue: string,
@@ -27,6 +27,12 @@ const onTdClick = (value : string) => {
   emit('update:modelValue', value);
 }
 
+const activeId = computed(() => {
+  const activeCell = props.tableData.rows.flatMap(x => x.values).find(x => x.content === chosenTableSection.value);
+  if(activeCell) return activeCell.id
+  return -1;
+})
+
 </script>
 
 <template>
@@ -40,10 +46,10 @@ const onTdClick = (value : string) => {
       <th>{{ formatDiceResult(item.diceResult.from, item.diceResult.to) }}</th>
       <td
           v-for="value in item.values"
-          :key="value"
-          @click="onTdClick(value)"
-          :class="[chosenTableSection === value ? 'chosen' : '']"
-      >{{ value }}</td>
+          :key="value.id"
+          @click="onTdClick(value.content)"
+          :class="[activeId === value.id ? 'chosen' : '']"
+      >{{ value.content }}</td>
     </tr>
   </table>
 </template>
