@@ -3,4 +3,4 @@ export interface TableVariant {
     rarity: number
 }
 
-export type Variant = "common" | "rare"
+export type Variant = "common" | "rare" | "civilian" | "criminal" | "political" | "strange" | "skullduggery" | "violence" | "underworld" | "unnatural"

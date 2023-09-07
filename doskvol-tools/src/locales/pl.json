@@ -5,7 +5,7 @@
     "character": "Postać",
     "devil": "Czart",
     "cult": "Kult",
-    "heist": "Skok"
+    "scores": "Skok"
   },
   "generator-ui": {
     "generate": "Losuj",
@@ -1481,6 +1481,238 @@
         "4" : "Profanacja: Manipulowanie przedstawicielami władz/instytucjami, aby przejąć ich wpływy",
         "5" : "Profanacja: Zdeprawowanie akolitów, aby przygotować ich do przemiany",
         "6" : "Profanacja: Bezmyślny, bezcelowy chaos, zasiewanie ziaren anarchii"
+      }
+    }
+  },
+  "scores" : {
+    "client" : {
+      "title" : "Klient",
+      "civilian" : {
+        "title" : "Klient: Cywilny",
+        "1" : {
+          "1" : "Wykładowca lub uczony",
+          "2" : "Robotnik lub rzemieślnik",
+          "3" : "Posłaniec lub marynarz",
+          "4" : "Kupiec lub sklepikarz",
+          "5" : "Artysta lub pisarz",
+          "6" : "Lekarz lub alchemik"
+        }
+      },
+      "criminal" : {
+        "title" : "Klient: Przestępczy",
+        "1" : {
+          "1" : "Handlarz lub dostawca narkotyków",
+          "2" : "Najemnik lub zbir",
+          "3" : "Paser lub hazardzista",
+          "4" : "Szpieg lub informator",
+          "5" : "Przemytnik lub złodziej",
+          "6" : "Szef gangu"
+        }
+      },
+      "political" : {
+        "title" : "Klient: Polityczny",
+        "1" : {
+          "1" : "Arystokrata lub urzędnik",
+          "2" : "Bankier lub kapitan",
+          "3" : "Rewolucjonista lub uchodźca",
+          "4" : "Duchowny lub kultysta",
+          "5" : "Posterunkowy lub Aspirant",
+          "6" : "Sędzia lub szef oddziału więziennego"
+        }
+      },
+      "strange" : {
+        "title" : "Klient: Dziwny",
+        "1" : {
+          "1" : "Duch (rzuć ponownie)",
+          "2" : "Kolekcjoner okultysta",
+          "3" : "Wampir lub inny nieumarły",
+          "4" : "Demon (w przebraniu)",
+          "5" : "Opętany lub opustoszały",
+          "6" : "Szeptuch lub kultysta"
+        }
+      }
+    },
+    "target" : {
+      "title" : "Cel",
+      "civilian" : {
+        "title" : "Cel: Cywilny",
+        "1" : {
+          "1" : "Wykładowca lub uczony",
+          "2" : "Robotnik lub rzemieślnik",
+          "3" : "Posłaniec lub marynarz",
+          "4" : "Kupiec lub sklepikarz",
+          "5" : "Artysta lub pisarz",
+          "6" : "Lekarz lub alchemik"
+        }
+      },
+      "criminal" : {
+        "title" : "Cel: Przestępczy",
+        "1" : {
+          "1" : "Handlarz lub dostawca narkotyków",
+          "2" : "Najemnik lub zbir",
+          "3" : "Paser lub hazardzista",
+          "4" : "Szpieg lub informator",
+          "5" : "Przemytnik lub złodziej",
+          "6" : "Szef gangu"
+        }
+      },
+      "political" : {
+        "title" : "Cel: Polityczny",
+        "1" : {
+          "1" : "Arystokrata lub urzędnik",
+          "2" : "Bankier lub kapitan",
+          "3" : "Rewolucjonista lub uchodźca",
+          "4" : "Duchowny lub kultysta",
+          "5" : "Posterunkowy lub Aspirant",
+          "6" : "Sędzia lub szef oddziału więziennego"
+        }
+      },
+      "strange" : {
+        "title" : "Cel: Dziwny",
+        "1" : {
+          "1" : "Duch (rzuć ponownie)",
+          "2" : "Kolekcjoner okultysta",
+          "3" : "Wampir lub inny nieumarły",
+          "4" : "Demon (w przebraniu)",
+          "5" : "Opętany lub opustoszały",
+          "6" : "Szeptuch lub kultysta"
+        }
+      }
+    },
+    "work" : {
+      "title" : "Robota",
+      "skullduggery" : {
+        "title" : "Robota: Szwindel",
+        "1" : {
+          "1" : "Prześladowanie lub obserwacja",
+          "2" : "Sabotaż lub podpalenie",
+          "3" : "Kradzież lub podrzucenie dowodów",
+          "4" : "Otrucie lub wypadek",
+          "5" : "Kradzież z włamaniem lub napad",
+          "6" : "Podszycie się lub oszustwo"
+        }
+      },
+      "violence" : {
+        "title" : "Robota: Przemoc",
+        "1" : {
+          "1" : "Zabójstwo",
+          "2" : "Zniknięcie lub okup",
+          "3" : "Zastraszenie lub wymuszenie",
+          "4" : "Zniszczenie lub oszpecenie",
+          "5" : "Rabunek lub ochrona przed nim",
+          "6" : "Rabunek lub użycie przemocy"
+        }
+      },
+      "underworld" : {
+        "title" : "Robota: Półświatek",
+        "1" : {
+          "1" : "Eskorta lub ochrona",
+          "2" : "Przemyt lub transport",
+          "3" : "Szantaż lub zdyskredytowanie kogoś",
+          "4" : "Kant lub szpiegostwo",
+          "5" : "Znalezienie lub ukrycie",
+          "6" : "Negocjacje lub groźby"
+        }
+      },
+      "unnatural" : {
+        "title" : "Robota: Nienaturalne",
+        "1" : {
+          "1" : "Klątwa lub poświęcenie",
+          "2" : "Wygnanie lub przyzwanie",
+          "3" : "Wydobycie esencji",
+          "4" : "Umieszczenie lub usunięcie run",
+          "5" : "Odprawienie lub przerwanie rytuału",
+          "6" : "Opustoszenie lub przywrócenie"
+        }
+      }
+    },
+    "twistOrComplication" : {
+      "title" : "Zwrot akcji lub komplikacja",
+      "1" : {
+        "1" : "Dana rzecz jest przykrywką dla aktywności heretyckiego kultu duchów",
+        "2" : "Okultysta przewidział ten skoki ostrzegł zaangażowane frakcje",
+        "3" : "Niespokojne duchy opętały niektóre / większość / wszystkie zaangażowane osoby",
+        "4" : "To miejsce jest nawiedzane przez niespokojne duchy",
+        "5" : "Skok pomaga demonowi w realizacji jego tajnych planów",
+        "6" : "Skok pomaga wampirowi w realizacji jego tajnych planów"
+      },
+      "2" : {
+        "1" : "Dana rzecz jest przykrywką dla działalności przestępczej",
+        "2" : "Tutaj działa niebezpieczny gang",
+        "3" : "Skok jest pułapką zastawioną przez waszych wrogów",
+        "4" : "Skok jest testem przed inną robotą",
+        "5" : "Skok pomaga potężnemu kupcowi w realizacji jego tajnych planów",
+        "6" : "Skok pomaga szefowi gangu w realizacji jego tajnych planów"
+      },
+      "3" : {
+        "1" : "Skok wymaga podróży pociągiem elektrycznym",
+        "2" : "Aby wykonać skok, trzeba odwiedzić martwe ziemie",
+        "3" : "Skok wymaga podróży morskiej",
+        "4" : "Cel skoku jest w ruchu (zmienia się miejsce, podróżuje w pojeździe itd.)",
+        "5" : "Skok pomaga rewolucjonistom w realizacji ich tajnych planów",
+        "6" : "Skok pomaga urzędnikom miejskim w realizacji ich tajnych planów"
+      }
+    },
+    "connectedToPerson" : {
+      "title" : "Powiązany z osobą",
+      "1" : {
+        "1" : "BG: Przyjaciel",
+        "2" : "BG: Rywa",
+        "3" : "BG: Dostawca słabości",
+        "4" : "Szajka: Kontakt",
+        "5" : "Miasto: Osobistość Doskvol",
+        "6" : "Dziw: Duch, demon, bóstwo"
+      }
+    },
+    "connectedToFactions" : {
+      "title" : "Powiązany z frakcją",
+      "1" : {
+        "1" : "Niewidoczni",
+        "2" : "Lord Scurlock",
+        "3" : "Krąg Ognia",
+        "4" : "Zaciemniacze",
+        "5" : "Siostry Ściemne",
+        "6" : "Siekacze"
+      },
+      "2" : {
+        "1" : "Szare Płaszcze",
+        "2" : "Ogary Mgieł",
+        "3" : "Rada Miejska lub Fundamentaliści",
+        "4" : "Strażnicy Dusz",
+        "5" : "Imperialne Siły Zbrojne",
+        "6" : "Iskrownicy"
+      },
+      "3" : {
+        "1" : "Konsulat",
+        "2" : "Poławiacze Lewiatanów",
+        "3" : "Gondolierzy lub Dorożkarze",
+        "4" : "Kościół Cielesnej Ekstazy",
+        "5" : "Zapomniani Bogowie",
+        "6" : "Skowlańscy Uchodźcy"
+      },
+      "4" : {
+        "1" : "Srebrne Ćwieki",
+        "2" : "Rój",
+        "3" : "Wrony",
+        "4" : "Czerwone Szarfy",
+        "5" : "Szlifierze",
+        "6" : "Upiory"
+      },
+      "5" : {
+        "1" : "Pancerny Ulf",
+        "2" : "Zagubieni",
+        "3" : "Więzienie Żelazny Hak",
+        "4" : "Błękitne Płaszcze lub Aspiranci",
+        "5" : "Robotnicy lub Służący",
+        "6" : "Szyfranci lub Kałamarzyści"
+      },
+      "6" : {
+        "1" : "Ministerstwo Ochrony",
+        "2" : "Marynarze lub Dokerzy",
+        "3" : "Majchry Kolejowe lub Brygada",
+        "4" : "Płacząca Pani",
+        "5" : "Ścieżka Szeptów lub Pojednani",
+        "6" : "Łupieżcy Martwych Ziem"
       }
     }
   }
