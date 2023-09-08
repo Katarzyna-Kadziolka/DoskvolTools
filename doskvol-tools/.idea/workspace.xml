@@ -47,11 +47,11 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Projects\DoskvolTools\doskvol-tools\public" />
       <recent name="C:\Projects\DoskvolTools\doskvol-tools\src\components\generator" />
       <recent name="C:\Projects\DoskvolTools\doskvol-tools\src\components\generator\streetGenerator" />
       <recent name="C:\Projects\DoskvolTools\doskvol-tools\src\composables\generators" />
       <recent name="C:\Projects\DoskvolTools\doskvol-tools\src\components\common\baseRadio" />
-      <recent name="C:\Projects\DoskvolTools\doskvol-tools\src\components\common\baseTable" />
     </key>
   </component>
   <component name="RunManager" selected="npm.dev">
