@@ -20,7 +20,7 @@ defineProps<{
   cursor: pointer;
   &:hover {
     animation-name: hover-container;
-    animation-duration: 0.6s;
+    animation-duration: 0.3s;
     animation-fill-mode: forwards;
   }
   @keyframes hover-container {
