@@ -1718,7 +1718,6 @@
   },
   "notFound" : {
     "title" : "Zabłądziłeś w złą uliczkę!",
-    "content" : "Wycofaj sie powoli...",
-    "imageDescription" : "Zakapturzona postać z nożem"
+    "content" : "Wycofaj sie powoli..."
   }
 }
