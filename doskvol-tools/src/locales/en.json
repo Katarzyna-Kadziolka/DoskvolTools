@@ -242,225 +242,225 @@
   "buildings": {
     "exterior" : {
       "material" : {
-        "title" : "Materiał elewacji",
+        "title" : "Exterior's Material",
         "1" : {
-          "1" : "Szara cegła",
-          "2" : "Kamień i drewno",
-          "3" : "Obrobiony kamień",
-          "4" : "Drewniane panele",
-          "5" : "Płyta gipsowa i drewno",
-          "6" : "Blacha"
+          "1" : "Gray Brick",
+          "2" : "Stone & Timbers",
+          "3" : "Cut Stone Blocks",
+          "4" : "Wooden Boards",
+          "5" : "Plaster Board & Timbers",
+          "6" : "Metal Sheeting"
         }
       },
       "details" : {
-        "title" : "Detale elewacji",
+        "title" : "Exterior's  Details",
         "1" : {
-          "1" : "Płytki",
-          "2" : "Kowalstwo artystyczne",
-          "3" : "Szklane zdobienia",
-          "4" : "Kamień",
-          "5" : "Drewno",
-          "6" : "Detale architektoniczne"
+          "1" : "Tile Work",
+          "2" : "Iron Work",
+          "3" : "Glass Work",
+          "4" : "Stone Work",
+          "5" : "Wood Work",
+          "6" : "Landscaping"
         }
       }
     },
     "use" : {
-      "title" : "Przeznaczenie",
+      "title" : "Use",
       "common" : {
-        "title" : "Przeznaczenie: Powszechne",
+        "title" : "Use: Common",
         "1" : {
-          "1" : "Noclegownia",
-          "2" : "Karczma",
-          "3" : "Gospoda",
-          "4" : "Dom gier",
-          "5" : "Melina narkotykowa",
-          "6" : "Burdel"
+          "1" : "Bunk House",
+          "2" : "Inn",
+          "3" : "Tavern",
+          "4" : "Gambling Hall",
+          "5" : "Drug Den",
+          "6" : "Brothel"
         },
         "2" : {
-          "1" : "Targ",
-          "2" : "Warsztat",
-          "3" : "Piekarnia",
-          "4" : "Rzeźnia",
-          "5" : "Kuźnia",
-          "6" : "Zakład krawiecki"
+          "1" : "Market",
+          "2" : "Workshop",
+          "3" : "Bakery",
+          "4" : "Butchery",
+          "5" : "Forge",
+          "6" : "Tailory"
         },
         "3" : {
-          "1" : "Dom pracy przymusowej",
-          "2" : "Stadnina kóz",
-          "3" : "Browar",
-          "4" : "Posterunek straży",
-          "5" : "Sąd, więzienie ",
-          "6" : "Dok"
+          "1" : "Work House",
+          "2" : "Goat Stables",
+          "3" : "Brewery",
+          "4" : "Watch Post",
+          "5" : "Court, Jail",
+          "6" : "Dock"
         },
         "4" : {
-          "1" : "Ruiny",
-          "2" : "Domy szeregowe",
-          "3" : "Kamienica czynszowa",
-          "4" : "Apartamentowiec",
-          "5" : "Mały dom",
-          "6" : "Łaźnia"
+          "1" : "Ruin",
+          "2" : "Row Houses",
+          "3" : "Tenements",
+          "4" : "Apartment Building",
+          "5" : "Small House",
+          "6" : "Bath House"
         },
         "5" : {
-          "1" : "Kapliczka",
-          "2" : "Salon tatuażu",
-          "3" : "Konsyliarz",
-          "4" : "Podziemny krąg",
-          "5" : "Plac, fontanna",
-          "6" : "Grota"
+          "1" : "Shrine",
+          "2" : "Tattooist",
+          "3" : "Physicker",
+          "4" : "Fighting Pits",
+          "5" : "Square, Fountain",
+          "6" : "Grotto"
         },
         "6" : {
-          "1" : "Magazyn",
-          "2" : "Zagroda",
-          "3" : "Fabryka",
-          "4" : "Rafineria",
-          "5" : "Hodowla węgorzy",
-          "6" : "Ogród grzybowy"
+          "1" : "Warehouse",
+          "2" : "Stockyard",
+          "3" : "Factory",
+          "4" : "Refinery",
+          "5" : "Eelery",
+          "6" : "Mushroom Garden"
         }
       },
       "rare" : {
-        "title" : "Przeznaczenie: Rzadkie",
+        "title" : "Use: Rare",
         "1" : {
-          "1" : "Hala targowa",
-          "2" : "Restauracja",
-          "3" : "Bar, klub",
-          "4" : "Uczelnia",
+          "1" : "Market House",
+          "2" : "Restaurant",
+          "3" : "Bar, Lounge",
+          "4" : "Academy",
           "5" : "Salon",
-          "6" : "Kafejka"
+          "6" : "Cafe"
         },
         "2" : {
-          "1" : "Kwiaciarnia",
-          "2" : "Trafika",
-          "3" : "Księgarnia",
-          "4" : "Jubiler",
-          "5" : "Sukiennik",
-          "6" : "Galeria"
+          "1" : "Floristry",
+          "2" : "Tobacconist",
+          "3" : "Book Shop",
+          "4" : "Jeweler",
+          "5" : "Clothier",
+          "6" : "Gallery"
         },
         "3" : {
-          "1" : "Apteka",
-          "2" : "Stajnie",
-          "3" : "Gorzelnia",
-          "4" : "Kupiec winny",
-          "5" : "Doświadczony rzemieślnik",
-          "6" : "Hangar na łodzie"
+          "1" : "Apothecary",
+          "2" : "Horse Stables",
+          "3" : "Distillery",
+          "4" : "Vintner",
+          "5" : "Master Artisan",
+          "6" : "Boat House"
         },
         "4" : {
-          "1" : "Teatr",
-          "2" : "Opera",
-          "3" : "Apartamentowiec",
-          "4" : "Rezydencja miejska",
-          "5" : "Posiadłość",
-          "6" : "Willa"
+          "1" : "Theater",
+          "2" : "Opera House",
+          "3" : "Apartment Building",
+          "4" : "Townhouse",
+          "5" : "Manor House",
+          "6" : "Villa"
         },
         "5" : {
-          "1" : "Klinika",
-          "2" : "Świątynia",
-          "3" : "Cysterna",
-          "4" : "Posterunek straży",
+          "1" : "Clinic",
+          "2" : "Temple",
+          "3" : "Cistern",
+          "4" : "Watch Post",
           "5" : "Park",
-          "6" : "Pomnik"
+          "6" : "Monument"
         },
         "6" : {
-          "1" : "Archiwum",
-          "2" : "Spirytualista",
+          "1" : "Archive",
+          "2" : "Spiritualist",
           "3" : "Bank",
-          "4" : "Alchemik",
-          "5" : "Elektrownia",
-          "6" : "Ogród radiacyjny"
+          "4" : "Alchemist",
+          "5" : "Power Plant",
+          "6" : "Radiant Energy Garden"
         }
       }
     },
     "details" : {
-      "title" : "Szczegóły",
+      "title" : "Details",
       "1" : {
-        "1" : "Kapiąca woda",
-        "2" : "Skrzypiąca podłoga",
-        "3" : "Buzujący ogień",
-        "4" : "Przydymione lampy",
-        "5" : "Brzęczące oświetlenie elektryczne",
-        "6" : "Tykające zegary"
+        "1" : "Dripping Water",
+        "2" : "Creaking Floorboards",
+        "3" : "Roaring Fires",
+        "4" : "Smoky Lamps",
+        "5" : "Buzzing Electric Lights",
+        "6" : "Ticking Clockworks"
       },
       "2" : {
-        "1" : "Rośliny, kwiaty",
-        "2" : "Draperie, dzieła sztuki",
-        "3" : "Okiennice",
-        "4" : "Ciężke zasłony, grube dywany",
-        "5" : "Pył, resztki",
-        "6" : "Zużyty, uszkodzony"
+        "1" : "Plants, Flowers",
+        "2" : "Wall Hangings, Artwork",
+        "3" : "Shuttered Windows",
+        "4" : "Heavy Curtains, Thick Carpet",
+        "5" : "Dust, Detritus",
+        "6" : "Wear, Damage"
       },
       "3" : {
-        "1" : "Wytarte, postrzępione",
-        "2" : "Praktyczne umeblowanie",
-        "3" : "Eleganckie ozdoby",
-        "4" : "Luksusowy, komfortowy",
-        "5" : "Funkcjonalna prostota",
-        "6" : "Spartańska surowość"
+        "1" : "Threadbare, Tattered",
+        "2" : "Utilitarian Furnishings",
+        "3" : "Elegant Finery",
+        "4" : "Lush, Comfortable",
+        "5" : "Rough-Spun Simplicity",
+        "6" : "Spartan Austerity"
       },
       "4" : {
-        "1" : "Kręcone schody, drabiny",
-        "2" : "Ukryte drzwi ",
-        "3" : "Pomosty, kładki",
-        "4" : "Świetliki",
-        "5" : "Balkon",
-        "6" : "Piwnica"
+        "1" : "Circular Stairs, Ladders",
+        "2" : "Secret Doors",
+        "3" : "Catwalks",
+        "4" : "Skylights",
+        "5" : "Balcony",
+        "6" : "Cellar"
       },
       "5" : {
-        "1" : "Przeciągi, zimno",
-        "2" : "Solidny, cichy",
-        "3" : "Przytulny, ciepły",
-        "4" : "Wysokie sklepienia, przestronny",
-        "5" : "Niski, ciasny",
-        "6" : "Rozklekotany, zrujnowany"
+        "1" : "Drafty, Cold",
+        "2" : "Stout, Quiet ",
+        "3" : "Cozy, Warm",
+        "4" : "Vaulted, Spacious",
+        "5" : "Low, Cramped",
+        "6" : "Rickety, Ramshackle"
       },
       "6" : {
-        "1" : "Dziwne urządzenie",
-        "2" : "Dziwne artefakty",
-        "3" : "Symbole ochronne, stare runy",
-        "4" : "Bezładna mieszanina osobliwości",
-        "5" : "Starodawne wyposażenie",
-        "6" : "Kapliczka, ołtarz"
+        "1" : "Strange Devices",
+        "2" : "Weird Artifacts",
+        "3" : "Spirit Wards, Old Runes",
+        "4" : "Piled Jumble of Curios",
+        "5" : "Antique Appointments",
+        "6" : "Shrine, Altar"
       }
     },
     "items" : {
-      "title" : "Przedmioty",
+      "title" : "Items",
       "1" : {
-        "1" : "Tablica, biurka, papiery",
-        "2" : "Mapy, wykresy, diagramy",
-        "3" : "Książki, zwoje, biblioteczki",
-        "4" : "Kałamarz, sekretarzyk",
-        "5" : "Zegar, gablota, półki",
-        "6" : "Stół, krzesła, notatniki"
+        "1" : "Chalkboard, Desks, Papers",
+        "2" : "Maps, Charts, Diagrams",
+        "3" : "Books, Scrolls, Bookcases",
+        "4" : "Lamp, Inkwell, Writing Desk",
+        "5" : "Clock, Cabinet, Shelves",
+        "6" : "Table, Chairs, Notebooks"
       },
       "2" : {
-        "1" : "Łóżko, komoda, toaletka",
-        "2" : "Łożka piętrowe, stołki, skrzynie",
-        "3" : "Umywalka, lustro",
-        "4" : "Sofa, otomana, pozytywka",
-        "5" : "Kozetki, stół, lampy, dzban",
-        "6" : "Kotary, poduszki, poduchy"
+        "1" : "Bed, Bureau, Vanity",
+        "2" : "Bunks, Stools, Trunks",
+        "3" : "Basin, Pitcher, Mirror",
+        "4" : "Sofa, Divan, Music Box",
+        "5" : "Couches, Table, Lamps",
+        "6" : "Drapery, Pillows, Cushions"
       },
       "3" : {
-        "1" : "Lada, zlew, szafki",
-        "2" : "Palenisko, przybory kuchenne",
-        "3" : "Stół jadalny, krzesła",
-        "4" : "Plansza do gry, karty, kości",
-        "5" : "Spiżarnia, haki na mięso",
-        "6" : "Wino, piwo, whisky"
+        "1" : "Counter, Sink, Cabinets",
+        "2" : "Cookfire, Pots, Pans, Utensils",
+        "3" : "Dining Table, Chairs, Cutlery",
+        "4" : "Game Board, Cards, Dice",
+        "5" : "Larder, Spices, Meat Hooks",
+        "6" : "Wine, Beer, Whiskey"
       },
       "4" : {
-        "1" : "Posąg, obraz, cokół",
-        "2" : "Klatka na ptaki, pióro, dziennik",
-        "3" : "Książka, świeca, dzwonek",
-        "4" : "Kominek, fotel, dywan",
-        "5" : "Story, wazy, kwiaty",
-        "6" : "Instrumenty, nuty"
+        "1" : "Pedestal, Statue, Paintings",
+        "2" : "Bird Cage, Quill, Diary",
+        "3" : "Bell, Book, Candle",
+        "4" : "Fireplace, Rug, Armchair",
+        "5" : "Curtains, Vases, Flowers",
+        "6" : "Instruments, Music Sheets"
       },
       "5" : {
-        "1" : "Fotel lekarski, medykamenty",
-        "2" : "Palnik, fiolki, zlewki laboratoryjne",
-        "3" : "Stół warsztatowy, narzędzia",
-        "4" : "Broń, szmaty, amunicja",
-        "5" : "Zabawki, ubranka dziecięce, kołyska",
-        "6" : "Sztanga, talk, drążek"
+        "1" : "Exam Chair, Medical Tools",
+        "2" : "Burner, Vials, Beakers",
+        "3" : "Workbench, Tools, Rags",
+        "4" : "Weapons, Ammunition",
+        "5" : "Toys, baby clothes, cradle",
+        "6" : "Barbell, talc, bar"
       }
     }
   },
