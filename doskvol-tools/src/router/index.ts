@@ -6,6 +6,7 @@ import CharacterGenerator from '@/components/generator/characterGenerator/Charac
 import DevilGenerator from '@/components/generator/devilGenerator/DevilGenerator.vue'
 import CultGenerator from '@/components/generator/cultGenerator/CultGenerator.vue'
 import HeistGenerator from '@/components/generator/scoresGenerator/ScoresGenerator.vue'
+import NotFoundView from "@/views/NotFoundView.vue";
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -55,6 +56,11 @@ const router = createRouter({
         },
       ]
     },
+    {
+      path: '/:catchAll(.*)',
+      name: 'NotFound',
+      component: NotFoundView
+    }
   ]
 })
 
