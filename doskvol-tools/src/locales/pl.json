@@ -1715,5 +1715,10 @@
         "6" : "Łupieżcy Martwych Ziem"
       }
     }
+  },
+  "notFound" : {
+    "title" : "Zabłądziłeś w złą uliczkę!",
+    "content" : "Wycofaj sie powoli...",
+    "imageDescription" : "Zakapturzona postać z nożem"
   }
 }
