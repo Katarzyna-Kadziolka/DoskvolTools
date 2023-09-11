@@ -1,10 +1,1723 @@
 {
   "generator-navigation": {
-    "building" : "Building",
-    "street" : "Street",
-    "character" : "Character",
-    "fiend" : "Fiend",
-    "cult" : "Cult",
-    "heist" : "Heist"
+    "building": "Building",
+    "street": "Street",
+    "character": "Character",
+    "devil": "Devil",
+    "cult": "Cult",
+    "scores": "Scores"
+  },
+  "generator-ui": {
+    "generate": "Random",
+    "copy": "Copy"
+  },
+  "streets": {
+    "mood": {
+      "title": "Mood",
+      "1": {
+        "1": "Dark or Cold",
+        "2": "Bright or Lively",
+        "3": "Quiet or Refined",
+        "4": "Abandoned or Decrepit",
+        "5": "Cramped or Noisy",
+        "6": "Cozy or Warm"
+      }
+    },
+    "impressions": {
+      "sights": {
+        "title": "Sights' Impressions",
+        "1": {
+          "1": "Rain Slick, Oil Slick",
+          "2": "Dancing Shadows, Flickering Lights",
+          "3": "Mist, Fog, Frost",
+          "4": "Fleeting Shapes, Echoes in the Ghost Field",
+          "5": "Soot, Ash Clouds, Grime",
+          "6": "Crackling Electricity, Wires, Mechanisms"
+        }
+      },
+      "sounds": {
+        "title": "Sights' Sounds",
+        "1": {
+          "1": "Machinery, Workers",
+          "2": "Fluttering Cloth, Howling Wind",
+          "3": "Laughter, Song, Music",
+          "4": "Whispers, Echoes, Strange Voices",
+          "5": "Thunder, Driving Rain",
+          "6": "Bells, Clock Chimes, Harbor Horns"
+        }
+      },
+      "smells": {
+        "title": "Sights' Smells",
+        "1": {
+          "1": "Cook Fires, Furnaces",
+          "2": "Damp Wood, Decay, Refuse",
+          "3": "Animals, Hides, Blood",
+          "4": "Chemicals, Distillates, Fumes",
+          "5": "Rain Water, Ocean",
+          "6": "Ozone, Electroplasmic Discharges"
+        }
+      }
+    },
+    "use": {
+      "title": "Use",
+      "1": {
+        "1": "Residential",
+        "2": "Crafts",
+        "3": "Labor",
+        "4": "Shops",
+        "5": "Trade",
+        "6": "Hospitality"
+      },
+      "2": {
+        "1": "Law, Government",
+        "2": "Public Space",
+        "3": "Power",
+        "4": "Manufacture",
+        "5": "Transportation",
+        "6": "Leisure"
+      },
+      "3": {
+        "1": "Vice",
+        "2": "Entertainment",
+        "3": "Storage",
+        "4": "Cultivation",
+        "5": "Academic",
+        "6": "Artists"
+      }
+    },
+    "type": {
+      "title": "Type",
+      "1": {
+        "1": "Narrow Lane",
+        "2": "Tight Alley",
+        "3": "Twisting Street",
+        "4": "Rough Road",
+        "5": "Bridge",
+        "6": "Waterway"
+      },
+      "2": {
+        "1": "Closed Court",
+        "2": "Open Plaza",
+        "3": "Paved Avenue",
+        "4": "Tunnel",
+        "5": "Wide Boulevard",
+        "6": "Roundabout"
+      },
+      "3": {
+        "1": "Elevated",
+        "2": "Flooded",
+        "3": "Suspended",
+        "4": "Subterranean",
+        "5": "Floating",
+        "6": "Private, Gated"
+      }
+    },
+    "details": {
+      "title": "Details",
+      "1": {
+        "1": "Metal Supports",
+        "2": "Ironwork Gates, Fences",
+        "3": "Belching Chimneys",
+        "4": "Metal Grates, Hatches, Doors",
+        "5": "Clockwork Mechanisms",
+        "6": "Rigging, Cables"
+      },
+      "2": {
+        "1": "Stairs, Ramps. Terraces",
+        "2": "Wooden Scaffolds",
+        "3": "Skyways",
+        "4": "Rooftop Spaces",
+        "5": "Rails, Train Cars",
+        "6": "Hidden Passages"
+      },
+      "3": {
+        "1": "Banners, Pennants",
+        "2": "Festival Decorations",
+        "3": "Crowd, Parade, Riot",
+        "4": "Street Performers",
+        "5": "Makeshift Stalls, Shelters",
+        "6": "Crisscrossing Routes"
+      },
+      "4": {
+        "1": "Gang Markings",
+        "2": "Patrol Posts",
+        "3": "Lookouts",
+        "4": "Stocks, Public Punishment",
+        "5": "Street Crier, Visionary",
+        "6": "News Stand, Public Notices"
+      },
+      "5": {
+        "1": "Stray Animals",
+        "2": "Landscaping",
+        "3": "Muck, Mire",
+        "4": "Construction, Demolition",
+        "5": "Foul Runoff, Fumes, Smoke",
+        "6": "Orphans, Beggars"
+      },
+      "6": {
+        "1": "Ancient Ruin",
+        "2": "Leering Gargoyles",
+        "3": "Spirit Chimes, Wards",
+        "4": "Eerie Emptiness",
+        "5": "Quarantine, Lockdown",
+        "6": "Shrine Offerings"
+      }
+    },
+    "props": {
+      "title": "Props",
+      "1": {
+        "1": "Nets, Ropes",
+        "2": "Crates, Boxes",
+        "3": "Cables, Chains",
+        "4": "Drain Pipes",
+        "5": "Water Pump",
+        "6": "Oil Drums"
+      },
+      "2": {
+        "1": "Brick Pile",
+        "2": "Iron Bars",
+        "3": "Wooden Boards",
+        "4": "Cut Stones",
+        "5": "Loose Rocks",
+        "6": "Cement Buckets"
+      },
+      "3": {
+        "1": "Sewer Grate",
+        "2": "Rotting Refuse",
+        "3": "Mud Puddles",
+        "4": "Discarded Junk",
+        "5": "Carrion & Crows",
+        "6": "Sodden Trash"
+      },
+      "4": {
+        "1": "Carriages",
+        "2": "Push Carts",
+        "3": "Moored Boats",
+        "4": "Cargo Barge",
+        "5": "Gondolas",
+        "6": "Wagons"
+      },
+      "5": {
+        "1": "Crane & Pulleys",
+        "2": "Cargo Bales",
+        "3": "Metal Ingots",
+        "4": "Industrial Forge",
+        "5": "Coal or Fuel",
+        "6": "Waste Bins"
+      },
+      "6": {
+        "1": "Street Lamps",
+        "2": "Electric Wires",
+        "3": "Junction Boxes",
+        "4": "Spotlight Tower",
+        "5": "Clock Tower",
+        "6": "Messenger Post"
+      },
+      "7": {
+        "1": "Withered Trees",
+        "2": "Monument",
+        "3": "Fountain",
+        "4": "Mossy Ruin",
+        "5": "Collapsed Bldg.",
+        "6": "Flimsy Hovel"
+      },
+      "8": {
+        "1": "Barricade",
+        "2": "Gate",
+        "3": "Checkpoint",
+        "4": "Piled Rubble",
+        "5": "Canal Lock",
+        "6": "Lightning Barrier"
+      },
+      "9": {
+        "1": "Food Stall",
+        "2": "Vendor Stall",
+        "3": "Barrels, Casks",
+        "4": "Makeshift Shrine",
+        "5": "News Stand",
+        "6": "Stockade"
+      }
+    }
+  },
+  "buildings": {
+    "exterior" : {
+      "material" : {
+        "title" : "Materiał elewacji",
+        "1" : {
+          "1" : "Szara cegła",
+          "2" : "Kamień i drewno",
+          "3" : "Obrobiony kamień",
+          "4" : "Drewniane panele",
+          "5" : "Płyta gipsowa i drewno",
+          "6" : "Blacha"
+        }
+      },
+      "details" : {
+        "title" : "Detale elewacji",
+        "1" : {
+          "1" : "Płytki",
+          "2" : "Kowalstwo artystyczne",
+          "3" : "Szklane zdobienia",
+          "4" : "Kamień",
+          "5" : "Drewno",
+          "6" : "Detale architektoniczne"
+        }
+      }
+    },
+    "use" : {
+      "title" : "Przeznaczenie",
+      "common" : {
+        "title" : "Przeznaczenie: Powszechne",
+        "1" : {
+          "1" : "Noclegownia",
+          "2" : "Karczma",
+          "3" : "Gospoda",
+          "4" : "Dom gier",
+          "5" : "Melina narkotykowa",
+          "6" : "Burdel"
+        },
+        "2" : {
+          "1" : "Targ",
+          "2" : "Warsztat",
+          "3" : "Piekarnia",
+          "4" : "Rzeźnia",
+          "5" : "Kuźnia",
+          "6" : "Zakład krawiecki"
+        },
+        "3" : {
+          "1" : "Dom pracy przymusowej",
+          "2" : "Stadnina kóz",
+          "3" : "Browar",
+          "4" : "Posterunek straży",
+          "5" : "Sąd, więzienie ",
+          "6" : "Dok"
+        },
+        "4" : {
+          "1" : "Ruiny",
+          "2" : "Domy szeregowe",
+          "3" : "Kamienica czynszowa",
+          "4" : "Apartamentowiec",
+          "5" : "Mały dom",
+          "6" : "Łaźnia"
+        },
+        "5" : {
+          "1" : "Kapliczka",
+          "2" : "Salon tatuażu",
+          "3" : "Konsyliarz",
+          "4" : "Podziemny krąg",
+          "5" : "Plac, fontanna",
+          "6" : "Grota"
+        },
+        "6" : {
+          "1" : "Magazyn",
+          "2" : "Zagroda",
+          "3" : "Fabryka",
+          "4" : "Rafineria",
+          "5" : "Hodowla węgorzy",
+          "6" : "Ogród grzybowy"
+        }
+      },
+      "rare" : {
+        "title" : "Przeznaczenie: Rzadkie",
+        "1" : {
+          "1" : "Hala targowa",
+          "2" : "Restauracja",
+          "3" : "Bar, klub",
+          "4" : "Uczelnia",
+          "5" : "Salon",
+          "6" : "Kafejka"
+        },
+        "2" : {
+          "1" : "Kwiaciarnia",
+          "2" : "Trafika",
+          "3" : "Księgarnia",
+          "4" : "Jubiler",
+          "5" : "Sukiennik",
+          "6" : "Galeria"
+        },
+        "3" : {
+          "1" : "Apteka",
+          "2" : "Stajnie",
+          "3" : "Gorzelnia",
+          "4" : "Kupiec winny",
+          "5" : "Doświadczony rzemieślnik",
+          "6" : "Hangar na łodzie"
+        },
+        "4" : {
+          "1" : "Teatr",
+          "2" : "Opera",
+          "3" : "Apartamentowiec",
+          "4" : "Rezydencja miejska",
+          "5" : "Posiadłość",
+          "6" : "Willa"
+        },
+        "5" : {
+          "1" : "Klinika",
+          "2" : "Świątynia",
+          "3" : "Cysterna",
+          "4" : "Posterunek straży",
+          "5" : "Park",
+          "6" : "Pomnik"
+        },
+        "6" : {
+          "1" : "Archiwum",
+          "2" : "Spirytualista",
+          "3" : "Bank",
+          "4" : "Alchemik",
+          "5" : "Elektrownia",
+          "6" : "Ogród radiacyjny"
+        }
+      }
+    },
+    "details" : {
+      "title" : "Szczegóły",
+      "1" : {
+        "1" : "Kapiąca woda",
+        "2" : "Skrzypiąca podłoga",
+        "3" : "Buzujący ogień",
+        "4" : "Przydymione lampy",
+        "5" : "Brzęczące oświetlenie elektryczne",
+        "6" : "Tykające zegary"
+      },
+      "2" : {
+        "1" : "Rośliny, kwiaty",
+        "2" : "Draperie, dzieła sztuki",
+        "3" : "Okiennice",
+        "4" : "Ciężke zasłony, grube dywany",
+        "5" : "Pył, resztki",
+        "6" : "Zużyty, uszkodzony"
+      },
+      "3" : {
+        "1" : "Wytarte, postrzępione",
+        "2" : "Praktyczne umeblowanie",
+        "3" : "Eleganckie ozdoby",
+        "4" : "Luksusowy, komfortowy",
+        "5" : "Funkcjonalna prostota",
+        "6" : "Spartańska surowość"
+      },
+      "4" : {
+        "1" : "Kręcone schody, drabiny",
+        "2" : "Ukryte drzwi ",
+        "3" : "Pomosty, kładki",
+        "4" : "Świetliki",
+        "5" : "Balkon",
+        "6" : "Piwnica"
+      },
+      "5" : {
+        "1" : "Przeciągi, zimno",
+        "2" : "Solidny, cichy",
+        "3" : "Przytulny, ciepły",
+        "4" : "Wysokie sklepienia, przestronny",
+        "5" : "Niski, ciasny",
+        "6" : "Rozklekotany, zrujnowany"
+      },
+      "6" : {
+        "1" : "Dziwne urządzenie",
+        "2" : "Dziwne artefakty",
+        "3" : "Symbole ochronne, stare runy",
+        "4" : "Bezładna mieszanina osobliwości",
+        "5" : "Starodawne wyposażenie",
+        "6" : "Kapliczka, ołtarz"
+      }
+    },
+    "items" : {
+      "title" : "Przedmioty",
+      "1" : {
+        "1" : "Tablica, biurka, papiery",
+        "2" : "Mapy, wykresy, diagramy",
+        "3" : "Książki, zwoje, biblioteczki",
+        "4" : "Kałamarz, sekretarzyk",
+        "5" : "Zegar, gablota, półki",
+        "6" : "Stół, krzesła, notatniki"
+      },
+      "2" : {
+        "1" : "Łóżko, komoda, toaletka",
+        "2" : "Łożka piętrowe, stołki, skrzynie",
+        "3" : "Umywalka, lustro",
+        "4" : "Sofa, otomana, pozytywka",
+        "5" : "Kozetki, stół, lampy, dzban",
+        "6" : "Kotary, poduszki, poduchy"
+      },
+      "3" : {
+        "1" : "Lada, zlew, szafki",
+        "2" : "Palenisko, przybory kuchenne",
+        "3" : "Stół jadalny, krzesła",
+        "4" : "Plansza do gry, karty, kości",
+        "5" : "Spiżarnia, haki na mięso",
+        "6" : "Wino, piwo, whisky"
+      },
+      "4" : {
+        "1" : "Posąg, obraz, cokół",
+        "2" : "Klatka na ptaki, pióro, dziennik",
+        "3" : "Książka, świeca, dzwonek",
+        "4" : "Kominek, fotel, dywan",
+        "5" : "Story, wazy, kwiaty",
+        "6" : "Instrumenty, nuty"
+      },
+      "5" : {
+        "1" : "Fotel lekarski, medykamenty",
+        "2" : "Palnik, fiolki, zlewki laboratoryjne",
+        "3" : "Stół warsztatowy, narzędzia",
+        "4" : "Broń, szmaty, amunicja",
+        "5" : "Zabawki, ubranka dziecięce, kołyska",
+        "6" : "Sztanga, talk, drążek"
+      }
+    }
+  },
+  "characters" : {
+    "gender" : {
+      "title" : "Płeć",
+      "1" : {
+        "1" : "Mężczyzna",
+        "2" : "Mężczyzna",
+        "3" : "Kobieta",
+        "4" : "Kobieta",
+        "5" : "Nieokreślony, ukryty",
+        "6" : "Rzuć ponownie"
+      }
+    },
+    "heritage" : {
+      "title" : "Rodowód",
+      "1" : {
+        "1" : "Akorosjanin",
+        "2" : "Akorosjanin",
+        "3" : "Akorosjanin",
+        "4" : "Cudzoziemiec",
+        "5" : "Cudzoziemiec",
+        "6" : "Cudzoziemiec"
+      }
+    },
+    "foreigners" : {
+      "title" : "Cudzoziemiec",
+      "1" : {
+        "1" : "Skowlanin",
+        "2" : "Skowlanin",
+        "3" : "Iruwiańczyk",
+        "4" : "Mieszkaniec Wysp Sztyletowych",
+        "5" : "Sewerosjanin",
+        "6" : "Tycherosjanin"
+      }
+    },
+    "looks" : {
+      "title" : "Wygląd",
+      "1" : {
+        "1" : "Szeroki",
+        "2" : "Śliczny",
+        "3" : "Ogorzały",
+        "4" : "Subtelny",
+        "5" : "Przystojny",
+        "6" : "Atletyczny"
+      },
+      "2" : {
+        "1" : "Szczupły",
+        "2" : "Ciemnej karnacji",
+        "3" : "Jasnej karnacji",
+        "4" : "Gruby",
+        "5" : "Delikatny",
+        "6" : "Poznaczony bliznami"
+      },
+      "3" : {
+        "1" : "Kościsty",
+        "2" : "Zmęczony",
+        "3" : "Szorstki",
+        "4" : "Pulchny",
+        "5" : "Żylasty",
+        "6" : "Żylasty"
+      },
+      "4" : {
+        "1" : "Niski",
+        "2" : "Wysoki",
+        "3" : "Seksowny",
+        "4" : "Dziki",
+        "5" : "Elegancki",
+        "6" : "Zgarbiony"
+      },
+      "5" : {
+        "1" : "Atrakcyjny",
+        "2" : "Pospolity",
+        "3" : "Stary",
+        "4" : "Młody",
+        "5" : "Stylowy",
+        "6" : "Dziwny"
+      },
+      "6" : {
+        "1" : "Oszpecony, okaleczony",
+        "2" : "Okulary, monokl",
+        "3" : "Proteza, kalectwo",
+        "4" : "Długie włosy, broda, peruka",
+        "5" : "Krótko ścięty, łysy",
+        "6" : "Wytatuowany"
+      }
+    },
+    "style" : {
+      "title" : "Ubiór",
+      "1" : {
+        "1" : "Trikorn",
+        "2" : "Długi płaszcz",
+        "3" : "Kaptur z woalem",
+        "4" : "Krótka peleryna",
+        "5" : "Czapka marynarska",
+        "6" : "Lekka kurtka"
+      },
+      "2" : {
+        "1" : "Płaszcz z kapturem",
+        "2" : "Wysokie buty",
+        "3" : "Buciory robocze",
+        "4" : "Maska i suknia",
+        "5" : "Garnitur",
+        "6" : "Koszula z kołnierzem"
+      },
+      "3" : {
+        "1" : "Szelki",
+        "2" : "Szorstka tunika",
+        "3" : "Spódniczka",
+        "4" : "Szeroki pas",
+        "5" : "Dopasowana suknia",
+        "6" : "Cieżki płaszcz"
+      },
+      "4" : {
+        "1" : "Grube palto",
+        "2" : "Lekkie buty",
+        "3" : "Luźne jedwabie",
+        "4" : "Modne spodnie",
+        "5" : "Woskowany płaszcz",
+        "6" : "Długi szal"
+      },
+      "5" : {
+        "1" : "Skóry",
+        "2" : "Body z węgorza",
+        "3" : "Skóry i futro",
+        "4" : "Mundur",
+        "5" : "Łachmany",
+        "6" : "Dopasowane getry"
+      },
+      "6" : {
+        "1" : "Fartuch",
+        "2" : "Ciężkie rękawice",
+        "3" : "Maska",
+        "4" : "Pas z narzędziami",
+        "5" : "Kula inwalidzka, laska",
+        "6" : "Wózek inwalidzki"
+      }
+    },
+    "goals" : {
+      "title" : "Cele",
+      "1" : {
+        "1" : "Bogactwo",
+        "2" : "Władza",
+        "3" : "Wpływy",
+        "4" : "Prestiż, sława",
+        "5" : "Kontrola",
+        "6" : "Wiedza"
+      },
+      "2" : {
+        "1" : "Przyjemność",
+        "2" : "Zemsta",
+        "3" : "Wolność",
+        "4" : "Osiągnięcia",
+        "5" : "Szczęście",
+        "6" : "Niesława, strach"
+      },
+      "3" : {
+        "1" : "Szacunek",
+        "2" : "Miłość",
+        "3" : "Zmiana",
+        "4" : "Chaos, zniszczenie",
+        "5" : "Sprawiedliwość",
+        "6" : "Współpraca"
+      }
+    },
+    "preferredMethods" : {
+      "title" : "Preferowane metody działania",
+      "1" : {
+        "1" : "Przemoc",
+        "2" : "Groźby",
+        "3" : "Negocjacje",
+        "4" : "Analiza",
+        "5" : "Manipulacja",
+        "6" : "Strategia"
+      },
+      "2" : {
+        "1" : "Kradzież",
+        "2" : "Moce tajemne",
+        "3" : "Handel",
+        "4" : "Ciężka praca",
+        "5" : "Prawo, polityka",
+        "6" : "Sabotaż"
+      },
+      "3" : {
+        "1" : "Podstęp",
+        "2" : "Alchemia",
+        "3" : "Szantaż",
+        "4" : "Praca zespołowa",
+        "5" : "Szpiegostwo",
+        "6" : "Chaos"
+      }
+    },
+    "professions" : {
+      "title" : "Zawód",
+      "common" : {
+        "title" : "Zawody: Powszechne",
+        "1" : {
+          "1" : "Piekarz",
+          "2" : "Golibroda",
+          "3" : "Kowal",
+          "4" : "Piwowar",
+          "5" : "Rzeźnik",
+          "6" : "Cieśla"
+        },
+        "2" : {
+          "1" : "Stelmach",
+          "2" : "Sprzedawca świec",
+          "3" : "Urzędnik",
+          "4" : "Szewc",
+          "5" : "Bednarz",
+          "6" : "Hodowca"
+        },
+        "3" : {
+          "1" : "Woźnica",
+          "2" : "Farbiarz",
+          "3" : "Hafciarz",
+          "4" : "Sprzedawca ryb",
+          "5" : "Gondolier",
+          "6" : "Strażnik"
+        },
+        "4" : {
+          "1" : "Rymarz",
+          "2" : "Murarz",
+          "3" : "Kupiec",
+          "4" : "Dekarz",
+          "5" : "Powroźnik",
+          "6" : "Kobiernik"
+        },
+        "5" : {
+          "1" : "Służący",
+          "2" : "Cieśla okrętowy",
+          "3" : "Przestępca",
+          "4" : "Krawiec",
+          "5" : "Grabarz",
+          "6" : "Majsterkowicz"
+        },
+        "6" : {
+          "1" : "Uliczny handlarz",
+          "2" : "Tkacz",
+          "3" : "Stolarz",
+          "4" : "Pasterz kóz",
+          "5" : "Posłaniec",
+          "6" : "Marynarz"
+        }
+      },
+      "rare" : {
+        "title" : "Zawody: Rzadkie",
+        "1" : {
+          "1" : "Adwokat",
+          "2" : "Architekt",
+          "3" : "Artysta",
+          "4" : "Pisarz",
+          "5" : "Komornik",
+          "6" : "Bartnik"
+        },
+        "2" : {
+          "1" : "Bankier",
+          "2" : "Łowca nagród",
+          "3" : "Zegarmistrz",
+          "4" : "Kurtyzana",
+          "5" : "Kuśnierz",
+          "6" : "Szklarz"
+        },
+        "3" : {
+          "1" : "Dyplomata",
+          "2" : "Strażnik więzienny",
+          "3" : "Jubiler",
+          "4" : "Pijawka",
+          "5" : "Ślusarz",
+          "6" : "Sędzia"
+        },
+        "4" : {
+          "1" : "Muzyk",
+          "2" : "Konsyliarz",
+          "3" : "Hydraulik",
+          "4" : "Drukarz",
+          "5" : "Uczony",
+          "6" : "Skryba"
+        },
+        "5" : {
+          "1" : "Iskrownik",
+          "2" : "Poborca podatkowy",
+          "3" : "Skarbnik",
+          "4" : "Szeptuch",
+          "5" : "Kompozytor",
+          "6" : "Zarządca"
+        },
+        "6" : {
+          "1" : "Kapitan",
+          "2" : "Strażnik Dusz",
+          "3" : "Dziennikarz",
+          "4" : "Odkrywca",
+          "5" : "Majcher Kolejowy",
+          "6" : "Żołnierz"
+        }
+      }
+    },
+    "traits" : {
+      "title" : "Cecha",
+      "1" : {
+        "1" : "Czarujący",
+        "2" : "Zimny",
+        "3" : "Nonszalancki",
+        "4" : "Bezczelny",
+        "5" : "Podejrzliwy",
+        "6" : "Obsesyjny"
+      },
+      "2" : {
+        "1" : "Sprytny",
+        "2" : "Cichy",
+        "3" : "Humorzasty",
+        "4" : "Zaciekły",
+        "5" : "Nieuważny",
+        "6" : "Skryty"
+      },
+      "3" : {
+        "1" : "Bezwględny",
+        "2" : "Wyrachowany",
+        "3" : "Nieposłuszny",
+        "4" : "Łaskawy",
+        "5" : "Wnikliwy",
+        "6" : "Nieuczciwy"
+      },
+      "4" : {
+        "1" : "Cierpliwy",
+        "2" : "Nikczemny",
+        "3" : "Wyrafinowany",
+        "4" : "Paranoiczny",
+        "5" : "Szczęśliwy",
+        "6" : "Elitarystyczny"
+      },
+      "5" : {
+        "1" : "Brutalny",
+        "2" : "Pomocny",
+        "3" : "Arogancki",
+        "4" : "Pewny siebie",
+        "5" : "Zarozumiały",
+        "6" : "Śmiały"
+      },
+      "6" : {
+        "1" : "Wybuchowy",
+        "2" : "Szczery",
+        "3" : "Subtelny",
+        "4" : "Melancholijny",
+        "5" : "Zagadkowy",
+        "6" : "Spokojny"
+      }
+    },
+    "interests" : {
+      "title" : "Zainteresowania",
+      "1" : {
+        "1" : "Whisky, wino, piwo",
+        "2" : "Jedzenie, restauracje",
+        "3" : "Ubrania, biżuteria, futra",
+        "4" : "Sztuka, opera, teatr",
+        "5" : "Obrazy, szkice, rzeźby",
+        "6" : "Historia, legendy"
+      },
+      "2" : {
+        "1" : "Architektura, meble",
+        "2" : "Poezja, powieści, pisarstwo",
+        "3" : "Podziemne kręgi, pojedynki",
+        "4" : "Zapomniane Bóstwa",
+        "5" : "Kościół Cielesnej Ekstazy",
+        "6" : "Ścieżka Szeptów"
+      },
+      "3" : {
+        "1" : "Płacząca Pani, jałmużna",
+        "2" : "Antyki, artefakty",
+        "3" : "Konie, jeździectwo",
+        "4" : "Gadżety, nowe technologie",
+        "5" : "Kolekcjoner uzbrojenia",
+        "6" : "Muzyka, instrumenty, taniec"
+      },
+      "4" : {
+        "1" : "Polowanie, strzelectwo",
+        "2" : "Gotowanie, ogrodnictwo",
+        "3" : "Hazard, karty, kości",
+        "4" : "Filozofia przyrody",
+        "5" : "Narkotyki, esencje, tytoń",
+        "6" : "Seks, romanse, schadzki"
+      },
+      "5" : {
+        "1" : "Przyjęcia, wydarzenia",
+        "2" : "Odkrycia, przygody",
+        "3" : "Zwierzęta domowe",
+        "4" : "Rzemiosło",
+        "5" : "Statki, łodzie",
+        "6" : "Polityka, dziennikarstwo"
+      },
+      "6" : {
+        "1" : "Księgi tajemne, rytuały",
+        "2" : "Spektrologia, elektroplazma",
+        "3" : "Alchemia, medycyna",
+        "4" : "Esencje, alchemia",
+        "5" : "Wiedza o demonach, legendy",
+        "6" : "Legendy sprzed kataklizmu"
+      }
+    },
+    "quirks" : {
+      "title" : "Osobliwości",
+      "1" : {
+        "1" : "Przesądny, Wierzy w omeny, magię liczb",
+        "2" : "Oddany rodzinie",
+        "3" : "Wżeniowy w ważną/potężną rodzinę",
+        "4" : "Zajmowana pozycja pozwala szpiegować inną frakcję",
+        "5" : "Samotnik. Preferuje kontakty przez posłańców",
+        "6" : "Ogromne długi (wobec banków/łotrów/rodziny)"
+      },
+      "2" : {
+        "1" : "Ślepy na wady przyjaciół, sojuszników, rodziny itd.",
+        "2" : "Opustoszały, później przywrócony. Niepodatny na duchy",
+        "3" : "Choruje przewlekle i wymaga stałej opieki",
+        "4" : "W tajemnicy (otwarcie?) opętany przez ducha",
+        "5" : "Element demonicznych planów (świadomy lub nie)",
+        "6" : "Dumny ze swojego dziedzictwa, tradycji, języka"
+      },
+      "3" : {
+        "1" : "Przejmujący się plotkami i zachowaniem pozorów",
+        "2" : "Nadużywa narkotyków/alhoholu",
+        "3" : "Utrzymuje swoją pozycję za pomocą szantażu",
+        "4" : "Podejmuje decyzje za radą innych",
+        "5" : "Popełnił zbrodnie podczas Wojny Unifikacyjnej",
+        "6" : "Prowadzi podwójne życie pod fałszywą tożsamością"
+      },
+      "4" : {
+        "1" : "Czarna owca/wyrzutek rodziny lub organizacji",
+        "2" : "Przebywa w więzieniu lub areszcie domowym szlachcica",
+        "3" : "Podróżnik. Koneksje poza Doskvol",
+        "4" : "Rewolucjonista. Spiskuje przeciwko Imperium",
+        "5" : "Odziedziczył pozycję. Może na nią nie zasługiwać",
+        "6" : "Osobistość. Spopularyzowana przez prozę/pieśni/teatr"
+      },
+      "5" : {
+        "1" : "Skandaliczna reputacja (zasłużona lub nie)",
+        "2" : "Otoczony przez pochlebców, lizusów i petentów",
+        "3" : "Nieskalana reputacja. Wielce poważany",
+        "4" : "Uprzedzony wobec jakiejś kultury/klasy/przekonań",
+        "5" : "Wizjoner. Ma radykalne zapatrywania na przyszłość",
+        "6" : "Przeklęty, nawiedzany, prześladowany (duch lub demon)"
+      },
+      "6" : {
+        "1" : "Głęboka fobia lub nieracjonalna odraza",
+        "2" : "Gruntowe wykształcenie w każdej dziedzinie nauki",
+        "3" : "Prowadzi szczegółowe dzienniki, zapiski, rejestry",
+        "4" : "Ślepo wierzy w jakiś ideał, grupę lub tradycję",
+        "5" : "Glęboko konserwatywny. Przeciwnik nowych idei",
+        "6" : "Oszust. Pewien dotyczący go ważny szczegół jest zmyślony"
+      }
+    },
+    "name" : {
+      "title" : "Imię",
+      "1" : {
+        "1" : "Adric",
+        "2" : "Aldo",
+        "3" : "Amosen",
+        "4" : "Andrel",
+        "5" : "Arden",
+        "6" : "Arlyn"
+      },
+      "2" : {
+        "1" : "Arquo",
+        "2" : "Arvus",
+        "3" : "Ashlyn",
+        "4" : "Branon",
+        "5" : "Brace",
+        "6" : "Brance"
+      },
+      "3" : {
+        "1" : "Brena",
+        "2" : "Bricks",
+        "3" : "Candra",
+        "4" : "Carissa",
+        "5" : "Carro",
+        "6" : "Casslyn"
+      },
+      "4" : {
+        "1" : "Cavelle",
+        "2" : "Clave",
+        "3" : "Corille",
+        "4" : "Cross",
+        "5" : "Crowl",
+        "6" : "Cyrene"
+      },
+      "5" : {
+        "1" : "Daphnia",
+        "2" : "Darha",
+        "3" : "Drav",
+        "4" : "Edlun",
+        "5" : "Emeline",
+        "6" : "Evi"
+      },
+      "6" : {
+        "1" : "Grine",
+        "2" : "Hakan",
+        "3" : "Helles",
+        "4" : "Hix",
+        "5" : "Holtz",
+        "6" : "Kamelin"
+      },
+      "7" : {
+        "1" : "Kan",
+        "2" : "Kelyr",
+        "3" : "Kobb",
+        "4" : "Kristov",
+        "5" : "Laudius",
+        "6" : "Lauria"
+      },
+      "8" : {
+        "1" : "Lenia",
+        "2" : "Lizete",
+        "3" : "Lorette",
+        "4" : "Lucella",
+        "5" : "Lynthia",
+        "6" : "Mara"
+      },
+      "9" : {
+        "1" : "Milos",
+        "2" : "Morlan",
+        "3" : "Myre",
+        "4" : "Narcus",
+        "5" : "Naria",
+        "6" : "Noggs"
+      },
+      "10" : {
+        "1" : "Odrienne",
+        "2" : "Orlan",
+        "3" : "Phin",
+        "4" : "Polonia",
+        "5" : "Quess",
+        "6" : "Remira"
+      },
+      "11" : {
+        "1" : "Ring",
+        "2" : "Roethe",
+        "3" : "Sesereth",
+        "4" : "Sethla",
+        "5" : "Skannon",
+        "6" : "Stavrul"
+      },
+      "12" : {
+        "1" : "Stev",
+        "2" : "Syra",
+        "3" : "Talitha",
+        "4" : "Tesslyn",
+        "5" : "Thena",
+        "6" : "Timoth"
+      },
+      "13" : {
+        "1" : "Tocker",
+        "2" : "Una",
+        "3" : "Vaurin",
+        "4" : "Veleris",
+        "5" : "Veretta",
+        "6" : "Vestine"
+      },
+      "14" : {
+        "1" : "Vey",
+        "2" : "Volette",
+        "3" : "Vond",
+        "4" : "Weaver",
+        "5" : "Wester",
+        "6" : "Zamira"
+      }
+    },
+    "familyName" : {
+      "title" : "Nazwisko Rodowe",
+      "1" : {
+        "1" : "Ankhayat",
+        "2" : "Arran",
+        "3" : "Athanoch",
+        "4" : "Basran",
+        "5" : "Boden",
+        "6" : "Booker"
+      },
+      "2" : {
+        "1" : "Bowman",
+        "2" : "Breakiron",
+        "3" : "Brogan",
+        "4" : "Clelland",
+        "5" : "Clermont",
+        "6" : "Coleburn"
+      },
+      "3" : {
+        "1" : "Comber",
+        "2" : "Daava",
+        "3" : "Dalmore",
+        "4" : "Danfield",
+        "5" : "Dunvil",
+        "6" : "Farros"
+      },
+      "4" : {
+        "1" : "Grine",
+        "2" : "Haig",
+        "3" : "Helker",
+        "4" : "Helles",
+        "5" : "Hellyers",
+        "6" : "Jayan"
+      },
+      "5" : {
+        "1" : "Jeduin",
+        "2" : "Kardera",
+        "3" : "Karstas",
+        "4" : "Keel",
+        "5" : "Kessarin",
+        "6" : "Kinclaith"
+      },
+      "6" : {
+        "1" : "Lomond",
+        "2" : "Maroden",
+        "3" : "Michter",
+        "4" : "Morriston",
+        "5" : "Penderyn",
+        "6" : "Prichard"
+      },
+      "7" : {
+        "1" : "Rowan",
+        "2" : "Sevoy",
+        "3" : "Skelkallan",
+        "4" : "Skora",
+        "5" : "Slane",
+        "6" : "Strangford"
+      },
+      "8" : {
+        "1" : "Strathmill",
+        "2" : "Templeton",
+        "3" : "Tyrconnell",
+        "4" : "Vale",
+        "5" : "Walund",
+        "6" : "Welker"
+      }
+    },
+    "alias" : {
+      "title" : "Przydomek",
+      "1" : {
+        "1" : "Bicz",
+        "2" : "Brzoza",
+        "3" : "Cegła",
+        "4" : "Chwytacz",
+        "5" : "Cierń",
+        "6" : "Dwunastka"
+      },
+      "2" : {
+        "1" : "Dzwon",
+        "2" : "Echo",
+        "3" : "Garbarz",
+        "4" : "Gwóźdź",
+        "5" : "Hak",
+        "6" : "Igła"
+      },
+      "3" : {
+        "1" : "Kijaszek",
+        "2" : "Krzemień",
+        "3" : "Księżyc",
+        "4" : "Kurant",
+        "5" : "Lodziarz",
+        "6" : "Loczek"
+      },
+      "4" : {
+        "1" : "Mgła",
+        "2" : "Młotek",
+        "3" : "Obrońca",
+        "4" : "Ogr",
+        "5" : "Oset",
+        "6" : "Ostroga"
+      },
+      "5" : {
+        "1" : "Pierścieniarz",
+        "2" : "Pieśniarz",
+        "3" : "Robal",
+        "4" : "Rubin",
+        "5" : "Sreberko",
+        "6" : "Strzelec"
+      },
+      "6" : {
+        "1" : "Śmieciarz",
+        "2" : "Świerszcz",
+        "3" : "Tykacz",
+        "4" : "Wikliniarz",
+        "5" : "Wrona",
+        "6" : "Wykreślacz"
+      }
+    }
+  },
+  "devils" : {
+    "names" : {
+      "title" : "Imię",
+      "1" : {
+        "1" : "Korvaeth",
+        "2" : "Sevraxis",
+        "3" : "Argaz",
+        "4" : "Zalvroxos",
+        "5" : "Kethtera",
+        "6" : "Arkeveron"
+      },
+      "2" : {
+        "1" : "Ixis",
+        "2" : "Kyronax",
+        "3" : "Voldranai",
+        "4" : "Esketra",
+        "5" : "Ardranax",
+        "6" : "Kylastra"
+      },
+      "3" : {
+        "1" : "Oryxus",
+        "2" : "Ahazu",
+        "3" : "Tyraxis",
+        "4" : "Azarax",
+        "5" : "Vaskari",
+        "6" : "Xarasus"
+      }
+    },
+    "demonFeatures" : {
+      "title" : "Cechy demonów",
+      "1" : {
+        "1" : "Czarne rekinie ślepia",
+        "2" : "Łuski (onyksowe, opalizujące, kryształowe, metaliczne itd.)",
+        "3" : "Ostre szpony",
+        "4" : "Kościste wyrostk",
+        "5" : "Wiele oczu",
+        "6" : "Chłoszczący ogon"
+      },
+      "2" : {
+        "1" : "Skórzaste skrzydła",
+        "2" : "Kolce",
+        "3" : "Żarzące się ślepia lub znaki na ciele",
+        "4" : "Włosy lub sierść (unoszące się, jakby były pod wodą, płonące zimnym ogniem itd.)",
+        "5" : "Pióra",
+        "6" : "Wiele rąk"
+      },
+      "3" : {
+        "1" : "Macki",
+        "2" : "Twarda skorupa, metaliczne płyty",
+        "3" : "Światła przygasają lub rozbłyskuja",
+        "4" : "Rośliny więdną lub gwałtowie kwitną",
+        "5" : "Mechanizmy zacinają się lub psują",
+        "6" : "Płyny zamarzają, wrą, zmieniają się w krew lub popiół"
+      }
+    },
+    "traits" : {
+      "title" : "Cecha",
+      "1" : {
+        "1" : "Zazdrosny",
+        "2" : "Zrozpaczony",
+        "3" : "Brutalny",
+        "4" : "Histeryczny",
+        "5" : "Płochliwy",
+        "6" : "Niestabilny"
+      },
+      "2" : {
+        "1" : "Ciekawski",
+        "2" : "Zwodniczy",
+        "3" : "Sprytny",
+        "4" : "Dociekliwy",
+        "5" : "Mądry",
+        "6" : "Czarujący"
+      },
+      "3" : {
+        "1" : "Profetyczny",
+        "2" : "Wnikliwy",
+        "3" : "Lojalny",
+        "4" : "Objawiający",
+        "5" : "Pomocny",
+        "6" : "Pouczający"
+      },
+      "4" : {
+        "1" : "Czujny",
+        "2" : "Terytorialny",
+        "3" : "Dominujący",
+        "4" : "Uparty",
+        "5" : "Śmiały",
+        "6" : "Wymagający"
+      },
+      "5" : {
+        "1" : "Rozgniewany",
+        "2" : "Gwałtowny",
+        "3" : "Agresywny",
+        "4" : "Dziki",
+        "5" : "Nieokrzesany",
+        "6" : "Mściwy"
+      },
+      "6" : {
+        "1" : "Wściekły",
+        "2" : "Chaotyczny",
+        "3" : "Dziwaczny",
+        "4" : "Niszczycielski",
+        "5" : "Szalony",
+        "6" : "Niegodziwy"
+      }
+    },
+    "ghostlySecondaryEffects" : {
+      "title" : "Pomniejsze zjawiska nadnaturalne",
+      "1" : {
+        "1" : "Mróz, chłód",
+        "2" : "Przeszywający wiatr",
+        "3" : "Powidoki przeszłości",
+        "4" : "Wyładowania elektryczne",
+        "5" : "Dziwne cienie",
+        "6" : "Niewyraźne echa"
+      },
+      "2" : {
+        "1" : "Mgła, opar",
+        "2" : "Silny wiatr",
+        "3" : "Intensywne wizualne echa",
+        "4" : "Silny magnetyzm",
+        "5" : "Niepokojące cienie",
+        "6" : "Ogłuszający hałas"
+      },
+      "3" : {
+        "1" : "Lodowata mgła",
+        "2" : "Porywisty wiatr",
+        "3" : "Nieprzenikniona czerń",
+        "4" : "Błyskawice",
+        "5" : "Oblepiające cienie ",
+        "6" : "Głosy w głowie"
+      }
+    },
+    "demonAspect" : {
+      "title" : "Demoniczny aspekt",
+      "1" : {
+        "1" : "Humanoid o cechach zwierzęcia lub żywiołu",
+        "2" : "Humanoid o cechach zwierzęcia lub żywiołu",
+        "3" : "Humanoid o cechach zwierzęcia lub żywiołu",
+        "4" : "Zwierzę",
+        "5" : "Potwór",
+        "6" : "Bezkształtny"
+      }
+    },
+    "affinity" : {
+      "title" : "Żywioł",
+      "1" : {
+        "1" : "Ocean, woda",
+        "2" : "Ciemność",
+        "3" : "Ziemia, metal",
+        "4" : "Ogień, dym",
+        "5" : "Niebo, gwiazdy",
+        "6" : "Burza, wiatr"
+      }
+    },
+    "demonDesires" : {
+      "title" : "Demoniczne żądze",
+      "1" : {
+        "1" : "Zamęt",
+        "2" : "Morderstwo",
+        "3" : "Sprawiedliwość",
+        "4" : "Zepsucie",
+        "5" : "Władza",
+        "6" : "Kontrola"
+      },
+      "2" : {
+        "1" : "Wiedza",
+        "2" : "Rozkosz",
+        "3" : "Cierpienie",
+        "4" : "Wojna",
+        "5" : "Zemsta",
+        "6" : "Chaos"
+      },
+      "3" : {
+        "1" : "Wolność",
+        "2" : "Okrucieństwo",
+        "3" : "Manipulacja",
+        "4" : "Oszustwo",
+        "5" : "Groza",
+        "6" : "Łupy"
+      }
+    },
+    "summonedHorrors" : {
+      "title" : "Przyzwane potworności",
+      "1" : {
+        "1" : "Cuchnąca smołą",
+        "2" : "Wijąca się masa",
+        "3" : "Radiacyjna istota",
+        "4" : "Kryształowe odłamki",
+        "5" : "Pełzająca narośl ",
+        "6" : "Ożywiony gaz"
+      },
+      "2" : {
+        "1" : "Chmura płonącego popiołu ",
+        "2" : "Cienisty byt",
+        "3" : "Rój insektów",
+        "4" : "Toksyczny opar",
+        "5" : "Ognista istota",
+        "6" : "Płynna istota"
+      },
+      "3" : {
+        "1" : "Istota obdarta ze skóry",
+        "2" : "Istota w łachmanach",
+        "3" : "Mrożący ogień",
+        "4" : "Niemożliwa geometria",
+        "5" : "Monstrualne zwierzę",
+        "6" : "Połyskujące sfery"
+      },
+      "4" : {
+        "1" : "Dziwaczna maszyneria",
+        "2" : "Psychiczna mgła",
+        "3" : "Pulsujące wnętrzności",
+        "4" : "Metaliczna istota",
+        "5" : "Splot cierniowy",
+        "6" : "Hipnotyzujące światła"
+      },
+      "5" : {
+        "1" : "Ropiejący ślimak",
+        "2" : "Przerażające wibracje",
+        "3" : "Chłostające haki",
+        "4" : "Szkielet z czarnego szkła",
+        "5" : "Płynna rtęć",
+        "6" : "Oblepiająca ciemność"
+      },
+      "6" : {
+        "1" : "Lewitująca mackowatość ",
+        "2" : "Mdły opar",
+        "3" : "Wirująca wydzielina",
+        "4" : "Wężowy byt",
+        "5" : "Insektoid",
+        "6" : "Pochłaniająca wszystko kula"
+      }
+    }
+  },
+  "cults" : {
+    "forgottenGods" : {
+      "title" : "Zapomniany bóg",
+      "1" : {
+        "1" : "Jeden Wewnątrz Wielu",
+        "2" : "Srebrny Ogień",
+        "3" : "Błogi Akord",
+        "4" : "Upadła Gwiazda",
+        "5" : "Władca Otchłani",
+        "6" : "Cicha Pieśń"
+      },
+      "2" : {
+        "1" : "Pani Ciernistych Krzewów",
+        "2" : "Nasza Krew Przelana w Chwale ",
+        "3" : "Tryk",
+        "4" : "Puste Naczynie",
+        "5" : "Zamknięte Oko",
+        "6" : "Dłoń Smutku"
+      },
+      "3" : {
+        "1" : "Wiecznie Złakniony",
+        "2" : "Tysiąc Twarzy",
+        "3" : "Pajęczyna Bólu",
+        "4" : "Filary Nocy",
+        "5" : "Spalony Król",
+        "6" : "Ojciec Otchłani"
+      },
+      "4" : {
+        "1" : "Zapomniany Legion",
+        "2" : "Niezłomne Słońce",
+        "3" : "Objawienie",
+        "4" : "Promienne Słowo",
+        "5" : "Całun Królowej",
+        "6" : "Rozjemca"
+      },
+      "5" : {
+        "1" : "Chmura Rozpaczy",
+        "2" : "Przerwany Krąg",
+        "3" : "Zdobywca",
+        "4" : "Zabijająca w Ciemności",
+        "5" : "Sen Poza Śmiercią",
+        "6" : "Krwista Fala"
+      },
+      "6" : {
+        "1" : "Strażnik Bram",
+        "2" : "Moloch Pustki",
+        "3" : "Strażnik Płomienia",
+        "4" : "Tron Sądu",
+        "5" : "Utracona Korona",
+        "6" : "Złoty Jeleń"
+      }
+    },
+    "cultPractices" : {
+      "title" : "Obrzęd kultu",
+      "1" : {
+        "1" : "Ofiara: Pożarta przez rytualnie uświęcone zwierzęta / rozszarpana przez oszalałych kultystów",
+        "2" : "Ofiara: Walcząca o życie z namaszczonym bojownikiem kultu",
+        "3" : "Ofiara: Rytualnie wykrwawiana na poświęcony ołtarz",
+        "4" : "Ofiara: Stopniowo faszerowana narkotykami zmieniającymi stan świadomości",
+        "5" : "Ofiara: Rytualnie zamordowana i uznana za namaszczonego duchowego bojownika",
+        "6" : "Ofiara: Uśmiercona metodą tajemną (porażenie prądem, strzaskanie duszy, klątwa zgonu)"
+      },
+      "2" : {
+        "1" : "Nabożeństwo: Orgia przyjemności (seksu, jedzenia, tańców, muzyki) i/lub bólu",
+        "2" : "Nabożeństwo: Pieśni sakralne lub modły odprawiane bez przerwy przez wiele dni",
+        "3" : "Nabożeństwo: Zgromadzenie w świętym splocie podczas astrologicznej koniunkcji",
+        "4" : "Nabożeństwo: Pielgrzymka do św. miejsca lub bytu na martwych ziemiach / na oceanie",
+        "5" : "Nabożeństwo: Grupowa wizja / senna podróż wywołana esencją, narkotykami, medytacją",
+        "6" : "Nabożeństwo: Odegranie / pantomima świętego wydarzenia"
+      },
+      "3" : {
+        "1" : "Przejęcie: Kolekcja oczu / serc / krwi mistyków lub demonów",
+        "2" : "Przejęcie: Odłamki świętego przedmiotu (klejnotu, miecza, czaszki, kamienia)",
+        "3" : "Przejęcie: Autentyczne święte zapiski proroka / nauczyciela / świętego",
+        "4" : "Przejęcie: Odcięte części ciała (głowy, ręce, języki) heretyków lub apostatów",
+        "5" : "Nabytek: Nieruchomości powiązane ze świętą geometrią/mistycznymi wydarzeniami",
+        "6" : "Przejęcie: Duchy proroków / mistyków / założycieli / wrogów zakonu"
+      },
+      "4" : {
+        "1" : "Zniszczenie: Rytualne spalenie świętych przedmiotów (wizerunków, ciała, włosów)",
+        "2" : "Zniszczenie: Rytualne pozbycie się ducha lub demona",
+        "3" : "Zniszczenie: Złamanie pieczęci, aby bóstwo mogło wkroczyć do materialnego świata",
+        "4" : "Zniszczenie: Strzaskanie przedmiotów / ołtarzy / świątyń wrogiego wyznania",
+        "5" : "Zniszczenie: Unicestwienie broni / przedmiotów / miejsc, które mogą skrzywdzić bóstwo",
+        "6" : "Zniszczenie: Czynników społecznych / prawnych / kulturowych zagrażających kultowi"
+      },
+      "5" : {
+        "1" : "Konsekracja: Oczyszczenie przez kąpiel w świętej cieczy (krwi, winie, mleku, oleju itd.)",
+        "2" : "Konsekracja: Oczyszczenie bram, które umożliwiają bóstwu przejście do świata materialnego",
+        "3" : "Konsekracja: Chrzest / pobłogosławienie akolity lub przedm. poprzez zanurzenie w studni dusz",
+        "4" : "Konsekracja: Pobłogosławienie wyznawców kultu za pomocą tatuaży / skaryfikacji / okaleczenia",
+        "5" : "Konsekracja: Stworzenie błogosławionych bożków / dzieł sztuki / miejsc rytualnych / artefaktów",
+        "6" : "Konsekracja: Symbole / runy / duchy mające odstraszać wrogów kultu"
+      },
+      "6" : {
+        "1" : "Profanacja: Poniżenie lub skalanie jednego z zaprzysięgłych wrogów kultu",
+        "2" : "Profanacja: Zbezczeszczenie miejsca / przedmiotu / rytuału / tradycji, aby zawłaszczyć ich moc",
+        "3" : "Profanacja: Skalanie miejsca / przedmiotu / rytuału, aby poniżyć inny kult",
+        "4" : "Profanacja: Manipulowanie przedstawicielami władz/instytucjami, aby przejąć ich wpływy",
+        "5" : "Profanacja: Zdeprawowanie akolitów, aby przygotować ich do przemiany",
+        "6" : "Profanacja: Bezmyślny, bezcelowy chaos, zasiewanie ziaren anarchii"
+      }
+    }
+  },
+  "scores" : {
+    "client" : {
+      "title" : "Klient",
+      "civilian" : {
+        "title" : "Klient: Cywilny",
+        "1" : {
+          "1" : "Wykładowca lub uczony",
+          "2" : "Robotnik lub rzemieślnik",
+          "3" : "Posłaniec lub marynarz",
+          "4" : "Kupiec lub sklepikarz",
+          "5" : "Artysta lub pisarz",
+          "6" : "Lekarz lub alchemik"
+        }
+      },
+      "criminal" : {
+        "title" : "Klient: Przestępczy",
+        "1" : {
+          "1" : "Handlarz lub dostawca narkotyków",
+          "2" : "Najemnik lub zbir",
+          "3" : "Paser lub hazardzista",
+          "4" : "Szpieg lub informator",
+          "5" : "Przemytnik lub złodziej",
+          "6" : "Szef gangu"
+        }
+      },
+      "political" : {
+        "title" : "Klient: Polityczny",
+        "1" : {
+          "1" : "Arystokrata lub urzędnik",
+          "2" : "Bankier lub kapitan",
+          "3" : "Rewolucjonista lub uchodźca",
+          "4" : "Duchowny lub kultysta",
+          "5" : "Posterunkowy lub Aspirant",
+          "6" : "Sędzia lub szef oddziału więziennego"
+        }
+      },
+      "strange" : {
+        "title" : "Klient: Dziwny",
+        "1" : {
+          "1" : "Duch (rzuć ponownie)",
+          "2" : "Kolekcjoner okultysta",
+          "3" : "Wampir lub inny nieumarły",
+          "4" : "Demon (w przebraniu)",
+          "5" : "Opętany lub opustoszały",
+          "6" : "Szeptuch lub kultysta"
+        }
+      }
+    },
+    "target" : {
+      "title" : "Cel",
+      "civilian" : {
+        "title" : "Cel: Cywilny",
+        "1" : {
+          "1" : "Wykładowca lub uczony",
+          "2" : "Robotnik lub rzemieślnik",
+          "3" : "Posłaniec lub marynarz",
+          "4" : "Kupiec lub sklepikarz",
+          "5" : "Artysta lub pisarz",
+          "6" : "Lekarz lub alchemik"
+        }
+      },
+      "criminal" : {
+        "title" : "Cel: Przestępczy",
+        "1" : {
+          "1" : "Handlarz lub dostawca narkotyków",
+          "2" : "Najemnik lub zbir",
+          "3" : "Paser lub hazardzista",
+          "4" : "Szpieg lub informator",
+          "5" : "Przemytnik lub złodziej",
+          "6" : "Szef gangu"
+        }
+      },
+      "political" : {
+        "title" : "Cel: Polityczny",
+        "1" : {
+          "1" : "Arystokrata lub urzędnik",
+          "2" : "Bankier lub kapitan",
+          "3" : "Rewolucjonista lub uchodźca",
+          "4" : "Duchowny lub kultysta",
+          "5" : "Posterunkowy lub Aspirant",
+          "6" : "Sędzia lub szef oddziału więziennego"
+        }
+      },
+      "strange" : {
+        "title" : "Cel: Dziwny",
+        "1" : {
+          "1" : "Duch (rzuć ponownie)",
+          "2" : "Kolekcjoner okultysta",
+          "3" : "Wampir lub inny nieumarły",
+          "4" : "Demon (w przebraniu)",
+          "5" : "Opętany lub opustoszały",
+          "6" : "Szeptuch lub kultysta"
+        }
+      }
+    },
+    "work" : {
+      "title" : "Robota",
+      "skullduggery" : {
+        "title" : "Robota: Szwindel",
+        "1" : {
+          "1" : "Prześladowanie lub obserwacja",
+          "2" : "Sabotaż lub podpalenie",
+          "3" : "Kradzież lub podrzucenie dowodów",
+          "4" : "Otrucie lub wypadek",
+          "5" : "Kradzież z włamaniem lub napad",
+          "6" : "Podszycie się lub oszustwo"
+        }
+      },
+      "violence" : {
+        "title" : "Robota: Przemoc",
+        "1" : {
+          "1" : "Zabójstwo",
+          "2" : "Zniknięcie lub okup",
+          "3" : "Zastraszenie lub wymuszenie",
+          "4" : "Zniszczenie lub oszpecenie",
+          "5" : "Rabunek lub ochrona przed nim",
+          "6" : "Rabunek lub użycie przemocy"
+        }
+      },
+      "underworld" : {
+        "title" : "Robota: Półświatek",
+        "1" : {
+          "1" : "Eskorta lub ochrona",
+          "2" : "Przemyt lub transport",
+          "3" : "Szantaż lub zdyskredytowanie kogoś",
+          "4" : "Kant lub szpiegostwo",
+          "5" : "Znalezienie lub ukrycie",
+          "6" : "Negocjacje lub groźby"
+        }
+      },
+      "unnatural" : {
+        "title" : "Robota: Nienaturalne",
+        "1" : {
+          "1" : "Klątwa lub poświęcenie",
+          "2" : "Wygnanie lub przyzwanie",
+          "3" : "Wydobycie esencji",
+          "4" : "Umieszczenie lub usunięcie run",
+          "5" : "Odprawienie lub przerwanie rytuału",
+          "6" : "Opustoszenie lub przywrócenie"
+        }
+      }
+    },
+    "twistOrComplication" : {
+      "title" : "Zwrot akcji lub komplikacja",
+      "1" : {
+        "1" : "Dana rzecz jest przykrywką dla aktywności heretyckiego kultu duchów",
+        "2" : "Okultysta przewidział ten skoki ostrzegł zaangażowane frakcje",
+        "3" : "Niespokojne duchy opętały niektóre / większość / wszystkie zaangażowane osoby",
+        "4" : "To miejsce jest nawiedzane przez niespokojne duchy",
+        "5" : "Skok pomaga demonowi w realizacji jego tajnych planów",
+        "6" : "Skok pomaga wampirowi w realizacji jego tajnych planów"
+      },
+      "2" : {
+        "1" : "Dana rzecz jest przykrywką dla działalności przestępczej",
+        "2" : "Tutaj działa niebezpieczny gang",
+        "3" : "Skok jest pułapką zastawioną przez waszych wrogów",
+        "4" : "Skok jest testem przed inną robotą",
+        "5" : "Skok pomaga potężnemu kupcowi w realizacji jego tajnych planów",
+        "6" : "Skok pomaga szefowi gangu w realizacji jego tajnych planów"
+      },
+      "3" : {
+        "1" : "Skok wymaga podróży pociągiem elektrycznym",
+        "2" : "Aby wykonać skok, trzeba odwiedzić martwe ziemie",
+        "3" : "Skok wymaga podróży morskiej",
+        "4" : "Cel skoku jest w ruchu (zmienia się miejsce, podróżuje w pojeździe itd.)",
+        "5" : "Skok pomaga rewolucjonistom w realizacji ich tajnych planów",
+        "6" : "Skok pomaga urzędnikom miejskim w realizacji ich tajnych planów"
+      }
+    },
+    "connectedToPerson" : {
+      "title" : "Powiązany z osobą",
+      "1" : {
+        "1" : "BG: Przyjaciel",
+        "2" : "BG: Rywa",
+        "3" : "BG: Dostawca słabości",
+        "4" : "Szajka: Kontakt",
+        "5" : "Miasto: Osobistość Doskvol",
+        "6" : "Dziw: Duch, demon, bóstwo"
+      }
+    },
+    "connectedToFactions" : {
+      "title" : "Powiązany z frakcją",
+      "1" : {
+        "1" : "Niewidoczni",
+        "2" : "Lord Scurlock",
+        "3" : "Krąg Ognia",
+        "4" : "Zaciemniacze",
+        "5" : "Siostry Ściemne",
+        "6" : "Siekacze"
+      },
+      "2" : {
+        "1" : "Szare Płaszcze",
+        "2" : "Ogary Mgieł",
+        "3" : "Rada Miejska lub Fundamentaliści",
+        "4" : "Strażnicy Dusz",
+        "5" : "Imperialne Siły Zbrojne",
+        "6" : "Iskrownicy"
+      },
+      "3" : {
+        "1" : "Konsulat",
+        "2" : "Poławiacze Lewiatanów",
+        "3" : "Gondolierzy lub Dorożkarze",
+        "4" : "Kościół Cielesnej Ekstazy",
+        "5" : "Zapomniani Bogowie",
+        "6" : "Skowlańscy Uchodźcy"
+      },
+      "4" : {
+        "1" : "Srebrne Ćwieki",
+        "2" : "Rój",
+        "3" : "Wrony",
+        "4" : "Czerwone Szarfy",
+        "5" : "Szlifierze",
+        "6" : "Upiory"
+      },
+      "5" : {
+        "1" : "Pancerny Ulf",
+        "2" : "Zagubieni",
+        "3" : "Więzienie Żelazny Hak",
+        "4" : "Błękitne Płaszcze lub Aspiranci",
+        "5" : "Robotnicy lub Służący",
+        "6" : "Szyfranci lub Kałamarzyści"
+      },
+      "6" : {
+        "1" : "Ministerstwo Ochrony",
+        "2" : "Marynarze lub Dokerzy",
+        "3" : "Majchry Kolejowe lub Brygada",
+        "4" : "Płacząca Pani",
+        "5" : "Ścieżka Szeptów lub Pojednani",
+        "6" : "Łupieżcy Martwych Ziem"
+      }
+    }
+  },
+  "notFound" : {
+    "title" : "Zabłądziłeś w złą uliczkę!",
+    "content" : "Wycofaj sie powoli..."
   }
 }
