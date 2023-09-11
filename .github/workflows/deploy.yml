@@ -22,7 +22,7 @@ jobs:
 
       - name: Copy index.html to 404.html
         run: |
-          cp ./doskvol-tools/dist/index.html ./doskvol-tools/dist/404.html
+          cp doskvol-tools/dist/index.html doskvol-tools/dist/404.html
 
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@v4.3.3
