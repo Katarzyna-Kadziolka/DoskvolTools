@@ -4,6 +4,7 @@ import { createI18n } from 'vue-i18n'
 
 import App from './App.vue'
 import router from './router'
+import './assets/scss/globalStyles.scss'
 import "@fontsource/source-sans-pro"; // Defaults to weight 400
 import "@fontsource/source-sans-pro/400.css"; // Specify weight
 import "@fontsource/source-sans-pro/400-italic.css"; // Specify weight and style
