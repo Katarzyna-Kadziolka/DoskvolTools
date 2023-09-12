@@ -466,454 +466,454 @@
   },
   "characters" : {
     "gender" : {
-      "title" : "Płeć",
+      "title" : "Gender",
       "1" : {
-        "1" : "Mężczyzna",
-        "2" : "Mężczyzna",
-        "3" : "Kobieta",
-        "4" : "Kobieta",
-        "5" : "Nieokreślony, ukryty",
-        "6" : "Rzuć ponownie"
+        "1" : "Man",
+        "2" : "Man",
+        "3" : "Woman",
+        "4" : "Woman",
+        "5" : "Ambiguous, Concealed",
+        "6" : "Roll Again"
       }
     },
     "heritage" : {
-      "title" : "Rodowód",
+      "title" : "Heritage",
       "1" : {
-        "1" : "Akorosjanin",
-        "2" : "Akorosjanin",
-        "3" : "Akorosjanin",
-        "4" : "Cudzoziemiec",
-        "5" : "Cudzoziemiec",
-        "6" : "Cudzoziemiec"
+        "1" : "Akorosi",
+        "2" : "Akorosi",
+        "3" : "Akorosi",
+        "4" : "Foreigner",
+        "5" : "Foreigner",
+        "6" : "Foreigner"
       }
     },
     "foreigners" : {
-      "title" : "Cudzoziemiec",
+      "title" : "Foreigners",
       "1" : {
-        "1" : "Skowlanin",
-        "2" : "Skowlanin",
-        "3" : "Iruwiańczyk",
-        "4" : "Mieszkaniec Wysp Sztyletowych",
-        "5" : "Sewerosjanin",
-        "6" : "Tycherosjanin"
+        "1" : "Skovlander",
+        "2" : "Skovlander",
+        "3" : "Iruvian",
+        "4" : "Dagger Islander",
+        "5" : "Severosi",
+        "6" : "Tycherosi"
       }
     },
     "looks" : {
-      "title" : "Wygląd",
+      "title" : "Looks",
       "1" : {
-        "1" : "Szeroki",
-        "2" : "Śliczny",
-        "3" : "Ogorzały",
-        "4" : "Subtelny",
-        "5" : "Przystojny",
-        "6" : "Atletyczny"
+        "1" : "Large",
+        "2" : "Lovely",
+        "3" : "Weathered",
+        "4" : "Chiseled",
+        "5" : "Handsome",
+        "6" : "Athletic"
       },
       "2" : {
-        "1" : "Szczupły",
-        "2" : "Ciemnej karnacji",
-        "3" : "Jasnej karnacji",
-        "4" : "Gruby",
-        "5" : "Delikatny",
-        "6" : "Poznaczony bliznami"
+        "1" : "Slim",
+        "2" : "Dark",
+        "3" : "Fair",
+        "4" : "Stout",
+        "5" : "Delicate",
+        "6" : "Scarred"
       },
       "3" : {
-        "1" : "Kościsty",
-        "2" : "Zmęczony",
-        "3" : "Szorstki",
-        "4" : "Pulchny",
-        "5" : "Żylasty",
-        "6" : "Żylasty"
+        "1" : "Bony",
+        "2" : "Worn",
+        "3" : "Rough",
+        "4" : "Plump",
+        "5" : "Wiry",
+        "6" : "Striking"
       },
       "4" : {
-        "1" : "Niski",
-        "2" : "Wysoki",
-        "3" : "Seksowny",
-        "4" : "Dziki",
-        "5" : "Elegancki",
-        "6" : "Zgarbiony"
+        "1" : "Short",
+        "2" : "Tall",
+        "3" : "Sexy",
+        "4" : "Wild",
+        "5" : "Elegant",
+        "6" : "Stooped"
       },
       "5" : {
-        "1" : "Atrakcyjny",
-        "2" : "Pospolity",
-        "3" : "Stary",
-        "4" : "Młody",
-        "5" : "Stylowy",
-        "6" : "Dziwny"
+        "1" : "Cute",
+        "2" : "Plain",
+        "3" : "Old",
+        "4" : "Young",
+        "5" : "Stylish",
+        "6" : "Strange"
       },
       "6" : {
-        "1" : "Oszpecony, okaleczony",
-        "2" : "Okulary, monokl",
-        "3" : "Proteza, kalectwo",
-        "4" : "Długie włosy, broda, peruka",
-        "5" : "Krótko ścięty, łysy",
-        "6" : "Wytatuowany"
+        "1" : "Disfigured, Maimed",
+        "2" : "Glasses, Monocle",
+        "3" : "Prosthetic, Crippled",
+        "4" : "Long Hair, Beard, Wig",
+        "5" : "Shorn, Bald",
+        "6" : "Tattooed"
       }
     },
     "style" : {
-      "title" : "Ubiór",
+      "title" : "Style",
       "1" : {
-        "1" : "Trikorn",
-        "2" : "Długi płaszcz",
-        "3" : "Kaptur z woalem",
-        "4" : "Krótka peleryna",
-        "5" : "Czapka marynarska",
-        "6" : "Lekka kurtka"
+        "1" : "Tricorn Hat",
+        "2" : "Long Coat",
+        "3" : "Hood & Veil",
+        "4" : "Short Cloak",
+        "5" : "Knit Cap",
+        "6" : "Slim Jacket"
       },
       "2" : {
-        "1" : "Płaszcz z kapturem",
-        "2" : "Wysokie buty",
-        "3" : "Buciory robocze",
-        "4" : "Maska i suknia",
-        "5" : "Garnitur",
-        "6" : "Koszula z kołnierzem"
+        "1" : "Hooded Coat",
+        "2" : "Tall Boots",
+        "3" : "Work Boots",
+        "4" : "Mask & Robes",
+        "5" : "Suit & Vest",
+        "6" : "Collared Shirt"
       },
       "3" : {
-        "1" : "Szelki",
-        "2" : "Szorstka tunika",
-        "3" : "Spódniczka",
-        "4" : "Szeroki pas",
-        "5" : "Dopasowana suknia",
-        "6" : "Cieżki płaszcz"
+        "1" : "Suspenders",
+        "2" : "Rough Tunic",
+        "3" : "Skirt & Blouse",
+        "4" : "Wide Belt",
+        "5" : "Fitted Dress",
+        "6" : "Heavy Cloak"
       },
       "4" : {
-        "1" : "Grube palto",
-        "2" : "Lekkie buty",
-        "3" : "Luźne jedwabie",
-        "4" : "Modne spodnie",
-        "5" : "Woskowany płaszcz",
-        "6" : "Długi szal"
+        "1" : "Thick Greatcoat",
+        "2" : "Soft Boots",
+        "3" : "Loose Silks",
+        "4" : "Sharp Trousers",
+        "5" : "Waxed Coat",
+        "6" : "Long Scarf"
       },
       "5" : {
-        "1" : "Skóry",
-        "2" : "Body z węgorza",
-        "3" : "Skóry i futro",
-        "4" : "Mundur",
-        "5" : "Łachmany",
-        "6" : "Dopasowane getry"
+        "1" : "Leathers",
+        "2" : "Eelskin Bodysuit",
+        "3" : "Hide & Furs",
+        "4" : "Uniform",
+        "5" : "Tatters",
+        "6" : "Fitted Leggings"
       },
       "6" : {
-        "1" : "Fartuch",
-        "2" : "Ciężkie rękawice",
-        "3" : "Maska",
-        "4" : "Pas z narzędziami",
-        "5" : "Kula inwalidzka, laska",
-        "6" : "Wózek inwalidzki"
+        "1" : "Apron",
+        "2" : "Heavy Gloves",
+        "3" : "Face Mask",
+        "4" : "Tool Belt",
+        "5" : "Crutches, Cane",
+        "6" : "Wheelchair"
       }
     },
     "goals" : {
-      "title" : "Cele",
+      "title" : "Goals",
       "1" : {
-        "1" : "Bogactwo",
-        "2" : "Władza",
-        "3" : "Wpływy",
-        "4" : "Prestiż, sława",
-        "5" : "Kontrola",
-        "6" : "Wiedza"
+        "1" : "Wealth",
+        "2" : "Power",
+        "3" : "Authority",
+        "4" : "Prestige, Fame",
+        "5" : "Control",
+        "6" : "Knowledge"
       },
       "2" : {
-        "1" : "Przyjemność",
-        "2" : "Zemsta",
-        "3" : "Wolność",
-        "4" : "Osiągnięcia",
-        "5" : "Szczęście",
-        "6" : "Niesława, strach"
+        "1" : "Pleasure",
+        "2" : "Revenge",
+        "3" : "Freedom",
+        "4" : "Achievement",
+        "5" : "Happiness",
+        "6" : "Infamy, Fear"
       },
       "3" : {
-        "1" : "Szacunek",
-        "2" : "Miłość",
-        "3" : "Zmiana",
-        "4" : "Chaos, zniszczenie",
-        "5" : "Sprawiedliwość",
-        "6" : "Współpraca"
+        "1" : "Respect",
+        "2" : "Love",
+        "3" : "Change",
+        "4" : "Chaos, Destruction",
+        "5" : "Justice",
+        "6" : "Cooperation"
       }
     },
     "preferredMethods" : {
-      "title" : "Preferowane metody działania",
+      "title" : "Preferred Methods",
       "1" : {
-        "1" : "Przemoc",
-        "2" : "Groźby",
-        "3" : "Negocjacje",
-        "4" : "Analiza",
-        "5" : "Manipulacja",
-        "6" : "Strategia"
+        "1" : "Violence",
+        "2" : "Threats",
+        "3" : "Negotiation",
+        "4" : "Study",
+        "5" : "Manipulation",
+        "6" : "Strategy"
       },
       "2" : {
-        "1" : "Kradzież",
-        "2" : "Moce tajemne",
-        "3" : "Handel",
-        "4" : "Ciężka praca",
-        "5" : "Prawo, polityka",
-        "6" : "Sabotaż"
+        "1" : "Theft",
+        "2" : "Arcane",
+        "3" : "Commerce",
+        "4" : "Hard Work",
+        "5" : "Law, Politics",
+        "6" : "Sabotage"
       },
       "3" : {
-        "1" : "Podstęp",
-        "2" : "Alchemia",
-        "3" : "Szantaż",
-        "4" : "Praca zespołowa",
-        "5" : "Szpiegostwo",
+        "1" : "Subterfuge",
+        "2" : "Alchemy",
+        "3" : "Blackmail",
+        "4" : "Teamwork",
+        "5" : "Espionage",
         "6" : "Chaos"
       }
     },
     "professions" : {
-      "title" : "Zawód",
+      "title" : "Profession",
       "common" : {
-        "title" : "Zawody: Powszechne",
+        "title" : "Professions: Common",
         "1" : {
-          "1" : "Piekarz",
-          "2" : "Golibroda",
-          "3" : "Kowal",
-          "4" : "Piwowar",
-          "5" : "Rzeźnik",
-          "6" : "Cieśla"
+          "1" : "Baker",
+          "2" : "Barber",
+          "3" : "Blacksmith",
+          "4" : "Brewer",
+          "5" : "Butcher",
+          "6" : "Carpenter"
         },
         "2" : {
-          "1" : "Stelmach",
-          "2" : "Sprzedawca świec",
-          "3" : "Urzędnik",
-          "4" : "Szewc",
-          "5" : "Bednarz",
-          "6" : "Hodowca"
+          "1" : "Cartwright",
+          "2" : "Chandler",
+          "3" : "Clerk",
+          "4" : "Cobbler",
+          "5" : "Cooper",
+          "6" : "Cultivator"
         },
         "3" : {
-          "1" : "Woźnica",
-          "2" : "Farbiarz",
-          "3" : "Hafciarz",
-          "4" : "Sprzedawca ryb",
+          "1" : "Driver",
+          "2" : "Dyer",
+          "3" : "Embroiderer",
+          "4" : "Fishmonger",
           "5" : "Gondolier",
-          "6" : "Strażnik"
+          "6" : "Guard"
         },
         "4" : {
-          "1" : "Rymarz",
-          "2" : "Murarz",
-          "3" : "Kupiec",
-          "4" : "Dekarz",
-          "5" : "Powroźnik",
-          "6" : "Kobiernik"
+          "1" : "Leatherworker",
+          "2" : "Mason",
+          "3" : "Merchant",
+          "4" : "Roofer",
+          "5" : "Ropemaker",
+          "6" : "Rug Maker"
         },
         "5" : {
-          "1" : "Służący",
-          "2" : "Cieśla okrętowy",
-          "3" : "Przestępca",
-          "4" : "Krawiec",
-          "5" : "Grabarz",
-          "6" : "Majsterkowicz"
+          "1" : "Servant",
+          "2" : "Shipwright",
+          "3" : "Criminal",
+          "4" : "Tailor",
+          "5" : "Tanner",
+          "6" : "Tinkerer"
         },
         "6" : {
-          "1" : "Uliczny handlarz",
-          "2" : "Tkacz",
-          "3" : "Stolarz",
-          "4" : "Pasterz kóz",
-          "5" : "Posłaniec",
-          "6" : "Marynarz"
+          "1" : "Vendor",
+          "2" : "Weaver",
+          "3" : "Woodworker",
+          "4" : "Goat Herd",
+          "5" : "Messenger",
+          "6" : "Sailor"
         }
       },
       "rare" : {
-        "title" : "Zawody: Rzadkie",
+        "title" : "Professions: Rare",
         "1" : {
-          "1" : "Adwokat",
-          "2" : "Architekt",
-          "3" : "Artysta",
-          "4" : "Pisarz",
-          "5" : "Komornik",
-          "6" : "Bartnik"
+          "1" : "Advocate",
+          "2" : "Architect",
+          "3" : "Artist",
+          "4" : "Author",
+          "5" : "Bailiff",
+          "6" : "Apiarist"
         },
         "2" : {
-          "1" : "Bankier",
-          "2" : "Łowca nagród",
-          "3" : "Zegarmistrz",
-          "4" : "Kurtyzana",
-          "5" : "Kuśnierz",
-          "6" : "Szklarz"
+          "1" : "Banker",
+          "2" : "Bounty Hunter",
+          "3" : "Clockmaker",
+          "4" : "Courtesan",
+          "5" : "Furrier",
+          "6" : "Glass Blower"
         },
         "3" : {
-          "1" : "Dyplomata",
-          "2" : "Strażnik więzienny",
-          "3" : "Jubiler",
-          "4" : "Pijawka",
-          "5" : "Ślusarz",
-          "6" : "Sędzia"
+          "1" : "Diplomat",
+          "2" : "Jailer",
+          "3" : "Jeweler",
+          "4" : "Leech",
+          "5" : "Locksmith",
+          "6" : "Magistrate"
         },
         "4" : {
-          "1" : "Muzyk",
-          "2" : "Konsyliarz",
-          "3" : "Hydraulik",
-          "4" : "Drukarz",
-          "5" : "Uczony",
-          "6" : "Skryba"
+          "1" : "Musician",
+          "2" : "Physicker",
+          "3" : "Plumber",
+          "4" : "Printer",
+          "5" : "Scholar",
+          "6" : "Scribe"
         },
         "5" : {
-          "1" : "Iskrownik",
-          "2" : "Poborca podatkowy",
-          "3" : "Skarbnik",
-          "4" : "Szeptuch",
-          "5" : "Kompozytor",
-          "6" : "Zarządca"
+          "1" : "Sparkwright",
+          "2" : "Tax Collector",
+          "3" : "Treasurer",
+          "4" : "Whisper",
+          "5" : "Composer",
+          "6" : "Steward"
         },
         "6" : {
-          "1" : "Kapitan",
-          "2" : "Strażnik Dusz",
-          "3" : "Dziennikarz",
-          "4" : "Odkrywca",
-          "5" : "Majcher Kolejowy",
-          "6" : "Żołnierz"
+          "1" : "Captain",
+          "2" : "Spirit Warden",
+          "3" : "Journalist",
+          "4" : "Explorer",
+          "5" : "Rail Jack",
+          "6" : "Soldier"
         }
       }
     },
     "traits" : {
-      "title" : "Cecha",
+      "title" : "Trait",
       "1" : {
-        "1" : "Czarujący",
-        "2" : "Zimny",
-        "3" : "Nonszalancki",
-        "4" : "Bezczelny",
-        "5" : "Podejrzliwy",
-        "6" : "Obsesyjny"
+        "1" : "Charming",
+        "2" : "Cold",
+        "3" : "Cavalier",
+        "4" : "Brash",
+        "5" : "Suspicious",
+        "6" : "Obsessive"
       },
       "2" : {
-        "1" : "Sprytny",
-        "2" : "Cichy",
-        "3" : "Humorzasty",
-        "4" : "Zaciekły",
-        "5" : "Nieuważny",
-        "6" : "Skryty"
+        "1" : "Shrewd",
+        "2" : "Quiet",
+        "3" : "Moody",
+        "4" : "Fierce",
+        "5" : "Careless",
+        "6" : "Secretive"
       },
       "3" : {
-        "1" : "Bezwględny",
-        "2" : "Wyrachowany",
-        "3" : "Nieposłuszny",
-        "4" : "Łaskawy",
-        "5" : "Wnikliwy",
-        "6" : "Nieuczciwy"
+        "1" : "Ruthless",
+        "2" : "Calculating",
+        "3" : "Defiant",
+        "4" : "Gracious",
+        "5" : "Insightful",
+        "6" : "Dishonest"
       },
       "4" : {
-        "1" : "Cierpliwy",
-        "2" : "Nikczemny",
-        "3" : "Wyrafinowany",
-        "4" : "Paranoiczny",
-        "5" : "Szczęśliwy",
-        "6" : "Elitarystyczny"
+        "1" : "Patient",
+        "2" : "Vicious",
+        "3" : "Sophisticated",
+        "4" : "Paranoid",
+        "5" : "Enthusiastic",
+        "6" : "Elitist"
       },
       "5" : {
-        "1" : "Brutalny",
-        "2" : "Pomocny",
-        "3" : "Arogancki",
-        "4" : "Pewny siebie",
-        "5" : "Zarozumiały",
-        "6" : "Śmiały"
+        "1" : "Savage",
+        "2" : "Cooperative",
+        "3" : "Arrogant",
+        "4" : "Confident",
+        "5" : "Vain",
+        "6" : "Daring"
       },
       "6" : {
-        "1" : "Wybuchowy",
-        "2" : "Szczery",
-        "3" : "Subtelny",
-        "4" : "Melancholijny",
-        "5" : "Zagadkowy",
-        "6" : "Spokojny"
+        "1" : "Volatile",
+        "2" : "Candid",
+        "3" : "Subtle",
+        "4" : "Melancholy",
+        "5" : "Enigmatic",
+        "6" : "Calm"
       }
     },
     "interests" : {
-      "title" : "Zainteresowania",
+      "title" : "Interests",
       "1" : {
-        "1" : "Whisky, wino, piwo",
-        "2" : "Jedzenie, restauracje",
-        "3" : "Ubrania, biżuteria, futra",
-        "4" : "Sztuka, opera, teatr",
-        "5" : "Obrazy, szkice, rzeźby",
-        "6" : "Historia, legendy"
+        "1" : "Fine whiskey, wine, beer",
+        "2" : "Fine food, restaurants",
+        "3" : "Fine clothes, jewelry, furs",
+        "4" : "Fine arts, opera, theater",
+        "5" : "Painting, drawing, sculpture",
+        "6" : "History, legends"
       },
       "2" : {
-        "1" : "Architektura, meble",
-        "2" : "Poezja, powieści, pisarstwo",
-        "3" : "Podziemne kręgi, pojedynki",
-        "4" : "Zapomniane Bóstwa",
-        "5" : "Kościół Cielesnej Ekstazy",
-        "6" : "Ścieżka Szeptów"
+        "1" : "Architecture, furnishings",
+        "2" : "Poetry, novels, writing",
+        "3" : "Pit-fighting, duels",
+        "4" : "Forgotten gods",
+        "5" : "Chruch of Ecstasy",
+        "6" : "Path of Echoes"
       },
       "3" : {
-        "1" : "Płacząca Pani, jałmużna",
-        "2" : "Antyki, artefakty",
-        "3" : "Konie, jeździectwo",
-        "4" : "Gadżety, nowe technologie",
-        "5" : "Kolekcjoner uzbrojenia",
-        "6" : "Muzyka, instrumenty, taniec"
+        "1" : "Weeping Lady, charity",
+        "2" : "Antiques, artifacts, curios",
+        "3" : "Horses, riding",
+        "4" : "Gadgets, new technology",
+        "5" : "Weapons collector",
+        "6" : "Music, instruments, dance"
       },
       "4" : {
-        "1" : "Polowanie, strzelectwo",
-        "2" : "Gotowanie, ogrodnictwo",
-        "3" : "Hazard, karty, kości",
-        "4" : "Filozofia przyrody",
-        "5" : "Narkotyki, esencje, tytoń",
-        "6" : "Seks, romanse, schadzki"
+        "1" : "Hunting, shooting",
+        "2" : "Cooking, gardening",
+        "3" : "Gambling, cards, dice",
+        "4" : "Natural philosophy",
+        "5" : "Drugs, essences, tobacco",
+        "6" : "Lovers, romance, trysts"
       },
       "5" : {
-        "1" : "Przyjęcia, wydarzenia",
-        "2" : "Odkrycia, przygody",
-        "3" : "Zwierzęta domowe",
-        "4" : "Rzemiosło",
-        "5" : "Statki, łodzie",
-        "6" : "Polityka, dziennikarstwo"
+        "1" : "Parties, social events",
+        "2" : "Exploration, adventure",
+        "3" : "Pets (birds, dogs, cats)",
+        "4" : "Craft (leatherwork, etc.)",
+        "5" : "Ships, boating",
+        "6" : "Politics, journalism"
       },
       "6" : {
-        "1" : "Księgi tajemne, rytuały",
-        "2" : "Spektrologia, elektroplazma",
-        "3" : "Alchemia, medycyna",
-        "4" : "Esencje, alchemia",
-        "5" : "Wiedza o demonach, legendy",
-        "6" : "Legendy sprzed kataklizmu"
+        "1" : "Arcane books, rituals",
+        "2" : "Spectrology, electroplasm",
+        "3" : "Alchemy, medicine",
+        "4" : "Essences, alchemy",
+        "5" : "Demon lore, legends",
+        "6" : "Pre-cataclysm legends"
       }
     },
     "quirks" : {
-      "title" : "Osobliwości",
+      "title" : "Quirks",
       "1" : {
-        "1" : "Przesądny, Wierzy w omeny, magię liczb",
-        "2" : "Oddany rodzinie",
-        "3" : "Wżeniowy w ważną/potężną rodzinę",
-        "4" : "Zajmowana pozycja pozwala szpiegować inną frakcję",
-        "5" : "Samotnik. Preferuje kontakty przez posłańców",
-        "6" : "Ogromne długi (wobec banków/łotrów/rodziny)"
+        "1" : "Superstitious. Believes in signs, magic numbers",
+        "2" : "Devoted to their family",
+        "3" : "Married into important / powerful family",
+        "4" : "Holds their position to spy for another faction",
+        "5" : "Reclusive. Prefers to interact via messengers",
+        "6" : "Massive debts (to banks / criminals / family)"
       },
       "2" : {
-        "1" : "Ślepy na wady przyjaciół, sojuszników, rodziny itd.",
-        "2" : "Opustoszały, później przywrócony. Niepodatny na duchy",
-        "3" : "Choruje przewlekle i wymaga stałej opieki",
-        "4" : "W tajemnicy (otwarcie?) opętany przez ducha",
-        "5" : "Element demonicznych planów (świadomy lub nie)",
-        "6" : "Dumny ze swojego dziedzictwa, tradycji, języka"
+        "1" : "Blind to flaws in friends, allies, family, etc.",
+        "2" : "Once hollowed, then restored. Immune to spirits",
+        "3" : "Has chronic illness that requires frequent care",
+        "4" : "Secretly (openly?) controlled by possessing spirit",
+        "5" : "Serves a demon’s agenda (knowingly or not)",
+        "6" : "Proud of heritage, traditions, native language"
       },
       "3" : {
-        "1" : "Przejmujący się plotkami i zachowaniem pozorów",
-        "2" : "Nadużywa narkotyków/alhoholu",
-        "3" : "Utrzymuje swoją pozycję za pomocą szantażu",
-        "4" : "Podejmuje decyzje za radą innych",
-        "5" : "Popełnił zbrodnie podczas Wojny Unifikacyjnej",
-        "6" : "Prowadzi podwójne życie pod fałszywą tożsamością"
+        "1" : "Concerned with appearances, gossip, peers",
+        "2" : "Drug / alcohol abuser. Often impaired by their vice",
+        "3" : "Holds their position due to blackmail",
+        "4" : "Relies on council to make decisions",
+        "5" : "Involved with war crimes from the Unity War",
+        "6" : "Leads a double life using cover identity"
       },
       "4" : {
-        "1" : "Czarna owca/wyrzutek rodziny lub organizacji",
-        "2" : "Przebywa w więzieniu lub areszcie domowym szlachcica",
-        "3" : "Podróżnik. Koneksje poza Doskvol",
-        "4" : "Rewolucjonista. Spiskuje przeciwko Imperium",
-        "5" : "Odziedziczył pozycję. Może na nią nie zasługiwać",
-        "6" : "Osobistość. Spopularyzowana przez prozę/pieśni/teatr"
+        "1" : "Black sheep / outcast from family or organization",
+        "2" : "In prison or under noble’s house arrest",
+        "3" : "Well-traveled. Connections outside Doskvol",
+        "4" : "Revolutionary. Plots against the Imperium",
+        "5" : "Inherited their position. May not deserve / want it",
+        "6" : "Celebrity. Popularized in print / song / theater"
       },
       "5" : {
-        "1" : "Skandaliczna reputacja (zasłużona lub nie)",
-        "2" : "Otoczony przez pochlebców, lizusów i petentów",
-        "3" : "Nieskalana reputacja. Wielce poważany",
-        "4" : "Uprzedzony wobec jakiejś kultury/klasy/przekonań",
-        "5" : "Wizjoner. Ma radykalne zapatrywania na przyszłość",
-        "6" : "Przeklęty, nawiedzany, prześladowany (duch lub demon)"
+        "1" : "Scandalous reputation (deserved or not)",
+        "2" : "Surrounded by sycophants, supplicants, toadies",
+        "3" : "Spotless reputation. Highly regarded",
+        "4" : "Bigoted against culture / belief / social class",
+        "5" : "Visionary. Holds radical views for future",
+        "6" : "Cursed, haunted, harassed by spirits or demon"
       },
       "6" : {
-        "1" : "Głęboka fobia lub nieracjonalna odraza",
-        "2" : "Gruntowe wykształcenie w każdej dziedzinie nauki",
-        "3" : "Prowadzi szczegółowe dzienniki, zapiski, rejestry",
-        "4" : "Ślepo wierzy w jakiś ideał, grupę lub tradycję",
-        "5" : "Glęboko konserwatywny. Przeciwnik nowych idei",
-        "6" : "Oszust. Pewien dotyczący go ważny szczegół jest zmyślony"
+        "1" : "Intense, unreasonable phobia or loathing",
+        "2" : "Extensive education on every scholarly subject",
+        "3" : "Keeps detailed journals, notes, records, ledgers.",
+        "4" : "Is blindly faithful to an ideal, group, or tradition",
+        "5" : "Deeply traditional. Opposed to new ideas",
+        "6" : "A fraud. Some important aspect is fabricated"
       }
     },
     "name" : {
-      "title" : "Imię",
+      "title" : "Name",
       "1" : {
         "1" : "Adric",
         "2" : "Aldo",
@@ -1028,7 +1028,7 @@
       }
     },
     "familyName" : {
-      "title" : "Nazwisko Rodowe",
+      "title" : "Family Name",
       "1" : {
         "1" : "Ankhayat",
         "2" : "Arran",
@@ -1095,54 +1095,54 @@
       }
     },
     "alias" : {
-      "title" : "Przydomek",
+      "title" : "Alias",
       "1" : {
-        "1" : "Bicz",
-        "2" : "Brzoza",
-        "3" : "Cegła",
-        "4" : "Chwytacz",
-        "5" : "Cierń",
-        "6" : "Dwunastka"
+        "1" : "Bell",
+        "2" : "Birch",
+        "3" : "Bricks",
+        "4" : "Bug",
+        "5" : "Chime",
+        "6" : "Coil"
       },
       "2" : {
-        "1" : "Dzwon",
-        "2" : "Echo",
-        "3" : "Garbarz",
-        "4" : "Gwóźdź",
-        "5" : "Hak",
-        "6" : "Igła"
+        "1" : "Cricket",
+        "2" : "Cross",
+        "3" : "Crow",
+        "4" : "Echo",
+        "5" : "Flint",
+        "6" : "Frog"
       },
       "3" : {
-        "1" : "Kijaszek",
-        "2" : "Krzemień",
-        "3" : "Księżyc",
-        "4" : "Kurant",
-        "5" : "Lodziarz",
-        "6" : "Loczek"
+        "1" : "Frost",
+        "2" : "Grip",
+        "3" : "Gunner",
+        "4" : "Hammer",
+        "5" : "Hook",
+        "6" : "Junker"
       },
       "4" : {
-        "1" : "Mgła",
-        "2" : "Młotek",
-        "3" : "Obrońca",
-        "4" : "Ogr",
-        "5" : "Oset",
-        "6" : "Ostroga"
+        "1" : "Mist",
+        "2" : "Moon",
+        "3" : "Nail",
+        "4" : "Needle",
+        "5" : "Ogre",
+        "6" : "Pool"
       },
       "5" : {
-        "1" : "Pierścieniarz",
-        "2" : "Pieśniarz",
-        "3" : "Robal",
-        "4" : "Rubin",
-        "5" : "Sreberko",
-        "6" : "Strzelec"
+        "1" : "Ring",
+        "2" : "Ruby",
+        "3" : "Silver",
+        "4" : "Skinner",
+        "5" : "Song",
+        "6" : "Spur"
       },
       "6" : {
-        "1" : "Śmieciarz",
-        "2" : "Świerszcz",
-        "3" : "Tykacz",
-        "4" : "Wikliniarz",
-        "5" : "Wrona",
-        "6" : "Wykreślacz"
+        "1" : "Tackle",
+        "2" : "Thistle",
+        "3" : "Thorn",
+        "4" : "Tick-Tock",
+        "5" : "Twelves",
+        "6" : "Vixen"
       }
     }
   },
