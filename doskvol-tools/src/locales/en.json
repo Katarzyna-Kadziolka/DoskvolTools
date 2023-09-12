@@ -1382,342 +1382,342 @@
   },
   "cults" : {
     "forgottenGods" : {
-      "title" : "Zapomniany bóg",
+      "title" : "Forgotten Gods",
       "1" : {
-        "1" : "Jeden Wewnątrz Wielu",
-        "2" : "Srebrny Ogień",
-        "3" : "Błogi Akord",
-        "4" : "Upadła Gwiazda",
-        "5" : "Władca Otchłani",
-        "6" : "Cicha Pieśń"
+        "1" : "The One Within Many",
+        "2" : "The Silver Fire",
+        "3" : "The Rapturous Chord",
+        "4" : "The Fallen Star",
+        "5" : "The Lord of the Depths",
+        "6" : "The Silent Song"
       },
       "2" : {
-        "1" : "Pani Ciernistych Krzewów",
-        "2" : "Nasza Krew Przelana w Chwale ",
-        "3" : "Tryk",
-        "4" : "Puste Naczynie",
-        "5" : "Zamknięte Oko",
-        "6" : "Dłoń Smutku"
+        "1" : "The Lady of Thorns",
+        "2" : "Our Blood Spilled in Glory",
+        "3" : "The Ram",
+        "4" : "The Empty Vessel",
+        "5" : "The Closed Eye",
+        "6" : "The Hand of Sorrow"
       },
       "3" : {
-        "1" : "Wiecznie Złakniony",
-        "2" : "Tysiąc Twarzy",
-        "3" : "Pajęczyna Bólu",
-        "4" : "Filary Nocy",
-        "5" : "Spalony Król",
-        "6" : "Ojciec Otchłani"
+        "1" : "That Which Hungers",
+        "2" : "The Thousand Faces",
+        "3" : "The Web of Pain",
+        "4" : "The Pillars of Night",
+        "5" : "The Burned King",
+        "6" : "The Father of the Abyss"
       },
       "4" : {
-        "1" : "Zapomniany Legion",
-        "2" : "Niezłomne Słońce",
-        "3" : "Objawienie",
-        "4" : "Promienne Słowo",
-        "5" : "Całun Królowej",
-        "6" : "Rozjemca"
+        "1" : "The Forsaken Legion",
+        "2" : "The Unbroken Sun",
+        "3" : "The Revelation",
+        "4" : "The Radiant Word",
+        "5" : "The Shrouded Queen",
+        "6" : "The Reconciler"
       },
       "5" : {
-        "1" : "Chmura Rozpaczy",
-        "2" : "Przerwany Krąg",
-        "3" : "Zdobywca",
-        "4" : "Zabijająca w Ciemności",
-        "5" : "Sen Poza Śmiercią",
-        "6" : "Krwista Fala"
+        "1" : "The Cloud of Woe",
+        "2" : "The Broken Circle",
+        "3" : "The Conqueror",
+        "4" : "She Who Slays in Darkness",
+        "5" : "The Dream Beyond Death",
+        "6" : "The Blood Dimmed Tide"
       },
       "6" : {
-        "1" : "Strażnik Bram",
-        "2" : "Moloch Pustki",
-        "3" : "Strażnik Płomienia",
-        "4" : "Tron Sądu",
-        "5" : "Utracona Korona",
-        "6" : "Złoty Jeleń"
+        "1" : "The Guardian of the Gates",
+        "2" : "The Maw of the Void",
+        "3" : "The Keeper of the Flame",
+        "4" : "The Throne of Judgment",
+        "5" : "The Lost Crown",
+        "6" : "The Golden Stag"
       }
     },
     "cultPractices" : {
-      "title" : "Obrzęd kultu",
+      "title" : "Cult Practices",
       "1" : {
-        "1" : "Ofiara: Pożarta przez rytualnie uświęcone zwierzęta / rozszarpana przez oszalałych kultystów",
-        "2" : "Ofiara: Walcząca o życie z namaszczonym bojownikiem kultu",
-        "3" : "Ofiara: Rytualnie wykrwawiana na poświęcony ołtarz",
-        "4" : "Ofiara: Stopniowo faszerowana narkotykami zmieniającymi stan świadomości",
-        "5" : "Ofiara: Rytualnie zamordowana i uznana za namaszczonego duchowego bojownika",
-        "6" : "Ofiara: Uśmiercona metodą tajemną (porażenie prądem, strzaskanie duszy, klątwa zgonu)"
+        "1" : "Sacrifice: Fed to specially consecrated beasts / Savaged (eaten?) by frenzied cult mob",
+        "2" : "Sacrifice: Pitted against an anointed champion in death arena",
+        "3" : "Sacrifice: Ritually bled upon the sacred altar",
+        "4" : "Sacrifice: Progressively overdosed with mind-expanding drugs",
+        "5" : "Sacrifice: Ritually killed and claimed as anointed spirit-champion",
+        "6" : "Sacrifice: Slain by arcane means (electrocuted, spirit shattered, death-cursed)"
       },
       "2" : {
-        "1" : "Nabożeństwo: Orgia przyjemności (seksu, jedzenia, tańców, muzyki) i/lub bólu",
-        "2" : "Nabożeństwo: Pieśni sakralne lub modły odprawiane bez przerwy przez wiele dni",
-        "3" : "Nabożeństwo: Zgromadzenie w świętym splocie podczas astrologicznej koniunkcji",
-        "4" : "Nabożeństwo: Pielgrzymka do św. miejsca lub bytu na martwych ziemiach / na oceanie",
-        "5" : "Nabożeństwo: Grupowa wizja / senna podróż wywołana esencją, narkotykami, medytacją",
-        "6" : "Nabożeństwo: Odegranie / pantomima świętego wydarzenia"
+        "1" : "Congregation: An orgy of pleasure (sex, food, dance, music) and/or pain",
+        "2" : "Congregation: Sacred hymns or prayers for days without ceasing",
+        "3" : "Congregation: Occupying a sacred nexus point during an astrological confluence",
+        "4" : "Congregation: A pilgrimage to a sacred place or being in the deathlands / at sea",
+        "5" : "Congregation: A group vision / dream-quest via essences, drugs, or meditation",
+        "6" : "Congregation: A reenactment / dumb-show of a sacred event"
       },
       "3" : {
-        "1" : "Przejęcie: Kolekcja oczu / serc / krwi mistyków lub demonów",
-        "2" : "Przejęcie: Odłamki świętego przedmiotu (klejnotu, miecza, czaszki, kamienia)",
-        "3" : "Przejęcie: Autentyczne święte zapiski proroka / nauczyciela / świętego",
-        "4" : "Przejęcie: Odcięte części ciała (głowy, ręce, języki) heretyków lub apostatów",
-        "5" : "Nabytek: Nieruchomości powiązane ze świętą geometrią/mistycznymi wydarzeniami",
-        "6" : "Przejęcie: Duchy proroków / mistyków / założycieli / wrogów zakonu"
+        "1" : "Acquisition: A collection of eyes / hearts / blood from mystics or demons",
+        "2" : "Acquisition: The shards of a shattered sacred object (jewel, sword, skull, stone)",
+        "3" : "Acquisition: The original holy writings of the prophet / master / saint",
+        "4" : "Acquisition: The severed body parts (heads, hands, tongues) of heretics or apostates",
+        "5" : "Acquisition: Properties aligned with sacred geometry or attuned by mystical events",
+        "6" : "Acquisition: The ghosts of prophets / mystics / founders / enemies of the order"
       },
       "4" : {
-        "1" : "Zniszczenie: Rytualne spalenie świętych przedmiotów (wizerunków, ciała, włosów)",
-        "2" : "Zniszczenie: Rytualne pozbycie się ducha lub demona",
-        "3" : "Zniszczenie: Złamanie pieczęci, aby bóstwo mogło wkroczyć do materialnego świata",
-        "4" : "Zniszczenie: Strzaskanie przedmiotów / ołtarzy / świątyń wrogiego wyznania",
-        "5" : "Zniszczenie: Unicestwienie broni / przedmiotów / miejsc, które mogą skrzywdzić bóstwo",
-        "6" : "Zniszczenie: Czynników społecznych / prawnych / kulturowych zagrażających kultowi"
+        "1" : "Destruction: Ritual burning of sacred objects (rune-papers, effigies, flesh, hair)",
+        "2" : "Destruction: Ritual eradication of a spirit or demon",
+        "3" : "Destruction: The breaking of the seals that keep the god from this world",
+        "4" : "Destruction: Shattering of ritual objects / altars / temples sacred to an enemy order",
+        "5" : "Destruction: Eradication of weapons / objects / sites / rituals that can harm the god",
+        "6" : "Destruction: Eradication of social / legal / cultural elements that threaten the order"
       },
       "5" : {
-        "1" : "Konsekracja: Oczyszczenie przez kąpiel w świętej cieczy (krwi, winie, mleku, oleju itd.)",
-        "2" : "Konsekracja: Oczyszczenie bram, które umożliwiają bóstwu przejście do świata materialnego",
-        "3" : "Konsekracja: Chrzest / pobłogosławienie akolity lub przedm. poprzez zanurzenie w studni dusz",
-        "4" : "Konsekracja: Pobłogosławienie wyznawców kultu za pomocą tatuaży / skaryfikacji / okaleczenia",
-        "5" : "Konsekracja: Stworzenie błogosławionych bożków / dzieł sztuki / miejsc rytualnych / artefaktów",
-        "6" : "Konsekracja: Symbole / runy / duchy mające odstraszać wrogów kultu"
+        "1" : "Consecration: Purification by bathing in sacred fluid (blood, wine, milk, oil, etc.)",
+        "2" : "Consecration: Purification of the gates that give passage to the god into this world",
+        "3" : "Consecration: Baptism / blessing of an acolyte or object by immersion in spirit well",
+        "4" : "Consecration: Purify / bless cult followers with tattoos / scarification / mutilation",
+        "5" : "Consecration: Creation of blessed idols / artwork / ritual spaces / artifacts",
+        "6" : "Consecration: Wards / runes / spirits bound to shun enemies of the order"
       },
       "6" : {
-        "1" : "Profanacja: Poniżenie lub skalanie jednego z zaprzysięgłych wrogów kultu",
-        "2" : "Profanacja: Zbezczeszczenie miejsca / przedmiotu / rytuału / tradycji, aby zawłaszczyć ich moc",
-        "3" : "Profanacja: Skalanie miejsca / przedmiotu / rytuału, aby poniżyć inny kult",
-        "4" : "Profanacja: Manipulowanie przedstawicielami władz/instytucjami, aby przejąć ich wpływy",
-        "5" : "Profanacja: Zdeprawowanie akolitów, aby przygotować ich do przemiany",
-        "6" : "Profanacja: Bezmyślny, bezcelowy chaos, zasiewanie ziaren anarchii"
+        "1" : "Desecration: Debasement or defilement of one sworn to an enemy order",
+        "2" : "Desecration: Corruption of place / object / ritual / tradition to appropriate its power",
+        "3" : "Desecration: Defilement of place / object / ritual to humiliate another order",
+        "4" : "Desecration: Manipulation of authorities / institutions to appropriate their power",
+        "5" : "Desecration: Corruption of acolytes to prepare them for transformation",
+        "6" : "Desecration: Mindless, pointless chaos; sewing the seeds of anarchy"
       }
     }
   },
   "scores" : {
     "client" : {
-      "title" : "Klient",
+      "title" : "Client",
       "civilian" : {
-        "title" : "Klient: Cywilny",
+        "title" : "Client: Civilian",
         "1" : {
-          "1" : "Wykładowca lub uczony",
-          "2" : "Robotnik lub rzemieślnik",
-          "3" : "Posłaniec lub marynarz",
-          "4" : "Kupiec lub sklepikarz",
-          "5" : "Artysta lub pisarz",
-          "6" : "Lekarz lub alchemik"
+          "1" : "Academic or Scholar",
+          "2" : "Laborer or Tradesman",
+          "3" : "Courier or Sailor",
+          "4" : "Merchant or Shopkeeper",
+          "5" : "Artist or Writer",
+          "6" : "Doctor or Alchemist"
         }
       },
       "criminal" : {
-        "title" : "Klient: Przestępczy",
+        "title" : "Client: Criminal",
         "1" : {
-          "1" : "Handlarz lub dostawca narkotyków",
-          "2" : "Najemnik lub zbir",
-          "3" : "Paser lub hazardzista",
-          "4" : "Szpieg lub informator",
-          "5" : "Przemytnik lub złodziej",
-          "6" : "Szef gangu"
+          "1" : "Drug Dealer or Supplier",
+          "2" : "Mercenary or Thug",
+          "3" : "Fence or Gambler",
+          "4" : "Spy or Informant",
+          "5" : "Smuggler or Thief",
+          "6" : "Crime Boss"
         }
       },
       "political" : {
-        "title" : "Klient: Polityczny",
+        "title" : "Client: Political",
         "1" : {
-          "1" : "Arystokrata lub urzędnik",
-          "2" : "Bankier lub kapitan",
-          "3" : "Rewolucjonista lub uchodźca",
-          "4" : "Duchowny lub kultysta",
-          "5" : "Posterunkowy lub Aspirant",
-          "6" : "Sędzia lub szef oddziału więziennego"
+          "1" : "Noble or Official",
+          "2" : "Banker or Captain",
+          "3" : "Revolutionary or Refugee",
+          "4" : "Clergy or Cultist",
+          "5" : "Constable or Inspector",
+          "6" : "Magistrate or Ward Boss"
         }
       },
       "strange" : {
-        "title" : "Klient: Dziwny",
+        "title" : "Client: Strange",
         "1" : {
-          "1" : "Duch (rzuć ponownie)",
-          "2" : "Kolekcjoner okultysta",
-          "3" : "Wampir lub inny nieumarły",
-          "4" : "Demon (w przebraniu)",
-          "5" : "Opętany lub opustoszały",
-          "6" : "Szeptuch lub kultysta"
+          "1" : "Ghost of (roll again)",
+          "2" : "Occult Collector",
+          "3" : "Vampire or Other Undead",
+          "4" : "Demon (disguised)",
+          "5" : "Possessed or Hollow",
+          "6" : "Whisper or Cultist"
         }
       }
     },
     "target" : {
-      "title" : "Cel",
+      "title" : "Target",
       "civilian" : {
-        "title" : "Cel: Cywilny",
+        "title" : "Target: Civilian",
         "1" : {
-          "1" : "Wykładowca lub uczony",
-          "2" : "Robotnik lub rzemieślnik",
-          "3" : "Posłaniec lub marynarz",
-          "4" : "Kupiec lub sklepikarz",
-          "5" : "Artysta lub pisarz",
-          "6" : "Lekarz lub alchemik"
+          "1" : "Academic or Scholar",
+          "2" : "Laborer or Tradesman",
+          "3" : "Courier or Sailor",
+          "4" : "Merchant or Shopkeeper",
+          "5" : "Artist or Writer",
+          "6" : "Doctor or Alchemist"
         }
       },
       "criminal" : {
-        "title" : "Cel: Przestępczy",
+        "title" : "Target: Criminal",
         "1" : {
-          "1" : "Handlarz lub dostawca narkotyków",
-          "2" : "Najemnik lub zbir",
-          "3" : "Paser lub hazardzista",
-          "4" : "Szpieg lub informator",
-          "5" : "Przemytnik lub złodziej",
-          "6" : "Szef gangu"
+          "1" : "Drug Dealer or Supplier",
+          "2" : "Mercenary or Thug",
+          "3" : "Fence or Gambler",
+          "4" : "Spy or Informant",
+          "5" : "Smuggler or Thief",
+          "6" : "Crime Boss"
         }
       },
       "political" : {
-        "title" : "Cel: Polityczny",
+        "title" : "Target: Political",
         "1" : {
-          "1" : "Arystokrata lub urzędnik",
-          "2" : "Bankier lub kapitan",
-          "3" : "Rewolucjonista lub uchodźca",
-          "4" : "Duchowny lub kultysta",
-          "5" : "Posterunkowy lub Aspirant",
-          "6" : "Sędzia lub szef oddziału więziennego"
+          "1" : "Noble or Official",
+          "2" : "Banker or Captain",
+          "3" : "Revolutionary or Refugee",
+          "4" : "Clergy or Cultist",
+          "5" : "Constable or Inspector",
+          "6" : "Magistrate or Ward Boss"
         }
       },
       "strange" : {
-        "title" : "Cel: Dziwny",
+        "title" : "Target: Strange",
         "1" : {
-          "1" : "Duch (rzuć ponownie)",
-          "2" : "Kolekcjoner okultysta",
-          "3" : "Wampir lub inny nieumarły",
-          "4" : "Demon (w przebraniu)",
-          "5" : "Opętany lub opustoszały",
-          "6" : "Szeptuch lub kultysta"
+          "1" : "Ghost of (roll again)",
+          "2" : "Occult Collector",
+          "3" : "Vampire or Other Undead",
+          "4" : "Demon (disguised)",
+          "5" : "Possessed or Hollow",
+          "6" : "Whisper or Cultist"
         }
       }
     },
     "work" : {
-      "title" : "Robota",
+      "title" : "Work",
       "skullduggery" : {
-        "title" : "Robota: Szwindel",
+        "title" : "Work: Skullduggery",
         "1" : {
-          "1" : "Prześladowanie lub obserwacja",
-          "2" : "Sabotaż lub podpalenie",
-          "3" : "Kradzież lub podrzucenie dowodów",
-          "4" : "Otrucie lub wypadek",
-          "5" : "Kradzież z włamaniem lub napad",
-          "6" : "Podszycie się lub oszustwo"
+          "1" : "Stalking or Surveillance",
+          "2" : "Sabotage or Arson",
+          "3" : "Lift or Plant",
+          "4" : "Poison or Arrange Accident",
+          "5" : "Burglary or Heist",
+          "6" : "Impersonate or Misdirect"
         }
       },
       "violence" : {
-        "title" : "Robota: Przemoc",
+        "title" : "Work: Violence",
         "1" : {
-          "1" : "Zabójstwo",
-          "2" : "Zniknięcie lub okup",
-          "3" : "Zastraszenie lub wymuszenie",
-          "4" : "Zniszczenie lub oszpecenie",
-          "5" : "Rabunek lub ochrona przed nim",
-          "6" : "Rabunek lub użycie przemocy"
+          "1" : "Assassinate",
+          "2" : "Disappear or Ransom",
+          "3" : "Terrorize or Extort",
+          "4" : "Destroy or Deface",
+          "5" : "Raid or Defend",
+          "6" : "Rob or Strong-arm"
         }
       },
       "underworld" : {
-        "title" : "Robota: Półświatek",
+        "title" : "Work: Underworld",
         "1" : {
-          "1" : "Eskorta lub ochrona",
-          "2" : "Przemyt lub transport",
-          "3" : "Szantaż lub zdyskredytowanie kogoś",
-          "4" : "Kant lub szpiegostwo",
-          "5" : "Znalezienie lub ukrycie",
-          "6" : "Negocjacje lub groźby"
+          "1" : "Escort or Security",
+          "2" : "Smuggle or Courier",
+          "3" : "Blackmail or Discredit",
+          "4" : "Con or Espionage",
+          "5" : "Locate or Hide",
+          "6" : "Negotiate or Threaten"
         }
       },
       "unnatural" : {
-        "title" : "Robota: Nienaturalne",
+        "title" : "Work: Unnatural",
         "1" : {
-          "1" : "Klątwa lub poświęcenie",
-          "2" : "Wygnanie lub przyzwanie",
-          "3" : "Wydobycie esencji",
-          "4" : "Umieszczenie lub usunięcie run",
-          "5" : "Odprawienie lub przerwanie rytuału",
-          "6" : "Opustoszenie lub przywrócenie"
+          "1" : "Curse or Sanctify",
+          "2" : "Banish or Summon",
+          "3" : "Extract Essence",
+          "4" : "Place or Remove Runes",
+          "5" : "Perform / Stop Ritua",
+          "6" : "Hollow or Revivify"
         }
       }
     },
     "twistOrComplication" : {
-      "title" : "Zwrot akcji lub komplikacja",
+      "title" : "Twist or Complication",
       "1" : {
-        "1" : "Dana rzecz jest przykrywką dla aktywności heretyckiego kultu duchów",
-        "2" : "Okultysta przewidział ten skoki ostrzegł zaangażowane frakcje",
-        "3" : "Niespokojne duchy opętały niektóre / większość / wszystkie zaangażowane osoby",
-        "4" : "To miejsce jest nawiedzane przez niespokojne duchy",
-        "5" : "Skok pomaga demonowi w realizacji jego tajnych planów",
-        "6" : "Skok pomaga wampirowi w realizacji jego tajnych planów"
+        "1" : "An element is a cover for heretic spirit cult practices",
+        "2" : "An occultist has foreseen this job and warned the parties involved",
+        "3" : "Rogue spirits possess some / most / all of the people involved",
+        "4" : "Rogue spirits haunt the location",
+        "5" : "The job furthers a demon’s secret agenda",
+        "6" : "The job furthers a vampire’s secret agenda"
       },
       "2" : {
-        "1" : "Dana rzecz jest przykrywką dla działalności przestępczej",
-        "2" : "Tutaj działa niebezpieczny gang",
-        "3" : "Skok jest pułapką zastawioną przez waszych wrogów",
-        "4" : "Skok jest testem przed inną robotą",
-        "5" : "Skok pomaga potężnemu kupcowi w realizacji jego tajnych planów",
-        "6" : "Skok pomaga szefowi gangu w realizacji jego tajnych planów"
+        "1" : "An element is a front for a criminal enterprise",
+        "2" : "A dangerous gang uses the location",
+        "3" : "The job is a trap laid by your enemies",
+        "4" : "The job is a test for another job",
+        "5" : "The job furthers a merchant lord’s secret agenda",
+        "6" : "The job furthers a crime boss’s secret agenda"
       },
       "3" : {
-        "1" : "Skok wymaga podróży pociągiem elektrycznym",
-        "2" : "Aby wykonać skok, trzeba odwiedzić martwe ziemie",
-        "3" : "Skok wymaga podróży morskiej",
-        "4" : "Cel skoku jest w ruchu (zmienia się miejsce, podróżuje w pojeździe itd.)",
-        "5" : "Skok pomaga rewolucjonistom w realizacji ich tajnych planów",
-        "6" : "Skok pomaga urzędnikom miejskim w realizacji ich tajnych planów"
+        "1" : "The job requires travel by electrorail",
+        "2" : "Must visit the deathlands to do the job",
+        "3" : "The job requires sea travel",
+        "4" : "The location moves around (site changes, it’s on a vehicle, etc.)",
+        "5" : "The job furthers a revolutionary’s secret agenda",
+        "6" : "The job furthers a city official’s secret agenda"
       }
     },
     "connectedToPerson" : {
-      "title" : "Powiązany z osobą",
+      "title" : "Connected to Person",
       "1" : {
-        "1" : "BG: Przyjaciel",
-        "2" : "BG: Rywa",
-        "3" : "BG: Dostawca słabości",
-        "4" : "Szajka: Kontakt",
-        "5" : "Miasto: Osobistość Doskvol",
-        "6" : "Dziw: Duch, demon, bóstwo"
+        "1" : "PC: Friend",
+        "2" : "PC: Rival",
+        "3" : "PC: Vice purveyor",
+        "4" : "Crew: Contact",
+        "5" : "City: Doskvol notable",
+        "6" : "Weird: Ghost, Demon, God"
       }
     },
     "connectedToFactions" : {
-      "title" : "Powiązany z frakcją",
+      "title" : "Connected to Factions",
       "1" : {
-        "1" : "Niewidoczni",
+        "1" : "The Unseen",
         "2" : "Lord Scurlock",
-        "3" : "Krąg Ognia",
-        "4" : "Zaciemniacze",
-        "5" : "Siostry Ściemne",
-        "6" : "Siekacze"
+        "3" : "The Circle of Flame",
+        "4" : "The Lampblacks",
+        "5" : "The Dimmer Sisters",
+        "6" : "The Billhooks"
       },
       "2" : {
-        "1" : "Szare Płaszcze",
-        "2" : "Ogary Mgieł",
-        "3" : "Rada Miejska lub Fundamentaliści",
-        "4" : "Strażnicy Dusz",
-        "5" : "Imperialne Siły Zbrojne",
-        "6" : "Iskrownicy"
+        "1" : "The Gray Cloaks",
+        "2" : "The Fog Hounds",
+        "3" : "City Council or The Foundation",
+        "4" : "Spirit Wardens",
+        "5" : "Imperial Military",
+        "6" : "Sparkwrights"
       },
       "3" : {
-        "1" : "Konsulat",
-        "2" : "Poławiacze Lewiatanów",
-        "3" : "Gondolierzy lub Dorożkarze",
-        "4" : "Kościół Cielesnej Ekstazy",
-        "5" : "Zapomniani Bogowie",
-        "6" : "Skowlańscy Uchodźcy"
+        "1" : "A Consulate",
+        "2" : "Leviathan Hunters",
+        "3" : "Gondoliers or Cabbies",
+        "4" : "The Church of Ecstasy",
+        "5" : "The Forgotten Gods",
+        "6" : "Skovlander Refugees"
       },
       "4" : {
-        "1" : "Srebrne Ćwieki",
-        "2" : "Rój",
-        "3" : "Wrony",
-        "4" : "Czerwone Szarfy",
-        "5" : "Szlifierze",
-        "6" : "Upiory"
+        "1" : "The Silver Nails",
+        "2" : "The Hive",
+        "3" : "The Crows",
+        "4" : "The Red Sashes",
+        "5" : "The Grinders",
+        "6" : "The Wraiths"
       },
       "5" : {
-        "1" : "Pancerny Ulf",
-        "2" : "Zagubieni",
-        "3" : "Więzienie Żelazny Hak",
-        "4" : "Błękitne Płaszcze lub Aspiranci",
-        "5" : "Robotnicy lub Służący",
-        "6" : "Szyfranci lub Kałamarzyści"
+        "1" : "Ulf Ironborn",
+        "2" : "The Lost",
+        "3" : "Ironhook Prison",
+        "4" : "Bluecoats or Inspectors",
+        "5" : "Laborers or Servants",
+        "6" : "Cyphers or Ink Rakes"
       },
       "6" : {
-        "1" : "Ministerstwo Ochrony",
-        "2" : "Marynarze lub Dokerzy",
-        "3" : "Majchry Kolejowe lub Brygada",
-        "4" : "Płacząca Pani",
-        "5" : "Ścieżka Szeptów lub Pojednani",
-        "6" : "Łupieżcy Martwych Ziem"
+        "1" : "Ministry of Preservation",
+        "2" : "Sailors or Dockers",
+        "3" : "Rail Jacks or The Brigade",
+        "4" : "The Weeping Lady",
+        "5" : "Path of Echoes or Reconciled",
+        "6" : "Deathlands Scavengers"
       }
     }
   },
   "notFound" : {
-    "title" : "Zabłądziłeś w złą uliczkę!",
-    "content" : "Wycofaj sie powoli..."
+    "title" : "You've gone down the wrong lane!",
+    "content" : "Back off slowly..."
   }
 }
