@@ -1148,7 +1148,7 @@
   },
   "devils" : {
     "names" : {
-      "title" : "Imię",
+      "title" : "Name",
       "1" : {
         "1" : "Korvaeth",
         "2" : "Sevraxis",
@@ -1175,208 +1175,208 @@
       }
     },
     "demonFeatures" : {
-      "title" : "Cechy demonów",
+      "title" : "Demon Features",
       "1" : {
-        "1" : "Czarne rekinie ślepia",
-        "2" : "Łuski (onyksowe, opalizujące, kryształowe, metaliczne itd.)",
-        "3" : "Ostre szpony",
-        "4" : "Kościste wyrostk",
-        "5" : "Wiele oczu",
-        "6" : "Chłoszczący ogon"
+        "1" : "Black shark eyes",
+        "2" : "Scales (onyx, iridescent, crystalline, metallic, etc.)",
+        "3" : "Razor-sharp claws",
+        "4" : "Bony protrusions",
+        "5" : "Multiple eyes",
+        "6" : "Lashing tail"
       },
       "2" : {
-        "1" : "Skórzaste skrzydła",
-        "2" : "Kolce",
-        "3" : "Żarzące się ślepia lub znaki na ciele",
-        "4" : "Włosy lub sierść (unoszące się, jakby były pod wodą, płonące zimnym ogniem itd.)",
-        "5" : "Pióra",
-        "6" : "Wiele rąk"
+        "1" : "Leathery wings",
+        "2" : "Spines",
+        "3" : "Dripping ichor",
+        "4" : "Glowing eyes or markings",
+        "5" : "Hair or fur, Feathers",
+        "6" : "Multiple arms"
       },
       "3" : {
-        "1" : "Macki",
-        "2" : "Twarda skorupa, metaliczne płyty",
-        "3" : "Światła przygasają lub rozbłyskuja",
-        "4" : "Rośliny więdną lub gwałtowie kwitną",
-        "5" : "Mechanizmy zacinają się lub psują",
-        "6" : "Płyny zamarzają, wrą, zmieniają się w krew lub popiół"
+        "1" : "Tentacles",
+        "2" : "Hard shell, metallic plates",
+        "3" : "Lights dim or flare",
+        "4" : "Plants wither or grow wildly",
+        "5" : "Mechanisms grind to a halt",
+        "6" : "Liquid freezes, boils, turns to blood or ashes"
       }
     },
     "traits" : {
-      "title" : "Cecha",
+      "title" : "Trait",
       "1" : {
-        "1" : "Zazdrosny",
-        "2" : "Zrozpaczony",
-        "3" : "Brutalny",
-        "4" : "Histeryczny",
-        "5" : "Płochliwy",
-        "6" : "Niestabilny"
+        "1" : "Jealous",
+        "2" : "Desperate",
+        "3" : "Violent",
+        "4" : "Hysterical",
+        "5" : "Skittish",
+        "6" : "Fleeting"
       },
       "2" : {
-        "1" : "Ciekawski",
-        "2" : "Zwodniczy",
-        "3" : "Sprytny",
-        "4" : "Dociekliwy",
-        "5" : "Mądry",
-        "6" : "Czarujący"
+        "1" : "Curious",
+        "2" : "Deceptive",
+        "3" : "Clever",
+        "4" : "Probing",
+        "5" : "Knowledgeable",
+        "6" : "Charming"
       },
       "3" : {
-        "1" : "Profetyczny",
-        "2" : "Wnikliwy",
-        "3" : "Lojalny",
-        "4" : "Objawiający",
-        "5" : "Pomocny",
-        "6" : "Pouczający"
+        "1" : "Prophetic",
+        "2" : "Insightful",
+        "3" : "True",
+        "4" : "Revelatory",
+        "5" : "Guiding",
+        "6" : "Instructive"
       },
       "4" : {
-        "1" : "Czujny",
-        "2" : "Terytorialny",
-        "3" : "Dominujący",
-        "4" : "Uparty",
-        "5" : "Śmiały",
-        "6" : "Wymagający"
+        "1" : "Reactive",
+        "2" : "Territorial",
+        "3" : "Dominant",
+        "4" : "Insistent",
+        "5" : "Bold",
+        "6" : "Demanding"
       },
       "5" : {
-        "1" : "Rozgniewany",
-        "2" : "Gwałtowny",
-        "3" : "Agresywny",
-        "4" : "Dziki",
-        "5" : "Nieokrzesany",
-        "6" : "Mściwy"
+        "1" : "Angry",
+        "2" : "Volatile",
+        "3" : "Aggressive",
+        "4" : "Wild",
+        "5" : "Savage",
+        "6" : "Vengeful"
       },
       "6" : {
-        "1" : "Wściekły",
-        "2" : "Chaotyczny",
-        "3" : "Dziwaczny",
-        "4" : "Niszczycielski",
-        "5" : "Szalony",
-        "6" : "Niegodziwy"
+        "1" : "Mad",
+        "2" : "Chaotic",
+        "3" : "Bizarre",
+        "4" : "Destructive",
+        "5" : "Insane",
+        "6" : "Vile"
       }
     },
     "ghostlySecondaryEffects" : {
-      "title" : "Pomniejsze zjawiska nadnaturalne",
+      "title" : "Ghostly Secondary Effects",
       "1" : {
-        "1" : "Mróz, chłód",
-        "2" : "Przeszywający wiatr",
-        "3" : "Powidoki przeszłości",
-        "4" : "Wyładowania elektryczne",
-        "5" : "Dziwne cienie",
-        "6" : "Niewyraźne echa"
+        "1" : "Frost, Chill",
+        "2" : "Cold wind",
+        "3" : "Faint visions of the local past",
+        "4" : "Electrical discharge",
+        "5" : "Weird shadows",
+        "6" : "Faint echoes"
       },
       "2" : {
-        "1" : "Mgła, opar",
-        "2" : "Silny wiatr",
-        "3" : "Intensywne wizualne echa",
-        "4" : "Silny magnetyzm",
-        "5" : "Niepokojące cienie",
-        "6" : "Ogłuszający hałas"
+        "1" : "Mist, Fog",
+        "2" : "Rushing wind",
+        "3" : "Intense visual echoes",
+        "4" : "Intense magnetism",
+        "5" : "Disturbing shadows",
+        "6" : "Thunderous sounds"
       },
       "3" : {
-        "1" : "Lodowata mgła",
-        "2" : "Porywisty wiatr",
-        "3" : "Nieprzenikniona czerń",
-        "4" : "Błyskawice",
-        "5" : "Oblepiające cienie ",
-        "6" : "Głosy w głowie"
+        "1" : "Freezing fog",
+        "2" : "Storm winds",
+        "3" : "Pitch darkness",
+        "4" : "Lightning",
+        "5" : "Clutching shadows",
+        "6" : "Voices in your head"
       }
     },
     "demonAspect" : {
-      "title" : "Demoniczny aspekt",
+      "title" : "Demon Aspect",
       "1" : {
-        "1" : "Humanoid o cechach zwierzęcia lub żywiołu",
-        "2" : "Humanoid o cechach zwierzęcia lub żywiołu",
-        "3" : "Humanoid o cechach zwierzęcia lub żywiołu",
-        "4" : "Zwierzę",
-        "5" : "Potwór",
-        "6" : "Bezkształtny"
+        "1" : "Humanoid w/ Bestial or Elemental Features",
+        "2" : "Humanoid w/ Bestial or Elemental Features",
+        "3" : "Humanoid w/ Bestial or Elemental Features",
+        "4" : "Animal",
+        "5" : "Monstrous",
+        "6" : "Amorphous"
       }
     },
     "affinity" : {
-      "title" : "Żywioł",
+      "title" : "Affinity",
       "1" : {
-        "1" : "Ocean, woda",
-        "2" : "Ciemność",
-        "3" : "Ziemia, metal",
-        "4" : "Ogień, dym",
-        "5" : "Niebo, gwiazdy",
-        "6" : "Burza, wiatr"
+        "1" : "Sea, Water",
+        "2" : "Darkness",
+        "3" : "Earth, Metal",
+        "4" : "Fire, Smoke",
+        "5" : "Sky, Stars",
+        "6" : "Storm, Wind"
       }
     },
     "demonDesires" : {
-      "title" : "Demoniczne żądze",
+      "title" : "Demon Desires",
       "1" : {
-        "1" : "Zamęt",
-        "2" : "Morderstwo",
-        "3" : "Sprawiedliwość",
-        "4" : "Zepsucie",
-        "5" : "Władza",
-        "6" : "Kontrola"
+        "1" : "Mayhem",
+        "2" : "Murder",
+        "3" : "Justice",
+        "4" : "Corruption",
+        "5" : "Power",
+        "6" : "Control"
       },
       "2" : {
-        "1" : "Wiedza",
-        "2" : "Rozkosz",
-        "3" : "Cierpienie",
-        "4" : "Wojna",
-        "5" : "Zemsta",
+        "1" : "Knowledge",
+        "2" : "Pleasure",
+        "3" : "Suffering",
+        "4" : "War",
+        "5" : "Revenge",
         "6" : "Chaos"
       },
       "3" : {
-        "1" : "Wolność",
-        "2" : "Okrucieństwo",
-        "3" : "Manipulacja",
-        "4" : "Oszustwo",
-        "5" : "Groza",
-        "6" : "Łupy"
+        "1" : "Freedom",
+        "2" : "Savagery",
+        "3" : "Manipulation",
+        "4" : "Deception",
+        "5" : "Fear",
+        "6" : "Achievement"
       }
     },
     "summonedHorrors" : {
-      "title" : "Przyzwane potworności",
+      "title" : "Summoned Horrors",
       "1" : {
-        "1" : "Cuchnąca smołą",
-        "2" : "Wijąca się masa",
-        "3" : "Radiacyjna istota",
-        "4" : "Kryształowe odłamki",
-        "5" : "Pełzająca narośl ",
-        "6" : "Ożywiony gaz"
+        "1" : "Reeking Tar",
+        "2" : "Writhing Mass",
+        "3" : "Radiant Being",
+        "4" : "Crystalline Shards",
+        "5" : "Creeping Growth",
+        "6" : "Animated Stone"
       },
       "2" : {
-        "1" : "Chmura płonącego popiołu ",
-        "2" : "Cienisty byt",
-        "3" : "Rój insektów",
-        "4" : "Toksyczny opar",
-        "5" : "Ognista istota",
-        "6" : "Płynna istota"
+        "1" : "Cloud of Burning Ash",
+        "2" : "Shadow Being",
+        "3" : "Swarm of Insects",
+        "4" : "Toxic Cloud",
+        "5" : "Fiery Being",
+        "6" : "Liquid Being"
       },
       "3" : {
-        "1" : "Istota obdarta ze skóry",
-        "2" : "Istota w łachmanach",
-        "3" : "Mrożący ogień",
-        "4" : "Niemożliwa geometria",
-        "5" : "Monstrualne zwierzę",
-        "6" : "Połyskujące sfery"
+        "1" : "Flayed Being",
+        "2" : "Shambling Rags",
+        "3" : "Freezing Fire",
+        "4" : "Impossible Geometry",
+        "5" : "Monstrous Animal",
+        "6" : "Shimmering Spheres"
       },
       "4" : {
-        "1" : "Dziwaczna maszyneria",
-        "2" : "Psychiczna mgła",
-        "3" : "Pulsujące wnętrzności",
-        "4" : "Metaliczna istota",
-        "5" : "Splot cierniowy",
-        "6" : "Hipnotyzujące światła"
+        "1" : "Twisting Machinery",
+        "2" : "Psychic Mist",
+        "3" : "Throbbing Viscera",
+        "4" : "Metallic Being",
+        "5" : "Coil of Thorns",
+        "6" : "Hypnotic Lights"
       },
       "5" : {
-        "1" : "Ropiejący ślimak",
-        "2" : "Przerażające wibracje",
-        "3" : "Chłostające haki",
-        "4" : "Szkielet z czarnego szkła",
-        "5" : "Płynna rtęć",
-        "6" : "Oblepiająca ciemność"
+        "1" : "Oozing Slug",
+        "2" : "Tremulous Vibrations",
+        "3" : "Lashing Hooks",
+        "4" : "Skeleton of Black Glass",
+        "5" : "Flowing Quicksilver",
+        "6" : "Clutching Darkness"
       },
       "6" : {
-        "1" : "Lewitująca mackowatość ",
-        "2" : "Mdły opar",
-        "3" : "Wirująca wydzielina",
-        "4" : "Wężowy byt",
-        "5" : "Insektoid",
-        "6" : "Pochłaniająca wszystko kula"
+        "1" : "Floating Octopoid",
+        "2" : "Cloying Vapors",
+        "3" : "Swirling Mucus",
+        "4" : "Serpent Being",
+        "5" : "Insectoid Being",
+        "6" : "Consuming Orb"
       }
     }
   },

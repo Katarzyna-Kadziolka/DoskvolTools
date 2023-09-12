@@ -1180,7 +1180,7 @@
         "1" : "Czarne rekinie ślepia",
         "2" : "Łuski (onyksowe, opalizujące, kryształowe, metaliczne itd.)",
         "3" : "Ostre szpony",
-        "4" : "Kościste wyrostk",
+        "4" : "Kościste wyrostki",
         "5" : "Wiele oczu",
         "6" : "Chłoszczący ogon"
       },
@@ -1275,7 +1275,7 @@
         "2" : "Porywisty wiatr",
         "3" : "Nieprzenikniona czerń",
         "4" : "Błyskawice",
-        "5" : "Oblepiające cienie ",
+        "5" : "Oblepiające cienie",
         "6" : "Głosy w głowie"
       }
     },
@@ -1335,11 +1335,11 @@
         "2" : "Wijąca się masa",
         "3" : "Radiacyjna istota",
         "4" : "Kryształowe odłamki",
-        "5" : "Pełzająca narośl ",
+        "5" : "Pełzająca narośl",
         "6" : "Ożywiony gaz"
       },
       "2" : {
-        "1" : "Chmura płonącego popiołu ",
+        "1" : "Chmura płonącego popiołu",
         "2" : "Cienisty byt",
         "3" : "Rój insektów",
         "4" : "Toksyczny opar",
@@ -1371,7 +1371,7 @@
         "6" : "Oblepiająca ciemność"
       },
       "6" : {
-        "1" : "Lewitująca mackowatość ",
+        "1" : "Lewitująca mackowatość",
         "2" : "Mdły opar",
         "3" : "Wirująca wydzielina",
         "4" : "Wężowy byt",
