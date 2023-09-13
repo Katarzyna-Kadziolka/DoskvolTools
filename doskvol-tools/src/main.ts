@@ -21,11 +21,12 @@ library.add(faToriiGate)
 library.add(faMask)
 
 import pl from "./locales/pl.json"
+import en from "./locales/en.json"
 
 const i18n = createI18n({
-  locale: "pl",
-  fallbackLocale: "pl",
-  messages: { pl },
+  locale: navigator.language,
+  fallbackLocale: "en",
+  messages: { pl, en },
   legacy: false
 })
 

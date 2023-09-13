@@ -1,10 +1,1723 @@
 {
   "generator-navigation": {
-    "building" : "Building",
-    "street" : "Street",
-    "character" : "Character",
-    "fiend" : "Fiend",
-    "cult" : "Cult",
-    "heist" : "Heist"
+    "building": "Building",
+    "street": "Street",
+    "character": "Character",
+    "devil": "Devil",
+    "cult": "Cult",
+    "scores": "Scores"
+  },
+  "generator-ui": {
+    "generate": "Random",
+    "copy": "Copy"
+  },
+  "streets": {
+    "mood": {
+      "title": "Mood",
+      "1": {
+        "1": "Dark or Cold",
+        "2": "Bright or Lively",
+        "3": "Quiet or Refined",
+        "4": "Abandoned or Decrepit",
+        "5": "Cramped or Noisy",
+        "6": "Cozy or Warm"
+      }
+    },
+    "impressions": {
+      "sights": {
+        "title": "Sights' Impressions",
+        "1": {
+          "1": "Rain Slick, Oil Slick",
+          "2": "Dancing Shadows, Flickering Lights",
+          "3": "Mist, Fog, Frost",
+          "4": "Fleeting Shapes, Echoes in the Ghost Field",
+          "5": "Soot, Ash Clouds, Grime",
+          "6": "Crackling Electricity, Wires, Mechanisms"
+        }
+      },
+      "sounds": {
+        "title": "Sights' Sounds",
+        "1": {
+          "1": "Machinery, Workers",
+          "2": "Fluttering Cloth, Howling Wind",
+          "3": "Laughter, Song, Music",
+          "4": "Whispers, Echoes, Strange Voices",
+          "5": "Thunder, Driving Rain",
+          "6": "Bells, Clock Chimes, Harbor Horns"
+        }
+      },
+      "smells": {
+        "title": "Sights' Smells",
+        "1": {
+          "1": "Cook Fires, Furnaces",
+          "2": "Damp Wood, Decay, Refuse",
+          "3": "Animals, Hides, Blood",
+          "4": "Chemicals, Distillates, Fumes",
+          "5": "Rain Water, Ocean",
+          "6": "Ozone, Electroplasmic Discharges"
+        }
+      }
+    },
+    "use": {
+      "title": "Use",
+      "1": {
+        "1": "Residential",
+        "2": "Crafts",
+        "3": "Labor",
+        "4": "Shops",
+        "5": "Trade",
+        "6": "Hospitality"
+      },
+      "2": {
+        "1": "Law, Government",
+        "2": "Public Space",
+        "3": "Power",
+        "4": "Manufacture",
+        "5": "Transportation",
+        "6": "Leisure"
+      },
+      "3": {
+        "1": "Vice",
+        "2": "Entertainment",
+        "3": "Storage",
+        "4": "Cultivation",
+        "5": "Academic",
+        "6": "Artists"
+      }
+    },
+    "type": {
+      "title": "Type",
+      "1": {
+        "1": "Narrow Lane",
+        "2": "Tight Alley",
+        "3": "Twisting Street",
+        "4": "Rough Road",
+        "5": "Bridge",
+        "6": "Waterway"
+      },
+      "2": {
+        "1": "Closed Court",
+        "2": "Open Plaza",
+        "3": "Paved Avenue",
+        "4": "Tunnel",
+        "5": "Wide Boulevard",
+        "6": "Roundabout"
+      },
+      "3": {
+        "1": "Elevated",
+        "2": "Flooded",
+        "3": "Suspended",
+        "4": "Subterranean",
+        "5": "Floating",
+        "6": "Private, Gated"
+      }
+    },
+    "details": {
+      "title": "Details",
+      "1": {
+        "1": "Metal Supports",
+        "2": "Ironwork Gates, Fences",
+        "3": "Belching Chimneys",
+        "4": "Metal Grates, Hatches, Doors",
+        "5": "Clockwork Mechanisms",
+        "6": "Rigging, Cables"
+      },
+      "2": {
+        "1": "Stairs, Ramps. Terraces",
+        "2": "Wooden Scaffolds",
+        "3": "Skyways",
+        "4": "Rooftop Spaces",
+        "5": "Rails, Train Cars",
+        "6": "Hidden Passages"
+      },
+      "3": {
+        "1": "Banners, Pennants",
+        "2": "Festival Decorations",
+        "3": "Crowd, Parade, Riot",
+        "4": "Street Performers",
+        "5": "Makeshift Stalls, Shelters",
+        "6": "Crisscrossing Routes"
+      },
+      "4": {
+        "1": "Gang Markings",
+        "2": "Patrol Posts",
+        "3": "Lookouts",
+        "4": "Stocks, Public Punishment",
+        "5": "Street Crier, Visionary",
+        "6": "News Stand, Public Notices"
+      },
+      "5": {
+        "1": "Stray Animals",
+        "2": "Landscaping",
+        "3": "Muck, Mire",
+        "4": "Construction, Demolition",
+        "5": "Foul Runoff, Fumes, Smoke",
+        "6": "Orphans, Beggars"
+      },
+      "6": {
+        "1": "Ancient Ruin",
+        "2": "Leering Gargoyles",
+        "3": "Spirit Chimes, Wards",
+        "4": "Eerie Emptiness",
+        "5": "Quarantine, Lockdown",
+        "6": "Shrine Offerings"
+      }
+    },
+    "props": {
+      "title": "Props",
+      "1": {
+        "1": "Nets, Ropes",
+        "2": "Crates, Boxes",
+        "3": "Cables, Chains",
+        "4": "Drain Pipes",
+        "5": "Water Pump",
+        "6": "Oil Drums"
+      },
+      "2": {
+        "1": "Brick Pile",
+        "2": "Iron Bars",
+        "3": "Wooden Boards",
+        "4": "Cut Stones",
+        "5": "Loose Rocks",
+        "6": "Cement Buckets"
+      },
+      "3": {
+        "1": "Sewer Grate",
+        "2": "Rotting Refuse",
+        "3": "Mud Puddles",
+        "4": "Discarded Junk",
+        "5": "Carrion & Crows",
+        "6": "Sodden Trash"
+      },
+      "4": {
+        "1": "Carriages",
+        "2": "Push Carts",
+        "3": "Moored Boats",
+        "4": "Cargo Barge",
+        "5": "Gondolas",
+        "6": "Wagons"
+      },
+      "5": {
+        "1": "Crane & Pulleys",
+        "2": "Cargo Bales",
+        "3": "Metal Ingots",
+        "4": "Industrial Forge",
+        "5": "Coal or Fuel",
+        "6": "Waste Bins"
+      },
+      "6": {
+        "1": "Street Lamps",
+        "2": "Electric Wires",
+        "3": "Junction Boxes",
+        "4": "Spotlight Tower",
+        "5": "Clock Tower",
+        "6": "Messenger Post"
+      },
+      "7": {
+        "1": "Withered Trees",
+        "2": "Monument",
+        "3": "Fountain",
+        "4": "Mossy Ruin",
+        "5": "Collapsed Bldg.",
+        "6": "Flimsy Hovel"
+      },
+      "8": {
+        "1": "Barricade",
+        "2": "Gate",
+        "3": "Checkpoint",
+        "4": "Piled Rubble",
+        "5": "Canal Lock",
+        "6": "Lightning Barrier"
+      },
+      "9": {
+        "1": "Food Stall",
+        "2": "Vendor Stall",
+        "3": "Barrels, Casks",
+        "4": "Makeshift Shrine",
+        "5": "News Stand",
+        "6": "Stockade"
+      }
+    }
+  },
+  "buildings": {
+    "exterior" : {
+      "material" : {
+        "title" : "Exterior's Material",
+        "1" : {
+          "1" : "Gray Brick",
+          "2" : "Stone & Timbers",
+          "3" : "Cut Stone Blocks",
+          "4" : "Wooden Boards",
+          "5" : "Plaster Board & Timbers",
+          "6" : "Metal Sheeting"
+        }
+      },
+      "details" : {
+        "title" : "Exterior's  Details",
+        "1" : {
+          "1" : "Tile Work",
+          "2" : "Iron Work",
+          "3" : "Glass Work",
+          "4" : "Stone Work",
+          "5" : "Wood Work",
+          "6" : "Landscaping"
+        }
+      }
+    },
+    "use" : {
+      "title" : "Use",
+      "common" : {
+        "title" : "Use: Common",
+        "1" : {
+          "1" : "Bunk House",
+          "2" : "Inn",
+          "3" : "Tavern",
+          "4" : "Gambling Hall",
+          "5" : "Drug Den",
+          "6" : "Brothel"
+        },
+        "2" : {
+          "1" : "Market",
+          "2" : "Workshop",
+          "3" : "Bakery",
+          "4" : "Butchery",
+          "5" : "Forge",
+          "6" : "Tailory"
+        },
+        "3" : {
+          "1" : "Work House",
+          "2" : "Goat Stables",
+          "3" : "Brewery",
+          "4" : "Watch Post",
+          "5" : "Court, Jail",
+          "6" : "Dock"
+        },
+        "4" : {
+          "1" : "Ruin",
+          "2" : "Row Houses",
+          "3" : "Tenements",
+          "4" : "Apartment Building",
+          "5" : "Small House",
+          "6" : "Bath House"
+        },
+        "5" : {
+          "1" : "Shrine",
+          "2" : "Tattooist",
+          "3" : "Physicker",
+          "4" : "Fighting Pits",
+          "5" : "Square, Fountain",
+          "6" : "Grotto"
+        },
+        "6" : {
+          "1" : "Warehouse",
+          "2" : "Stockyard",
+          "3" : "Factory",
+          "4" : "Refinery",
+          "5" : "Eelery",
+          "6" : "Mushroom Garden"
+        }
+      },
+      "rare" : {
+        "title" : "Use: Rare",
+        "1" : {
+          "1" : "Market House",
+          "2" : "Restaurant",
+          "3" : "Bar, Lounge",
+          "4" : "Academy",
+          "5" : "Salon",
+          "6" : "Cafe"
+        },
+        "2" : {
+          "1" : "Floristry",
+          "2" : "Tobacconist",
+          "3" : "Book Shop",
+          "4" : "Jeweler",
+          "5" : "Clothier",
+          "6" : "Gallery"
+        },
+        "3" : {
+          "1" : "Apothecary",
+          "2" : "Horse Stables",
+          "3" : "Distillery",
+          "4" : "Vintner",
+          "5" : "Master Artisan",
+          "6" : "Boat House"
+        },
+        "4" : {
+          "1" : "Theater",
+          "2" : "Opera House",
+          "3" : "Apartment Building",
+          "4" : "Townhouse",
+          "5" : "Manor House",
+          "6" : "Villa"
+        },
+        "5" : {
+          "1" : "Clinic",
+          "2" : "Temple",
+          "3" : "Cistern",
+          "4" : "Watch Post",
+          "5" : "Park",
+          "6" : "Monument"
+        },
+        "6" : {
+          "1" : "Archive",
+          "2" : "Spiritualist",
+          "3" : "Bank",
+          "4" : "Alchemist",
+          "5" : "Power Plant",
+          "6" : "Radiant Energy Garden"
+        }
+      }
+    },
+    "details" : {
+      "title" : "Details",
+      "1" : {
+        "1" : "Dripping Water",
+        "2" : "Creaking Floorboards",
+        "3" : "Roaring Fires",
+        "4" : "Smoky Lamps",
+        "5" : "Buzzing Electric Lights",
+        "6" : "Ticking Clockworks"
+      },
+      "2" : {
+        "1" : "Plants, Flowers",
+        "2" : "Wall Hangings, Artwork",
+        "3" : "Shuttered Windows",
+        "4" : "Heavy Curtains, Thick Carpet",
+        "5" : "Dust, Detritus",
+        "6" : "Wear, Damage"
+      },
+      "3" : {
+        "1" : "Threadbare, Tattered",
+        "2" : "Utilitarian Furnishings",
+        "3" : "Elegant Finery",
+        "4" : "Lush, Comfortable",
+        "5" : "Rough-Spun Simplicity",
+        "6" : "Spartan Austerity"
+      },
+      "4" : {
+        "1" : "Circular Stairs, Ladders",
+        "2" : "Secret Doors",
+        "3" : "Catwalks",
+        "4" : "Skylights",
+        "5" : "Balcony",
+        "6" : "Cellar"
+      },
+      "5" : {
+        "1" : "Drafty, Cold",
+        "2" : "Stout, Quiet ",
+        "3" : "Cozy, Warm",
+        "4" : "Vaulted, Spacious",
+        "5" : "Low, Cramped",
+        "6" : "Rickety, Ramshackle"
+      },
+      "6" : {
+        "1" : "Strange Devices",
+        "2" : "Weird Artifacts",
+        "3" : "Spirit Wards, Old Runes",
+        "4" : "Piled Jumble of Curios",
+        "5" : "Antique Appointments",
+        "6" : "Shrine, Altar"
+      }
+    },
+    "items" : {
+      "title" : "Items",
+      "1" : {
+        "1" : "Chalkboard, Desks, Papers",
+        "2" : "Maps, Charts, Diagrams",
+        "3" : "Books, Scrolls, Bookcases",
+        "4" : "Lamp, Inkwell, Writing Desk",
+        "5" : "Clock, Cabinet, Shelves",
+        "6" : "Table, Chairs, Notebooks"
+      },
+      "2" : {
+        "1" : "Bed, Bureau, Vanity",
+        "2" : "Bunks, Stools, Trunks",
+        "3" : "Basin, Pitcher, Mirror",
+        "4" : "Sofa, Divan, Music Box",
+        "5" : "Couches, Table, Lamps",
+        "6" : "Drapery, Pillows, Cushions"
+      },
+      "3" : {
+        "1" : "Counter, Sink, Cabinets",
+        "2" : "Cookfire, Pots, Pans, Utensils",
+        "3" : "Dining Table, Chairs, Cutlery",
+        "4" : "Game Board, Cards, Dice",
+        "5" : "Larder, Spices, Meat Hooks",
+        "6" : "Wine, Beer, Whiskey"
+      },
+      "4" : {
+        "1" : "Pedestal, Statue, Paintings",
+        "2" : "Bird Cage, Quill, Diary",
+        "3" : "Bell, Book, Candle",
+        "4" : "Fireplace, Rug, Armchair",
+        "5" : "Curtains, Vases, Flowers",
+        "6" : "Instruments, Music Sheets"
+      },
+      "5" : {
+        "1" : "Exam Chair, Medical Tools",
+        "2" : "Burner, Vials, Beakers",
+        "3" : "Workbench, Tools, Rags",
+        "4" : "Weapons, Ammunition",
+        "5" : "Toys, baby clothes, cradle",
+        "6" : "Barbell, talc, bar"
+      }
+    }
+  },
+  "characters" : {
+    "gender" : {
+      "title" : "Gender",
+      "1" : {
+        "1" : "Man",
+        "2" : "Man",
+        "3" : "Woman",
+        "4" : "Woman",
+        "5" : "Ambiguous, Concealed",
+        "6" : "Roll Again"
+      }
+    },
+    "heritage" : {
+      "title" : "Heritage",
+      "1" : {
+        "1" : "Akorosi",
+        "2" : "Akorosi",
+        "3" : "Akorosi",
+        "4" : "Foreigner",
+        "5" : "Foreigner",
+        "6" : "Foreigner"
+      }
+    },
+    "foreigners" : {
+      "title" : "Foreigners",
+      "1" : {
+        "1" : "Skovlander",
+        "2" : "Skovlander",
+        "3" : "Iruvian",
+        "4" : "Dagger Islander",
+        "5" : "Severosi",
+        "6" : "Tycherosi"
+      }
+    },
+    "looks" : {
+      "title" : "Looks",
+      "1" : {
+        "1" : "Large",
+        "2" : "Lovely",
+        "3" : "Weathered",
+        "4" : "Chiseled",
+        "5" : "Handsome",
+        "6" : "Athletic"
+      },
+      "2" : {
+        "1" : "Slim",
+        "2" : "Dark",
+        "3" : "Fair",
+        "4" : "Stout",
+        "5" : "Delicate",
+        "6" : "Scarred"
+      },
+      "3" : {
+        "1" : "Bony",
+        "2" : "Worn",
+        "3" : "Rough",
+        "4" : "Plump",
+        "5" : "Wiry",
+        "6" : "Striking"
+      },
+      "4" : {
+        "1" : "Short",
+        "2" : "Tall",
+        "3" : "Sexy",
+        "4" : "Wild",
+        "5" : "Elegant",
+        "6" : "Stooped"
+      },
+      "5" : {
+        "1" : "Cute",
+        "2" : "Plain",
+        "3" : "Old",
+        "4" : "Young",
+        "5" : "Stylish",
+        "6" : "Strange"
+      },
+      "6" : {
+        "1" : "Disfigured, Maimed",
+        "2" : "Glasses, Monocle",
+        "3" : "Prosthetic, Crippled",
+        "4" : "Long Hair, Beard, Wig",
+        "5" : "Shorn, Bald",
+        "6" : "Tattooed"
+      }
+    },
+    "style" : {
+      "title" : "Style",
+      "1" : {
+        "1" : "Tricorn Hat",
+        "2" : "Long Coat",
+        "3" : "Hood & Veil",
+        "4" : "Short Cloak",
+        "5" : "Knit Cap",
+        "6" : "Slim Jacket"
+      },
+      "2" : {
+        "1" : "Hooded Coat",
+        "2" : "Tall Boots",
+        "3" : "Work Boots",
+        "4" : "Mask & Robes",
+        "5" : "Suit & Vest",
+        "6" : "Collared Shirt"
+      },
+      "3" : {
+        "1" : "Suspenders",
+        "2" : "Rough Tunic",
+        "3" : "Skirt & Blouse",
+        "4" : "Wide Belt",
+        "5" : "Fitted Dress",
+        "6" : "Heavy Cloak"
+      },
+      "4" : {
+        "1" : "Thick Greatcoat",
+        "2" : "Soft Boots",
+        "3" : "Loose Silks",
+        "4" : "Sharp Trousers",
+        "5" : "Waxed Coat",
+        "6" : "Long Scarf"
+      },
+      "5" : {
+        "1" : "Leathers",
+        "2" : "Eelskin Bodysuit",
+        "3" : "Hide & Furs",
+        "4" : "Uniform",
+        "5" : "Tatters",
+        "6" : "Fitted Leggings"
+      },
+      "6" : {
+        "1" : "Apron",
+        "2" : "Heavy Gloves",
+        "3" : "Face Mask",
+        "4" : "Tool Belt",
+        "5" : "Crutches, Cane",
+        "6" : "Wheelchair"
+      }
+    },
+    "goals" : {
+      "title" : "Goals",
+      "1" : {
+        "1" : "Wealth",
+        "2" : "Power",
+        "3" : "Authority",
+        "4" : "Prestige, Fame",
+        "5" : "Control",
+        "6" : "Knowledge"
+      },
+      "2" : {
+        "1" : "Pleasure",
+        "2" : "Revenge",
+        "3" : "Freedom",
+        "4" : "Achievement",
+        "5" : "Happiness",
+        "6" : "Infamy, Fear"
+      },
+      "3" : {
+        "1" : "Respect",
+        "2" : "Love",
+        "3" : "Change",
+        "4" : "Chaos, Destruction",
+        "5" : "Justice",
+        "6" : "Cooperation"
+      }
+    },
+    "preferredMethods" : {
+      "title" : "Preferred Methods",
+      "1" : {
+        "1" : "Violence",
+        "2" : "Threats",
+        "3" : "Negotiation",
+        "4" : "Study",
+        "5" : "Manipulation",
+        "6" : "Strategy"
+      },
+      "2" : {
+        "1" : "Theft",
+        "2" : "Arcane",
+        "3" : "Commerce",
+        "4" : "Hard Work",
+        "5" : "Law, Politics",
+        "6" : "Sabotage"
+      },
+      "3" : {
+        "1" : "Subterfuge",
+        "2" : "Alchemy",
+        "3" : "Blackmail",
+        "4" : "Teamwork",
+        "5" : "Espionage",
+        "6" : "Chaos"
+      }
+    },
+    "professions" : {
+      "title" : "Profession",
+      "common" : {
+        "title" : "Professions: Common",
+        "1" : {
+          "1" : "Baker",
+          "2" : "Barber",
+          "3" : "Blacksmith",
+          "4" : "Brewer",
+          "5" : "Butcher",
+          "6" : "Carpenter"
+        },
+        "2" : {
+          "1" : "Cartwright",
+          "2" : "Chandler",
+          "3" : "Clerk",
+          "4" : "Cobbler",
+          "5" : "Cooper",
+          "6" : "Cultivator"
+        },
+        "3" : {
+          "1" : "Driver",
+          "2" : "Dyer",
+          "3" : "Embroiderer",
+          "4" : "Fishmonger",
+          "5" : "Gondolier",
+          "6" : "Guard"
+        },
+        "4" : {
+          "1" : "Leatherworker",
+          "2" : "Mason",
+          "3" : "Merchant",
+          "4" : "Roofer",
+          "5" : "Ropemaker",
+          "6" : "Rug Maker"
+        },
+        "5" : {
+          "1" : "Servant",
+          "2" : "Shipwright",
+          "3" : "Criminal",
+          "4" : "Tailor",
+          "5" : "Tanner",
+          "6" : "Tinkerer"
+        },
+        "6" : {
+          "1" : "Vendor",
+          "2" : "Weaver",
+          "3" : "Woodworker",
+          "4" : "Goat Herd",
+          "5" : "Messenger",
+          "6" : "Sailor"
+        }
+      },
+      "rare" : {
+        "title" : "Professions: Rare",
+        "1" : {
+          "1" : "Advocate",
+          "2" : "Architect",
+          "3" : "Artist",
+          "4" : "Author",
+          "5" : "Bailiff",
+          "6" : "Apiarist"
+        },
+        "2" : {
+          "1" : "Banker",
+          "2" : "Bounty Hunter",
+          "3" : "Clockmaker",
+          "4" : "Courtesan",
+          "5" : "Furrier",
+          "6" : "Glass Blower"
+        },
+        "3" : {
+          "1" : "Diplomat",
+          "2" : "Jailer",
+          "3" : "Jeweler",
+          "4" : "Leech",
+          "5" : "Locksmith",
+          "6" : "Magistrate"
+        },
+        "4" : {
+          "1" : "Musician",
+          "2" : "Physicker",
+          "3" : "Plumber",
+          "4" : "Printer",
+          "5" : "Scholar",
+          "6" : "Scribe"
+        },
+        "5" : {
+          "1" : "Sparkwright",
+          "2" : "Tax Collector",
+          "3" : "Treasurer",
+          "4" : "Whisper",
+          "5" : "Composer",
+          "6" : "Steward"
+        },
+        "6" : {
+          "1" : "Captain",
+          "2" : "Spirit Warden",
+          "3" : "Journalist",
+          "4" : "Explorer",
+          "5" : "Rail Jack",
+          "6" : "Soldier"
+        }
+      }
+    },
+    "traits" : {
+      "title" : "Trait",
+      "1" : {
+        "1" : "Charming",
+        "2" : "Cold",
+        "3" : "Cavalier",
+        "4" : "Brash",
+        "5" : "Suspicious",
+        "6" : "Obsessive"
+      },
+      "2" : {
+        "1" : "Shrewd",
+        "2" : "Quiet",
+        "3" : "Moody",
+        "4" : "Fierce",
+        "5" : "Careless",
+        "6" : "Secretive"
+      },
+      "3" : {
+        "1" : "Ruthless",
+        "2" : "Calculating",
+        "3" : "Defiant",
+        "4" : "Gracious",
+        "5" : "Insightful",
+        "6" : "Dishonest"
+      },
+      "4" : {
+        "1" : "Patient",
+        "2" : "Vicious",
+        "3" : "Sophisticated",
+        "4" : "Paranoid",
+        "5" : "Enthusiastic",
+        "6" : "Elitist"
+      },
+      "5" : {
+        "1" : "Savage",
+        "2" : "Cooperative",
+        "3" : "Arrogant",
+        "4" : "Confident",
+        "5" : "Vain",
+        "6" : "Daring"
+      },
+      "6" : {
+        "1" : "Volatile",
+        "2" : "Candid",
+        "3" : "Subtle",
+        "4" : "Melancholy",
+        "5" : "Enigmatic",
+        "6" : "Calm"
+      }
+    },
+    "interests" : {
+      "title" : "Interests",
+      "1" : {
+        "1" : "Fine whiskey, wine, beer",
+        "2" : "Fine food, restaurants",
+        "3" : "Fine clothes, jewelry, furs",
+        "4" : "Fine arts, opera, theater",
+        "5" : "Painting, drawing, sculpture",
+        "6" : "History, legends"
+      },
+      "2" : {
+        "1" : "Architecture, furnishings",
+        "2" : "Poetry, novels, writing",
+        "3" : "Pit-fighting, duels",
+        "4" : "Forgotten gods",
+        "5" : "Chruch of Ecstasy",
+        "6" : "Path of Echoes"
+      },
+      "3" : {
+        "1" : "Weeping Lady, charity",
+        "2" : "Antiques, artifacts, curios",
+        "3" : "Horses, riding",
+        "4" : "Gadgets, new technology",
+        "5" : "Weapons collector",
+        "6" : "Music, instruments, dance"
+      },
+      "4" : {
+        "1" : "Hunting, shooting",
+        "2" : "Cooking, gardening",
+        "3" : "Gambling, cards, dice",
+        "4" : "Natural philosophy",
+        "5" : "Drugs, essences, tobacco",
+        "6" : "Lovers, romance, trysts"
+      },
+      "5" : {
+        "1" : "Parties, social events",
+        "2" : "Exploration, adventure",
+        "3" : "Pets (birds, dogs, cats)",
+        "4" : "Craft (leatherwork, etc.)",
+        "5" : "Ships, boating",
+        "6" : "Politics, journalism"
+      },
+      "6" : {
+        "1" : "Arcane books, rituals",
+        "2" : "Spectrology, electroplasm",
+        "3" : "Alchemy, medicine",
+        "4" : "Essences, alchemy",
+        "5" : "Demon lore, legends",
+        "6" : "Pre-cataclysm legends"
+      }
+    },
+    "quirks" : {
+      "title" : "Quirks",
+      "1" : {
+        "1" : "Superstitious. Believes in signs, magic numbers",
+        "2" : "Devoted to their family",
+        "3" : "Married into important / powerful family",
+        "4" : "Holds their position to spy for another faction",
+        "5" : "Reclusive. Prefers to interact via messengers",
+        "6" : "Massive debts (to banks / criminals / family)"
+      },
+      "2" : {
+        "1" : "Blind to flaws in friends, allies, family, etc.",
+        "2" : "Once hollowed, then restored. Immune to spirits",
+        "3" : "Has chronic illness that requires frequent care",
+        "4" : "Secretly (openly?) controlled by possessing spirit",
+        "5" : "Serves a demon’s agenda (knowingly or not)",
+        "6" : "Proud of heritage, traditions, native language"
+      },
+      "3" : {
+        "1" : "Concerned with appearances, gossip, peers",
+        "2" : "Drug / alcohol abuser. Often impaired by their vice",
+        "3" : "Holds their position due to blackmail",
+        "4" : "Relies on council to make decisions",
+        "5" : "Involved with war crimes from the Unity War",
+        "6" : "Leads a double life using cover identity"
+      },
+      "4" : {
+        "1" : "Black sheep / outcast from family or organization",
+        "2" : "In prison or under noble’s house arrest",
+        "3" : "Well-traveled. Connections outside Doskvol",
+        "4" : "Revolutionary. Plots against the Imperium",
+        "5" : "Inherited their position. May not deserve / want it",
+        "6" : "Celebrity. Popularized in print / song / theater"
+      },
+      "5" : {
+        "1" : "Scandalous reputation (deserved or not)",
+        "2" : "Surrounded by sycophants, supplicants, toadies",
+        "3" : "Spotless reputation. Highly regarded",
+        "4" : "Bigoted against culture / belief / social class",
+        "5" : "Visionary. Holds radical views for future",
+        "6" : "Cursed, haunted, harassed by spirits or demon"
+      },
+      "6" : {
+        "1" : "Intense, unreasonable phobia or loathing",
+        "2" : "Extensive education on every scholarly subject",
+        "3" : "Keeps detailed journals, notes, records, ledgers.",
+        "4" : "Is blindly faithful to an ideal, group, or tradition",
+        "5" : "Deeply traditional. Opposed to new ideas",
+        "6" : "A fraud. Some important aspect is fabricated"
+      }
+    },
+    "name" : {
+      "title" : "Name",
+      "1" : {
+        "1" : "Adric",
+        "2" : "Aldo",
+        "3" : "Amosen",
+        "4" : "Andrel",
+        "5" : "Arden",
+        "6" : "Arlyn"
+      },
+      "2" : {
+        "1" : "Arquo",
+        "2" : "Arvus",
+        "3" : "Ashlyn",
+        "4" : "Branon",
+        "5" : "Brace",
+        "6" : "Brance"
+      },
+      "3" : {
+        "1" : "Brena",
+        "2" : "Bricks",
+        "3" : "Candra",
+        "4" : "Carissa",
+        "5" : "Carro",
+        "6" : "Casslyn"
+      },
+      "4" : {
+        "1" : "Cavelle",
+        "2" : "Clave",
+        "3" : "Corille",
+        "4" : "Cross",
+        "5" : "Crowl",
+        "6" : "Cyrene"
+      },
+      "5" : {
+        "1" : "Daphnia",
+        "2" : "Darha",
+        "3" : "Drav",
+        "4" : "Edlun",
+        "5" : "Emeline",
+        "6" : "Evi"
+      },
+      "6" : {
+        "1" : "Grine",
+        "2" : "Hakan",
+        "3" : "Helles",
+        "4" : "Hix",
+        "5" : "Holtz",
+        "6" : "Kamelin"
+      },
+      "7" : {
+        "1" : "Kan",
+        "2" : "Kelyr",
+        "3" : "Kobb",
+        "4" : "Kristov",
+        "5" : "Laudius",
+        "6" : "Lauria"
+      },
+      "8" : {
+        "1" : "Lenia",
+        "2" : "Lizete",
+        "3" : "Lorette",
+        "4" : "Lucella",
+        "5" : "Lynthia",
+        "6" : "Mara"
+      },
+      "9" : {
+        "1" : "Milos",
+        "2" : "Morlan",
+        "3" : "Myre",
+        "4" : "Narcus",
+        "5" : "Naria",
+        "6" : "Noggs"
+      },
+      "10" : {
+        "1" : "Odrienne",
+        "2" : "Orlan",
+        "3" : "Phin",
+        "4" : "Polonia",
+        "5" : "Quess",
+        "6" : "Remira"
+      },
+      "11" : {
+        "1" : "Ring",
+        "2" : "Roethe",
+        "3" : "Sesereth",
+        "4" : "Sethla",
+        "5" : "Skannon",
+        "6" : "Stavrul"
+      },
+      "12" : {
+        "1" : "Stev",
+        "2" : "Syra",
+        "3" : "Talitha",
+        "4" : "Tesslyn",
+        "5" : "Thena",
+        "6" : "Timoth"
+      },
+      "13" : {
+        "1" : "Tocker",
+        "2" : "Una",
+        "3" : "Vaurin",
+        "4" : "Veleris",
+        "5" : "Veretta",
+        "6" : "Vestine"
+      },
+      "14" : {
+        "1" : "Vey",
+        "2" : "Volette",
+        "3" : "Vond",
+        "4" : "Weaver",
+        "5" : "Wester",
+        "6" : "Zamira"
+      }
+    },
+    "familyName" : {
+      "title" : "Family Name",
+      "1" : {
+        "1" : "Ankhayat",
+        "2" : "Arran",
+        "3" : "Athanoch",
+        "4" : "Basran",
+        "5" : "Boden",
+        "6" : "Booker"
+      },
+      "2" : {
+        "1" : "Bowman",
+        "2" : "Breakiron",
+        "3" : "Brogan",
+        "4" : "Clelland",
+        "5" : "Clermont",
+        "6" : "Coleburn"
+      },
+      "3" : {
+        "1" : "Comber",
+        "2" : "Daava",
+        "3" : "Dalmore",
+        "4" : "Danfield",
+        "5" : "Dunvil",
+        "6" : "Farros"
+      },
+      "4" : {
+        "1" : "Grine",
+        "2" : "Haig",
+        "3" : "Helker",
+        "4" : "Helles",
+        "5" : "Hellyers",
+        "6" : "Jayan"
+      },
+      "5" : {
+        "1" : "Jeduin",
+        "2" : "Kardera",
+        "3" : "Karstas",
+        "4" : "Keel",
+        "5" : "Kessarin",
+        "6" : "Kinclaith"
+      },
+      "6" : {
+        "1" : "Lomond",
+        "2" : "Maroden",
+        "3" : "Michter",
+        "4" : "Morriston",
+        "5" : "Penderyn",
+        "6" : "Prichard"
+      },
+      "7" : {
+        "1" : "Rowan",
+        "2" : "Sevoy",
+        "3" : "Skelkallan",
+        "4" : "Skora",
+        "5" : "Slane",
+        "6" : "Strangford"
+      },
+      "8" : {
+        "1" : "Strathmill",
+        "2" : "Templeton",
+        "3" : "Tyrconnell",
+        "4" : "Vale",
+        "5" : "Walund",
+        "6" : "Welker"
+      }
+    },
+    "alias" : {
+      "title" : "Alias",
+      "1" : {
+        "1" : "Bell",
+        "2" : "Birch",
+        "3" : "Bricks",
+        "4" : "Bug",
+        "5" : "Chime",
+        "6" : "Coil"
+      },
+      "2" : {
+        "1" : "Cricket",
+        "2" : "Cross",
+        "3" : "Crow",
+        "4" : "Echo",
+        "5" : "Flint",
+        "6" : "Frog"
+      },
+      "3" : {
+        "1" : "Frost",
+        "2" : "Grip",
+        "3" : "Gunner",
+        "4" : "Hammer",
+        "5" : "Hook",
+        "6" : "Junker"
+      },
+      "4" : {
+        "1" : "Mist",
+        "2" : "Moon",
+        "3" : "Nail",
+        "4" : "Needle",
+        "5" : "Ogre",
+        "6" : "Pool"
+      },
+      "5" : {
+        "1" : "Ring",
+        "2" : "Ruby",
+        "3" : "Silver",
+        "4" : "Skinner",
+        "5" : "Song",
+        "6" : "Spur"
+      },
+      "6" : {
+        "1" : "Tackle",
+        "2" : "Thistle",
+        "3" : "Thorn",
+        "4" : "Tick-Tock",
+        "5" : "Twelves",
+        "6" : "Vixen"
+      }
+    }
+  },
+  "devils" : {
+    "names" : {
+      "title" : "Name",
+      "1" : {
+        "1" : "Korvaeth",
+        "2" : "Sevraxis",
+        "3" : "Argaz",
+        "4" : "Zalvroxos",
+        "5" : "Kethtera",
+        "6" : "Arkeveron"
+      },
+      "2" : {
+        "1" : "Ixis",
+        "2" : "Kyronax",
+        "3" : "Voldranai",
+        "4" : "Esketra",
+        "5" : "Ardranax",
+        "6" : "Kylastra"
+      },
+      "3" : {
+        "1" : "Oryxus",
+        "2" : "Ahazu",
+        "3" : "Tyraxis",
+        "4" : "Azarax",
+        "5" : "Vaskari",
+        "6" : "Xarasus"
+      }
+    },
+    "demonFeatures" : {
+      "title" : "Demon Features",
+      "1" : {
+        "1" : "Black shark eyes",
+        "2" : "Scales (onyx, iridescent, crystalline, metallic, etc.)",
+        "3" : "Razor-sharp claws",
+        "4" : "Bony protrusions",
+        "5" : "Multiple eyes",
+        "6" : "Lashing tail"
+      },
+      "2" : {
+        "1" : "Leathery wings",
+        "2" : "Spines",
+        "3" : "Dripping ichor",
+        "4" : "Glowing eyes or markings",
+        "5" : "Hair or fur, Feathers",
+        "6" : "Multiple arms"
+      },
+      "3" : {
+        "1" : "Tentacles",
+        "2" : "Hard shell, metallic plates",
+        "3" : "Lights dim or flare",
+        "4" : "Plants wither or grow wildly",
+        "5" : "Mechanisms grind to a halt",
+        "6" : "Liquid freezes, boils, turns to blood or ashes"
+      }
+    },
+    "traits" : {
+      "title" : "Trait",
+      "1" : {
+        "1" : "Jealous",
+        "2" : "Desperate",
+        "3" : "Violent",
+        "4" : "Hysterical",
+        "5" : "Skittish",
+        "6" : "Fleeting"
+      },
+      "2" : {
+        "1" : "Curious",
+        "2" : "Deceptive",
+        "3" : "Clever",
+        "4" : "Probing",
+        "5" : "Knowledgeable",
+        "6" : "Charming"
+      },
+      "3" : {
+        "1" : "Prophetic",
+        "2" : "Insightful",
+        "3" : "True",
+        "4" : "Revelatory",
+        "5" : "Guiding",
+        "6" : "Instructive"
+      },
+      "4" : {
+        "1" : "Reactive",
+        "2" : "Territorial",
+        "3" : "Dominant",
+        "4" : "Insistent",
+        "5" : "Bold",
+        "6" : "Demanding"
+      },
+      "5" : {
+        "1" : "Angry",
+        "2" : "Volatile",
+        "3" : "Aggressive",
+        "4" : "Wild",
+        "5" : "Savage",
+        "6" : "Vengeful"
+      },
+      "6" : {
+        "1" : "Mad",
+        "2" : "Chaotic",
+        "3" : "Bizarre",
+        "4" : "Destructive",
+        "5" : "Insane",
+        "6" : "Vile"
+      }
+    },
+    "ghostlySecondaryEffects" : {
+      "title" : "Ghostly Secondary Effects",
+      "1" : {
+        "1" : "Frost, Chill",
+        "2" : "Cold wind",
+        "3" : "Faint visions of the local past",
+        "4" : "Electrical discharge",
+        "5" : "Weird shadows",
+        "6" : "Faint echoes"
+      },
+      "2" : {
+        "1" : "Mist, Fog",
+        "2" : "Rushing wind",
+        "3" : "Intense visual echoes",
+        "4" : "Intense magnetism",
+        "5" : "Disturbing shadows",
+        "6" : "Thunderous sounds"
+      },
+      "3" : {
+        "1" : "Freezing fog",
+        "2" : "Storm winds",
+        "3" : "Pitch darkness",
+        "4" : "Lightning",
+        "5" : "Clutching shadows",
+        "6" : "Voices in your head"
+      }
+    },
+    "demonAspect" : {
+      "title" : "Demon Aspect",
+      "1" : {
+        "1" : "Humanoid w/ Bestial or Elemental Features",
+        "2" : "Humanoid w/ Bestial or Elemental Features",
+        "3" : "Humanoid w/ Bestial or Elemental Features",
+        "4" : "Animal",
+        "5" : "Monstrous",
+        "6" : "Amorphous"
+      }
+    },
+    "affinity" : {
+      "title" : "Affinity",
+      "1" : {
+        "1" : "Sea, Water",
+        "2" : "Darkness",
+        "3" : "Earth, Metal",
+        "4" : "Fire, Smoke",
+        "5" : "Sky, Stars",
+        "6" : "Storm, Wind"
+      }
+    },
+    "demonDesires" : {
+      "title" : "Demon Desires",
+      "1" : {
+        "1" : "Mayhem",
+        "2" : "Murder",
+        "3" : "Justice",
+        "4" : "Corruption",
+        "5" : "Power",
+        "6" : "Control"
+      },
+      "2" : {
+        "1" : "Knowledge",
+        "2" : "Pleasure",
+        "3" : "Suffering",
+        "4" : "War",
+        "5" : "Revenge",
+        "6" : "Chaos"
+      },
+      "3" : {
+        "1" : "Freedom",
+        "2" : "Savagery",
+        "3" : "Manipulation",
+        "4" : "Deception",
+        "5" : "Fear",
+        "6" : "Achievement"
+      }
+    },
+    "summonedHorrors" : {
+      "title" : "Summoned Horrors",
+      "1" : {
+        "1" : "Reeking Tar",
+        "2" : "Writhing Mass",
+        "3" : "Radiant Being",
+        "4" : "Crystalline Shards",
+        "5" : "Creeping Growth",
+        "6" : "Animated Stone"
+      },
+      "2" : {
+        "1" : "Cloud of Burning Ash",
+        "2" : "Shadow Being",
+        "3" : "Swarm of Insects",
+        "4" : "Toxic Cloud",
+        "5" : "Fiery Being",
+        "6" : "Liquid Being"
+      },
+      "3" : {
+        "1" : "Flayed Being",
+        "2" : "Shambling Rags",
+        "3" : "Freezing Fire",
+        "4" : "Impossible Geometry",
+        "5" : "Monstrous Animal",
+        "6" : "Shimmering Spheres"
+      },
+      "4" : {
+        "1" : "Twisting Machinery",
+        "2" : "Psychic Mist",
+        "3" : "Throbbing Viscera",
+        "4" : "Metallic Being",
+        "5" : "Coil of Thorns",
+        "6" : "Hypnotic Lights"
+      },
+      "5" : {
+        "1" : "Oozing Slug",
+        "2" : "Tremulous Vibrations",
+        "3" : "Lashing Hooks",
+        "4" : "Skeleton of Black Glass",
+        "5" : "Flowing Quicksilver",
+        "6" : "Clutching Darkness"
+      },
+      "6" : {
+        "1" : "Floating Octopoid",
+        "2" : "Cloying Vapors",
+        "3" : "Swirling Mucus",
+        "4" : "Serpent Being",
+        "5" : "Insectoid Being",
+        "6" : "Consuming Orb"
+      }
+    }
+  },
+  "cults" : {
+    "forgottenGods" : {
+      "title" : "Forgotten Gods",
+      "1" : {
+        "1" : "The One Within Many",
+        "2" : "The Silver Fire",
+        "3" : "The Rapturous Chord",
+        "4" : "The Fallen Star",
+        "5" : "The Lord of the Depths",
+        "6" : "The Silent Song"
+      },
+      "2" : {
+        "1" : "The Lady of Thorns",
+        "2" : "Our Blood Spilled in Glory",
+        "3" : "The Ram",
+        "4" : "The Empty Vessel",
+        "5" : "The Closed Eye",
+        "6" : "The Hand of Sorrow"
+      },
+      "3" : {
+        "1" : "That Which Hungers",
+        "2" : "The Thousand Faces",
+        "3" : "The Web of Pain",
+        "4" : "The Pillars of Night",
+        "5" : "The Burned King",
+        "6" : "The Father of the Abyss"
+      },
+      "4" : {
+        "1" : "The Forsaken Legion",
+        "2" : "The Unbroken Sun",
+        "3" : "The Revelation",
+        "4" : "The Radiant Word",
+        "5" : "The Shrouded Queen",
+        "6" : "The Reconciler"
+      },
+      "5" : {
+        "1" : "The Cloud of Woe",
+        "2" : "The Broken Circle",
+        "3" : "The Conqueror",
+        "4" : "She Who Slays in Darkness",
+        "5" : "The Dream Beyond Death",
+        "6" : "The Blood Dimmed Tide"
+      },
+      "6" : {
+        "1" : "The Guardian of the Gates",
+        "2" : "The Maw of the Void",
+        "3" : "The Keeper of the Flame",
+        "4" : "The Throne of Judgment",
+        "5" : "The Lost Crown",
+        "6" : "The Golden Stag"
+      }
+    },
+    "cultPractices" : {
+      "title" : "Cult Practices",
+      "1" : {
+        "1" : "Sacrifice: Fed to specially consecrated beasts / Savaged (eaten?) by frenzied cult mob",
+        "2" : "Sacrifice: Pitted against an anointed champion in death arena",
+        "3" : "Sacrifice: Ritually bled upon the sacred altar",
+        "4" : "Sacrifice: Progressively overdosed with mind-expanding drugs",
+        "5" : "Sacrifice: Ritually killed and claimed as anointed spirit-champion",
+        "6" : "Sacrifice: Slain by arcane means (electrocuted, spirit shattered, death-cursed)"
+      },
+      "2" : {
+        "1" : "Congregation: An orgy of pleasure (sex, food, dance, music) and/or pain",
+        "2" : "Congregation: Sacred hymns or prayers for days without ceasing",
+        "3" : "Congregation: Occupying a sacred nexus point during an astrological confluence",
+        "4" : "Congregation: A pilgrimage to a sacred place or being in the deathlands / at sea",
+        "5" : "Congregation: A group vision / dream-quest via essences, drugs, or meditation",
+        "6" : "Congregation: A reenactment / dumb-show of a sacred event"
+      },
+      "3" : {
+        "1" : "Acquisition: A collection of eyes / hearts / blood from mystics or demons",
+        "2" : "Acquisition: The shards of a shattered sacred object (jewel, sword, skull, stone)",
+        "3" : "Acquisition: The original holy writings of the prophet / master / saint",
+        "4" : "Acquisition: The severed body parts (heads, hands, tongues) of heretics or apostates",
+        "5" : "Acquisition: Properties aligned with sacred geometry or attuned by mystical events",
+        "6" : "Acquisition: The ghosts of prophets / mystics / founders / enemies of the order"
+      },
+      "4" : {
+        "1" : "Destruction: Ritual burning of sacred objects (rune-papers, effigies, flesh, hair)",
+        "2" : "Destruction: Ritual eradication of a spirit or demon",
+        "3" : "Destruction: The breaking of the seals that keep the god from this world",
+        "4" : "Destruction: Shattering of ritual objects / altars / temples sacred to an enemy order",
+        "5" : "Destruction: Eradication of weapons / objects / sites / rituals that can harm the god",
+        "6" : "Destruction: Eradication of social / legal / cultural elements that threaten the order"
+      },
+      "5" : {
+        "1" : "Consecration: Purification by bathing in sacred fluid (blood, wine, milk, oil, etc.)",
+        "2" : "Consecration: Purification of the gates that give passage to the god into this world",
+        "3" : "Consecration: Baptism / blessing of an acolyte or object by immersion in spirit well",
+        "4" : "Consecration: Purify / bless cult followers with tattoos / scarification / mutilation",
+        "5" : "Consecration: Creation of blessed idols / artwork / ritual spaces / artifacts",
+        "6" : "Consecration: Wards / runes / spirits bound to shun enemies of the order"
+      },
+      "6" : {
+        "1" : "Desecration: Debasement or defilement of one sworn to an enemy order",
+        "2" : "Desecration: Corruption of place / object / ritual / tradition to appropriate its power",
+        "3" : "Desecration: Defilement of place / object / ritual to humiliate another order",
+        "4" : "Desecration: Manipulation of authorities / institutions to appropriate their power",
+        "5" : "Desecration: Corruption of acolytes to prepare them for transformation",
+        "6" : "Desecration: Mindless, pointless chaos; sewing the seeds of anarchy"
+      }
+    }
+  },
+  "scores" : {
+    "client" : {
+      "title" : "Client",
+      "civilian" : {
+        "title" : "Client: Civilian",
+        "1" : {
+          "1" : "Academic or Scholar",
+          "2" : "Laborer or Tradesman",
+          "3" : "Courier or Sailor",
+          "4" : "Merchant or Shopkeeper",
+          "5" : "Artist or Writer",
+          "6" : "Doctor or Alchemist"
+        }
+      },
+      "criminal" : {
+        "title" : "Client: Criminal",
+        "1" : {
+          "1" : "Drug Dealer or Supplier",
+          "2" : "Mercenary or Thug",
+          "3" : "Fence or Gambler",
+          "4" : "Spy or Informant",
+          "5" : "Smuggler or Thief",
+          "6" : "Crime Boss"
+        }
+      },
+      "political" : {
+        "title" : "Client: Political",
+        "1" : {
+          "1" : "Noble or Official",
+          "2" : "Banker or Captain",
+          "3" : "Revolutionary or Refugee",
+          "4" : "Clergy or Cultist",
+          "5" : "Constable or Inspector",
+          "6" : "Magistrate or Ward Boss"
+        }
+      },
+      "strange" : {
+        "title" : "Client: Strange",
+        "1" : {
+          "1" : "Ghost of (roll again)",
+          "2" : "Occult Collector",
+          "3" : "Vampire or Other Undead",
+          "4" : "Demon (disguised)",
+          "5" : "Possessed or Hollow",
+          "6" : "Whisper or Cultist"
+        }
+      }
+    },
+    "target" : {
+      "title" : "Target",
+      "civilian" : {
+        "title" : "Target: Civilian",
+        "1" : {
+          "1" : "Academic or Scholar",
+          "2" : "Laborer or Tradesman",
+          "3" : "Courier or Sailor",
+          "4" : "Merchant or Shopkeeper",
+          "5" : "Artist or Writer",
+          "6" : "Doctor or Alchemist"
+        }
+      },
+      "criminal" : {
+        "title" : "Target: Criminal",
+        "1" : {
+          "1" : "Drug Dealer or Supplier",
+          "2" : "Mercenary or Thug",
+          "3" : "Fence or Gambler",
+          "4" : "Spy or Informant",
+          "5" : "Smuggler or Thief",
+          "6" : "Crime Boss"
+        }
+      },
+      "political" : {
+        "title" : "Target: Political",
+        "1" : {
+          "1" : "Noble or Official",
+          "2" : "Banker or Captain",
+          "3" : "Revolutionary or Refugee",
+          "4" : "Clergy or Cultist",
+          "5" : "Constable or Inspector",
+          "6" : "Magistrate or Ward Boss"
+        }
+      },
+      "strange" : {
+        "title" : "Target: Strange",
+        "1" : {
+          "1" : "Ghost of (roll again)",
+          "2" : "Occult Collector",
+          "3" : "Vampire or Other Undead",
+          "4" : "Demon (disguised)",
+          "5" : "Possessed or Hollow",
+          "6" : "Whisper or Cultist"
+        }
+      }
+    },
+    "work" : {
+      "title" : "Work",
+      "skullduggery" : {
+        "title" : "Work: Skullduggery",
+        "1" : {
+          "1" : "Stalking or Surveillance",
+          "2" : "Sabotage or Arson",
+          "3" : "Lift or Plant",
+          "4" : "Poison or Arrange Accident",
+          "5" : "Burglary or Heist",
+          "6" : "Impersonate or Misdirect"
+        }
+      },
+      "violence" : {
+        "title" : "Work: Violence",
+        "1" : {
+          "1" : "Assassinate",
+          "2" : "Disappear or Ransom",
+          "3" : "Terrorize or Extort",
+          "4" : "Destroy or Deface",
+          "5" : "Raid or Defend",
+          "6" : "Rob or Strong-arm"
+        }
+      },
+      "underworld" : {
+        "title" : "Work: Underworld",
+        "1" : {
+          "1" : "Escort or Security",
+          "2" : "Smuggle or Courier",
+          "3" : "Blackmail or Discredit",
+          "4" : "Con or Espionage",
+          "5" : "Locate or Hide",
+          "6" : "Negotiate or Threaten"
+        }
+      },
+      "unnatural" : {
+        "title" : "Work: Unnatural",
+        "1" : {
+          "1" : "Curse or Sanctify",
+          "2" : "Banish or Summon",
+          "3" : "Extract Essence",
+          "4" : "Place or Remove Runes",
+          "5" : "Perform / Stop Ritua",
+          "6" : "Hollow or Revivify"
+        }
+      }
+    },
+    "twistOrComplication" : {
+      "title" : "Twist or Complication",
+      "1" : {
+        "1" : "An element is a cover for heretic spirit cult practices",
+        "2" : "An occultist has foreseen this job and warned the parties involved",
+        "3" : "Rogue spirits possess some / most / all of the people involved",
+        "4" : "Rogue spirits haunt the location",
+        "5" : "The job furthers a demon’s secret agenda",
+        "6" : "The job furthers a vampire’s secret agenda"
+      },
+      "2" : {
+        "1" : "An element is a front for a criminal enterprise",
+        "2" : "A dangerous gang uses the location",
+        "3" : "The job is a trap laid by your enemies",
+        "4" : "The job is a test for another job",
+        "5" : "The job furthers a merchant lord’s secret agenda",
+        "6" : "The job furthers a crime boss’s secret agenda"
+      },
+      "3" : {
+        "1" : "The job requires travel by electrorail",
+        "2" : "Must visit the deathlands to do the job",
+        "3" : "The job requires sea travel",
+        "4" : "The location moves around (site changes, it’s on a vehicle, etc.)",
+        "5" : "The job furthers a revolutionary’s secret agenda",
+        "6" : "The job furthers a city official’s secret agenda"
+      }
+    },
+    "connectedToPerson" : {
+      "title" : "Connected to Person",
+      "1" : {
+        "1" : "PC: Friend",
+        "2" : "PC: Rival",
+        "3" : "PC: Vice purveyor",
+        "4" : "Crew: Contact",
+        "5" : "City: Doskvol notable",
+        "6" : "Weird: Ghost, Demon, God"
+      }
+    },
+    "connectedToFactions" : {
+      "title" : "Connected to Factions",
+      "1" : {
+        "1" : "The Unseen",
+        "2" : "Lord Scurlock",
+        "3" : "The Circle of Flame",
+        "4" : "The Lampblacks",
+        "5" : "The Dimmer Sisters",
+        "6" : "The Billhooks"
+      },
+      "2" : {
+        "1" : "The Gray Cloaks",
+        "2" : "The Fog Hounds",
+        "3" : "City Council or The Foundation",
+        "4" : "Spirit Wardens",
+        "5" : "Imperial Military",
+        "6" : "Sparkwrights"
+      },
+      "3" : {
+        "1" : "A Consulate",
+        "2" : "Leviathan Hunters",
+        "3" : "Gondoliers or Cabbies",
+        "4" : "The Church of Ecstasy",
+        "5" : "The Forgotten Gods",
+        "6" : "Skovlander Refugees"
+      },
+      "4" : {
+        "1" : "The Silver Nails",
+        "2" : "The Hive",
+        "3" : "The Crows",
+        "4" : "The Red Sashes",
+        "5" : "The Grinders",
+        "6" : "The Wraiths"
+      },
+      "5" : {
+        "1" : "Ulf Ironborn",
+        "2" : "The Lost",
+        "3" : "Ironhook Prison",
+        "4" : "Bluecoats or Inspectors",
+        "5" : "Laborers or Servants",
+        "6" : "Cyphers or Ink Rakes"
+      },
+      "6" : {
+        "1" : "Ministry of Preservation",
+        "2" : "Sailors or Dockers",
+        "3" : "Rail Jacks or The Brigade",
+        "4" : "The Weeping Lady",
+        "5" : "Path of Echoes or Reconciled",
+        "6" : "Deathlands Scavengers"
+      }
+    }
+  },
+  "notFound" : {
+    "title" : "You've gone down the wrong lane!",
+    "content" : "Back off slowly..."
   }
 }
