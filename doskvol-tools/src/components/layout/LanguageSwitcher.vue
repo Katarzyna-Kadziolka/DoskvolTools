@@ -7,7 +7,7 @@ import {ref, watchEffect} from "vue";
 const {locale} = useI18n({useScope: "global"});
 
 
-const options : SelectOption[] = [
+const options: SelectOption[] = [
   {
     label: 'English',
     value: 'en'

@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import {ref} from "vue";
 import type {SelectOption} from "@/components/common/baseSelect/selectOption";
+import { onClickOutside } from '@vueuse/core'
 
 defineProps<{
   modelValue: string,
@@ -15,14 +16,16 @@ const isDropdownOpen = ref(false);
 const toggleDropdown = () => {
   isDropdownOpen.value = !isDropdownOpen.value;
 }
-const selectValue = (option : string) => {
-  emit('update:modelValue', option);
+const selectValue = (optionLabel : string) => {
+  emit('update:modelValue', optionLabel);
 }
+const target = ref(null)
+onClickOutside(target, () => isDropdownOpen.value=false);
 
 </script>
 
 <template>
-  <div class="base-select_container" @click="toggleDropdown">
+  <div ref="target" class="base-select_container" @click="toggleDropdown">
     <div class="base-select_label">
       <span>{{modelValue}}</span>
       <font-awesome-icon icon="fa-solid fa-chevron-down" />
