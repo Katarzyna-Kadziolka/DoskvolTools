@@ -35,7 +35,7 @@ const selectValue = (option : string) => {
     >
       <div
           v-for="option in options"
-          :key="option"
+          :key="option.value"
           :class="[modelValue === option.label ? 'base-select_selected' : '']"
           class="base-select_option"
           @click="selectValue(option.label)"
