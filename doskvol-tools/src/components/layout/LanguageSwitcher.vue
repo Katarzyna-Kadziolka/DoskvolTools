@@ -2,9 +2,10 @@
 import {useI18n} from 'vue-i18n'
 import BaseSelect from "@/components/common/baseSelect/BaseSelect.vue";
 import type {SelectOption} from "@/components/common/baseSelect/selectOption";
-import {ref} from "vue";
+import {ref, watchEffect} from "vue";
 
-const {t} = useI18n({useScope: "global"});
+const {locale} = useI18n({useScope: "global"});
+
 
 const options : SelectOption[] = [
   {
@@ -17,14 +18,14 @@ const options : SelectOption[] = [
   }
 ];
 
-const selectedOption = ref(options[0].label);
+const selectedOption = ref(options.find((x) => x.value === locale.value)!.label);
+
+watchEffect(() => {
+  locale.value = options.find((x) => x.label === selectedOption.value)!.value;
+})
 
 </script>
 
 <template>
   <BaseSelect v-model="selectedOption" :options="options"/>
 </template>
-
-<style scoped lang="scss">
-
-</style>

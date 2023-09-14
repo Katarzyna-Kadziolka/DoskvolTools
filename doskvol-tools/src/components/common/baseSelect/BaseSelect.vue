@@ -7,9 +7,16 @@ defineProps<{
   options: SelectOption[]
 }>()
 
+const emit = defineEmits<{
+  (e: 'update:modelValue', value: string) : void
+}>()
+
 const isDropdownOpen = ref(false);
 const toggleDropdown = () => {
   isDropdownOpen.value = !isDropdownOpen.value;
+}
+const selectValue = (option : string) => {
+  emit('update:modelValue', option);
 }
 
 </script>
@@ -30,6 +37,8 @@ const toggleDropdown = () => {
           v-for="option in options"
           :key="option"
           :class="[modelValue === option.label ? 'base-select_selected' : '']"
+          class="base-select_option"
+          @click="selectValue(option.label)"
       >
         {{option.label}}
       </div>
@@ -47,7 +56,7 @@ const toggleDropdown = () => {
   &_dropdown {
     display: none;
     position: absolute;
-    top: 100%;
+    top: 130%;
     left: 0;
     background-color: $color-secondary;
     border: 1px solid $color-background;
@@ -63,12 +72,17 @@ const toggleDropdown = () => {
     display: block;
   }
   &_selected {
-
+    color: $color-primary;
   }
   &_label {
     display: flex;
     align-items: center;
     column-gap: 24px;
+  }
+  &_option {
+    &:hover {
+      color: $color-primary
+    }
   }
 }
 </style>
