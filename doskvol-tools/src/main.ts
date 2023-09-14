@@ -11,7 +11,7 @@ import "@fontsource/source-sans-pro/400-italic.css"; // Specify weight and style
 
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
-import { faCity, faPerson, faSpaghettiMonsterFlying, faToriiGate, faMask, faBuilding } from  '@fortawesome/free-solid-svg-icons'
+import { faCity, faPerson, faSpaghettiMonsterFlying, faToriiGate, faMask, faBuilding, faChevronDown } from  '@fortawesome/free-solid-svg-icons'
 
 library.add(faBuilding)
 library.add(faCity)
@@ -19,6 +19,7 @@ library.add(faPerson)
 library.add(faSpaghettiMonsterFlying)
 library.add(faToriiGate)
 library.add(faMask)
+library.add(faChevronDown)
 
 import pl from "./locales/pl.json"
 import en from "./locales/en.json"
