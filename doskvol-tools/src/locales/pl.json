@@ -116,9 +116,9 @@
       "title": "Szczegóły",
       "1": {
         "1": "Metalowe wsporniki",
-        "2": "Artyst. bramy, ogrodzenia",
+        "2": "Artystyczne bramy, ogrodzenia",
         "3": "Dymiące kominy",
-        "4": "Met. kraty, włazy, drzwi",
+        "4": "Metalowe kraty, włazy, drzwi",
         "5": "Mechanizmy zegarowe",
         "6": "Olinowanie, kable"
       },
@@ -147,7 +147,7 @@
         "6": "Słupy ogłoszeniowe"
       },
       "5": {
-        "1": "Bezpańskie zwierzęta ",
+        "1": "Bezpańskie zwierzęta",
         "2": "Tereny zielone",
         "3": "Błoto, bajoro",
         "4": "Plac budowy, wyburzenia",
@@ -289,7 +289,7 @@
           "2" : "Stadnina kóz",
           "3" : "Browar",
           "4" : "Posterunek straży",
-          "5" : "Sąd, więzienie ",
+          "5" : "Sąd, więzienie",
           "6" : "Dok"
         },
         "4" : {
@@ -397,7 +397,7 @@
       },
       "4" : {
         "1" : "Kręcone schody, drabiny",
-        "2" : "Ukryte drzwi ",
+        "2" : "Ukryte drzwi",
         "3" : "Pomosty, kładki",
         "4" : "Świetliki",
         "5" : "Balkon",
@@ -522,7 +522,7 @@
         "3" : "Szorstki",
         "4" : "Pulchny",
         "5" : "Żylasty",
-        "6" : "Żylasty"
+        "6" : "Urodziwy"
       },
       "4" : {
         "1" : "Niski",
@@ -1180,7 +1180,7 @@
         "1" : "Czarne rekinie ślepia",
         "2" : "Łuski (onyksowe, opalizujące, kryształowe, metaliczne itd.)",
         "3" : "Ostre szpony",
-        "4" : "Kościste wyrostk",
+        "4" : "Kościste wyrostki",
         "5" : "Wiele oczu",
         "6" : "Chłoszczący ogon"
       },
@@ -1275,7 +1275,7 @@
         "2" : "Porywisty wiatr",
         "3" : "Nieprzenikniona czerń",
         "4" : "Błyskawice",
-        "5" : "Oblepiające cienie ",
+        "5" : "Oblepiające cienie",
         "6" : "Głosy w głowie"
       }
     },
@@ -1335,11 +1335,11 @@
         "2" : "Wijąca się masa",
         "3" : "Radiacyjna istota",
         "4" : "Kryształowe odłamki",
-        "5" : "Pełzająca narośl ",
+        "5" : "Pełzająca narośl",
         "6" : "Ożywiony gaz"
       },
       "2" : {
-        "1" : "Chmura płonącego popiołu ",
+        "1" : "Chmura płonącego popiołu",
         "2" : "Cienisty byt",
         "3" : "Rój insektów",
         "4" : "Toksyczny opar",
@@ -1371,7 +1371,7 @@
         "6" : "Oblepiająca ciemność"
       },
       "6" : {
-        "1" : "Lewitująca mackowatość ",
+        "1" : "Lewitująca mackowatość",
         "2" : "Mdły opar",
         "3" : "Wirująca wydzielina",
         "4" : "Wężowy byt",
@@ -1393,7 +1393,7 @@
       },
       "2" : {
         "1" : "Pani Ciernistych Krzewów",
-        "2" : "Nasza Krew Przelana w Chwale ",
+        "2" : "Nasza Krew Przelana w Chwale",
         "3" : "Tryk",
         "4" : "Puste Naczynie",
         "5" : "Zamknięte Oko",
@@ -1715,5 +1715,9 @@
         "6" : "Łupieżcy Martwych Ziem"
       }
     }
+  },
+  "notFound" : {
+    "title" : "Zabłądziłeś w złą uliczkę!",
+    "content" : "Wycofaj sie powoli..."
   }
 }

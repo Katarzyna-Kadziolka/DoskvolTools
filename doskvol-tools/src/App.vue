@@ -17,10 +17,12 @@ import AppNavBar from '@/components/layout/AppNavBar.vue'
       padding: 48px 0 0;
       margin:0;
       overflow-y: auto;
+      z-index: 1;
     }
     &_nav-bar {
       position: fixed;
       width: 100vw;
+      z-index: 2;
     }
   }
 
