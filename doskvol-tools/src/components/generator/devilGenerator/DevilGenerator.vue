@@ -32,24 +32,24 @@ const generateRandom = () => {
 <template>
   <BaseGenerator :title="t('generator-navigation.devil').toLocaleUpperCase()" @generateRandom="generateRandom">
     <template v-slot:tables>
-      <BaseTable v-model="devil.name" :table-data="devilData.getNames()"/>
-      <BaseTable v-model="devil.demonFeature" :table-data="devilData.getDemonFeatures()"/>
-      <BaseTable v-model="devil.traits" :table-data="devilData.getTraits()"/>
-      <BaseTable v-model="devil.ghostlySecondaryEffect" :table-data="devilData.getGhostlySecondaryEffects()"/>
-      <BaseTable v-model="devil.demonAspect" :table-data="devilData.getDemonAspect()"/>
-      <BaseTable v-model="devil.affinity" :table-data="devilData.getAffinity()"/>
-      <BaseTable v-model="devil.demonDesires" :table-data="devilData.getDemonDesires()"/>
-      <BaseTable v-model="devil.summonedHorrors" :table-data="devilData.getSummonedHorrors()"/>
+      <BaseTable v-model="devil.name" :table-data="devilData.getNames()" id="devilNames"/>
+      <BaseTable v-model="devil.demonFeature" :table-data="devilData.getDemonFeatures()" id="devilDemonFeatures" />
+      <BaseTable v-model="devil.traits" :table-data="devilData.getTraits()" id="devilTraits" />
+      <BaseTable v-model="devil.ghostlySecondaryEffect" :table-data="devilData.getGhostlySecondaryEffects()" id="devilGhostlySecondaryEffects" />
+      <BaseTable v-model="devil.demonAspect" :table-data="devilData.getDemonAspect()" id="devilDemonAspect" />
+      <BaseTable v-model="devil.affinity" :table-data="devilData.getAffinity()" id="devilAffinity" />
+      <BaseTable v-model="devil.demonDesires" :table-data="devilData.getDemonDesires()" id="devilDemonDesires" />
+      <BaseTable v-model="devil.summonedHorrors" :table-data="devilData.getSummonedHorrors()" id="devilSummonedHorrors" />
     </template>
     <template v-slot:results>
-      <GeneratorResultElement :title="t('devils.names.title')" :value="devil.name"/>
-      <GeneratorResultElement :title="t('devils.demonFeatures.title')" :value="devil.demonFeature"/>
-      <GeneratorResultElement :title="t('devils.traits.title')" :value="devil.traits"/>
-      <GeneratorResultElement :title="t('devils.ghostlySecondaryEffects.title')" :value="devil.ghostlySecondaryEffect"/>
-      <GeneratorResultElement :title="t('devils.demonAspect.title')" :value="devil.demonAspect"/>
-      <GeneratorResultElement :title="t('devils.affinity.title')" :value="devil.affinity"/>
-      <GeneratorResultElement :title="t('devils.demonDesires.title')" :value="devil.demonDesires"/>
-      <GeneratorResultElement :title="t('devils.summonedHorrors.title')" :value="devil.summonedHorrors"/>
+      <GeneratorResultElement :title="t('devils.names.title')" :value="devil.name" url="devilNames"/>
+      <GeneratorResultElement :title="t('devils.demonFeatures.title')" :value="devil.demonFeature" url="devilDemonFeatures"/>
+      <GeneratorResultElement :title="t('devils.traits.title')" :value="devil.traits" url="devilTraits"/>
+      <GeneratorResultElement :title="t('devils.ghostlySecondaryEffects.title')" :value="devil.ghostlySecondaryEffect" url="devilGhostlySecondaryEffects"/>
+      <GeneratorResultElement :title="t('devils.demonAspect.title')" :value="devil.demonAspect" url="devilDemonAspect"/>
+      <GeneratorResultElement :title="t('devils.affinity.title')" :value="devil.affinity" url="devilAffinity"/>
+      <GeneratorResultElement :title="t('devils.demonDesires.title')" :value="devil.demonDesires" url="devilDemonDesires"/>
+      <GeneratorResultElement :title="t('devils.summonedHorrors.title')" :value="devil.summonedHorrors" url="devilSummonedHorrors"/>
     </template>
   </BaseGenerator>
 </template>

@@ -6,6 +6,7 @@ import {computed, ref, watchEffect} from "vue";
 const props = defineProps<{
   modelValue: string,
   tableData: TableData,
+  id: string,
 }>();
 
 const emit = defineEmits<{
@@ -36,7 +37,7 @@ const activeId = computed(() => {
 </script>
 
 <template>
-  <span class="th-header">{{ tableData.title }}</span>
+  <span :id="id" class="th-header">{{ tableData.title }}</span>
   <table>
     <tr>
       <th></th>
@@ -91,6 +92,7 @@ tr:nth-child(even) {
   width: 100%;
   text-align: start;
   padding-left: 8px;
+  scroll-margin-top: 10vh;
 }
 
 @keyframes hover-td {
