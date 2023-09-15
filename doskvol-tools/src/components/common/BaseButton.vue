@@ -4,7 +4,7 @@ withDefaults(defineProps<{
   name: string,
   isPrimary: boolean
 }>(), {
-  isPrimary: true
+  isPrimary: false
 })
 </script>
 

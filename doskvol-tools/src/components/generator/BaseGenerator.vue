@@ -26,7 +26,7 @@ defineEmits<{
         <slot name="results"></slot>
       </div>
       <div class="base-generator_buttons-container">
-        <BaseButton :name="t('generator-ui.generate')" @click="$emit('generateRandom')" :isPrimary="true"/>
+        <BaseButton :name="t('generator-ui.generate')" @click="$emit('generateRandom')" isPrimary/>
         <BaseButton :name="t('generator-ui.copy')" @click="$emit('copy')" :isPrimary="false" />
       </div>
     </BaseCard>
