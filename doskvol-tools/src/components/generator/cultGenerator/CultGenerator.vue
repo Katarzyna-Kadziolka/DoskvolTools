@@ -20,18 +20,21 @@ const generateRandom = () => {
   cult.value.forgottenGod = getRandomFromTable(cultData.getForgottenGods());
   cult.value.practice = getRandomFromTable(cultData.getCultPractices());
 }
-
+const copy = () => {
+  navigator.clipboard.writeText(`${t('cults.forgottenGods.title')}: ${cult.value.forgottenGod}\n` +
+      `${t('cults.cultPractices.title')}: ${cult.value.practice}`)
+}
 </script>
 
 <template>
-  <BaseGenerator :title="t('generator-navigation.cult').toLocaleUpperCase()" @generateRandom="generateRandom">
+  <BaseGenerator :title="t('generator-navigation.cult').toLocaleUpperCase()" @generateRandom="generateRandom" @copy="copy">
     <template v-slot:tables>
-      <BaseTable v-model="cult.forgottenGod" :table-data="cultData.getForgottenGods()"/>
-      <BaseTable v-model="cult.practice" :table-data="cultData.getCultPractices()"/>
+      <BaseTable v-model="cult.forgottenGod" :table-data="cultData.getForgottenGods()" id="cultForgottenGods"/>
+      <BaseTable v-model="cult.practice" :table-data="cultData.getCultPractices()" id="cultPractices"/>
     </template>
     <template v-slot:results>
-      <GeneratorResultElement :title="t('cults.forgottenGods.title')" :value="cult.forgottenGod"/>
-      <GeneratorResultElement :title="t('cults.cultPractices.title')" :value="cult.practice"/>
+      <GeneratorResultElement :title="t('cults.forgottenGods.title')" :value="cult.forgottenGod" url="cultForgottenGods"/>
+      <GeneratorResultElement :title="t('cults.cultPractices.title')" :value="cult.practice" url="cultPractices"/>
     </template>
   </BaseGenerator>
 </template>
