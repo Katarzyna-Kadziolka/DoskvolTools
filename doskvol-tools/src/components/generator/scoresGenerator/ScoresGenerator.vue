@@ -155,10 +155,19 @@ const generateRandomWorkType = () => {
   return getRandomTableVariant(tablesVariants);
 }
 
+const copy = () => {
+  navigator.clipboard.writeText(`${t('scores.client.title')}: ${score.value.client}\n` +
+      `${t('scores.target.title')}: ${score.value.target}\n` +
+      `${t('scores.work.title')}: ${score.value.work}\n` +
+      `${t('scores.twistOrComplication.title')}: ${score.value.twistOrComplication}\n` +
+      `${t('scores.connectedToPerson.title')}: ${score.value.connectedToPerson}\n` +
+      `${t('scores.connectedToFactions.title')}: ${score.value.connectedToFactions}`)
+}
+
 </script>
 
 <template>
-  <BaseGenerator :title="t('generator-navigation.scores').toLocaleUpperCase()" @generateRandom="generateRandom">
+  <BaseGenerator :title="t('generator-navigation.scores').toLocaleUpperCase()" @generateRandom="generateRandom" @copy="copy">
     <template v-slot:tables>
       <BaseTable v-model="score.client" :table-data="scoreData.getClientCivilian()" id="scoreClientCivilian"/>
       <BaseTable v-model="score.client" :table-data="scoreData.getClientCriminal()" id="scoreClientCriminal"/>

@@ -62,10 +62,26 @@ const generateRandomVariant = () => {
   return getRandomTableVariant(tablesVariants);
 }
 
+const copy = () => {
+  navigator.clipboard.writeText(`${t('characters.gender.title')}: ${character.value.gender}\n` +
+      `${t('characters.name.title')}: ${character.value.name}\n` +
+      `${t('characters.familyName.title')}: ${character.value.familyName}\n` +
+      `${t('characters.alias.title')}: ${character.value.alias}\n` +
+      `${t('characters.heritage.title')}: ${character.value.heritage}\n` +
+      `${t('characters.looks.title')}: ${character.value.looks}\n` +
+      `${t('characters.style.title')}: ${character.value.style}\n` +
+      `${t('characters.goals.title')}: ${character.value.goals}\n` +
+      `${t('characters.preferredMethods.title')}: ${character.value.preferredMethods}\n` +
+      `${t('characters.professions.title')}: ${character.value.profession}\n` +
+      `${t('characters.traits.title')}: ${character.value.trait}\n` +
+      `${t('characters.interests.title')}: ${character.value.interests}\n` +
+      `${t('characters.quirks.title')}: ${character.value.quirks}`)
+}
+
 </script>
 
 <template>
-  <BaseGenerator :title="t('generator-navigation.character').toLocaleUpperCase()" @generateRandom="generateRandom">
+  <BaseGenerator :title="t('generator-navigation.character').toLocaleUpperCase()" @generateRandom="generateRandom" @copy="copy">
     <template v-slot:tables>
       <BaseTable v-model="character.gender" :table-data="characterData.getGenders()" id="characterGender"/>
       <BaseTable v-model="character.name" :table-data="characterData.getNames()" id="characterName"/>

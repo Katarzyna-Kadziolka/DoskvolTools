@@ -27,10 +27,21 @@ const generateRandom = () => {
   street.value.props = getRandomFromTable(streetData.getProps());
 }
 
+const copy = () => {
+  navigator.clipboard.writeText(`${t('streets.mood.title')}: ${street.value.mood}\n` +
+      `${t('streets.impressions.sights.title')}: ${street.value.impressionsSights}\n` +
+      `${t('streets.impressions.sounds.title')}: ${street.value.impressionsSounds}\n` +
+      `${t('streets.impressions.smells.title')}: ${street.value.impressionsSmells}\n` +
+      `${t('streets.use.title')}: ${street.value.use}\n` +
+      `${t('streets.type.title')}: ${street.value.type}\n` +
+      `${t('streets.details.title')}: ${street.value.details}\n` +
+      `${t('streets.props.title')}: ${street.value.props}`)
+}
+
 </script>
 
 <template>
-  <BaseGenerator :title="t('generator-navigation.street').toLocaleUpperCase()" @generateRandom="generateRandom">
+  <BaseGenerator :title="t('generator-navigation.street').toLocaleUpperCase()" @generateRandom="generateRandom" @copy="copy">
     <template v-slot:tables>
       <BaseTable v-model="street.mood" :table-data="streetData.getMood()" id="streetMood"/>
       <BaseTable v-model="street.impressionsSights" :table-data="streetData.getImpressionsSights()" id="streetImpressionsSights"/>

@@ -27,10 +27,20 @@ const generateRandom = () => {
   devil.value.traits = getRandomFromTable(devilData.getTraits());
 }
 
+const copy = () => {
+  navigator.clipboard.writeText(`${t('devils.names.title')}: ${devil.value.name}\n` +
+      `${t('devils.demonFeatures.title')}: ${devil.value.demonFeature}\n` +
+      `${t('devils.traits.title')}: ${devil.value.traits}\n` +
+      `${t('devils.ghostlySecondaryEffects.title')}: ${devil.value.ghostlySecondaryEffect}\n` +
+      `${t('devils.demonAspect.title')}: ${devil.value.demonAspect}\n` +
+      `${t('devils.affinity.title')}: ${devil.value.affinity}\n` +
+      `${t('devils.demonDesires.title')}: ${devil.value.demonDesires}\n` +
+      `${t('devils.summonedHorrors.title')}: ${devil.value.summonedHorrors}`)
+}
 </script>
 
 <template>
-  <BaseGenerator :title="t('generator-navigation.devil').toLocaleUpperCase()" @generateRandom="generateRandom">
+  <BaseGenerator :title="t('generator-navigation.devil').toLocaleUpperCase()" @generateRandom="generateRandom" @copy="copy">
     <template v-slot:tables>
       <BaseTable v-model="devil.name" :table-data="devilData.getNames()" id="devilNames"/>
       <BaseTable v-model="devil.demonFeature" :table-data="devilData.getDemonFeatures()" id="devilDemonFeatures" />
