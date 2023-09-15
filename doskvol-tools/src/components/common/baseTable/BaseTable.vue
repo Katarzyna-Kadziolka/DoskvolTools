@@ -92,7 +92,7 @@ tr:nth-child(even) {
   width: 100%;
   text-align: start;
   padding-left: 8px;
-  scroll-margin-top: 60px;
+  scroll-margin-top: 10vh;
 }
 
 @keyframes hover-td {
