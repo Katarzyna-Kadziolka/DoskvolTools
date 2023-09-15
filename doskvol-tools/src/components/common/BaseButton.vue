@@ -2,7 +2,7 @@
 
 withDefaults(defineProps<{
   name: string,
-  isPrimary: boolean
+  isPrimary?: boolean
 }>(), {
   isPrimary: false
 })
