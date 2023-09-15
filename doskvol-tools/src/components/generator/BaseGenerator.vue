@@ -11,6 +11,7 @@ defineProps<{
 
 defineEmits<{
   (event: 'generateRandom') : void;
+  (event: 'copy') : void;
 }>()
 </script>
 
@@ -24,7 +25,10 @@ defineEmits<{
         <span class="base-generator_title">{{title}}</span>
         <slot name="results"></slot>
       </div>
-      <BaseButton :name="t('generator-ui.generate')" @click="$emit('generateRandom')"/>
+      <div class="base-generator_buttons-container">
+        <BaseButton :name="t('generator-ui.generate')" @click="$emit('generateRandom')" :isPrimary="true"/>
+        <BaseButton :name="t('generator-ui.copy')" @click="$emit('copy')" :isPrimary="false" />
+      </div>
     </BaseCard>
   </div>
 </template>
@@ -46,7 +50,7 @@ defineEmits<{
     width: 20vw;
     position: fixed;
     right: 32px;
-    top: 92px;
+    top: 9vh;
   }
 
   &_title {
@@ -58,7 +62,12 @@ defineEmits<{
     display: flex;
     flex-direction: column;
     row-gap: 8px;
-    margin-bottom: 24px;
+    margin-bottom: 32px;
+  }
+  &_buttons-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 8px;
   }
 }
 </style>

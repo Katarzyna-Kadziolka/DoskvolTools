@@ -45,10 +45,15 @@ const generateRandomVariant = () => {
   ]
   return getRandomTableVariant(tablesVariants);
 }
+
+const copy = () => {
+  const myString = `${t('buildings.exterior.material.title')}: ${building.value.exteriorMaterial}`;
+  navigator.clipboard.writeText(myString)
+}
 </script>
 
 <template>
-  <BaseGenerator :title="t('generator-navigation.building').toLocaleUpperCase()" @generateRandom="generateRandom">
+  <BaseGenerator :title="t('generator-navigation.building').toLocaleUpperCase()" @generateRandom="generateRandom" @copy="copy">
     <template v-slot:tables>
       <BaseTable v-model="building.exteriorMaterial" :table-data="buildingData.getExteriorMaterial()" id="buildingExteriorMaterial"/>
       <BaseTable v-model="building.exteriorDetails" :table-data="buildingData.getExteriorDetails()" id="buildingExteriorDetails"/>
