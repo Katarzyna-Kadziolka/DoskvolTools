@@ -9,7 +9,7 @@ import BaseTable from "@/components/common/baseTable/BaseTable.vue";
 import GeneratorResultElement from "@/components/generator/GeneratorResultElement.vue";
 import BaseGenerator from "@/components/generator/BaseGenerator.vue";
 
-const {t} = useI18n({useScope: "global"});
+const {t} = useI18n();
 
 const store = useBuildingStore();
 const {building} = storeToRefs(store);

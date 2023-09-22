@@ -3,7 +3,7 @@ import {useI18n} from 'vue-i18n'
 import BaseCard from "@/components/common/BaseCard.vue";
 import BaseButton from "@/components/common/BaseButton.vue";
 
-const {t} = useI18n({useScope: "global"});
+const {t} = useI18n();
 
 defineProps<{
   title: string
