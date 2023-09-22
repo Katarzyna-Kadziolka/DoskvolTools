@@ -17,12 +17,11 @@ const options: SelectOption[] = [
     value: 'pl'
   }
 ];
-const currentLanguage = options.find((x) => x.value === locale.value)?.label ?? "en";
+const currentLanguage = options.find((x) => x.value === locale.value)?.label ?? "English";
 const selectedOption = ref(currentLanguage);
 
 watchEffect(() => {
   locale.value = options.find((x) => x.label === selectedOption.value)!.value;
-  console.log(locale.value)
   navigator.language
 })
 
