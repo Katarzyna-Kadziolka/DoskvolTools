@@ -8,7 +8,7 @@ import GeneratorResultElement from "@/components/generator/GeneratorResultElemen
 import useRandom from "@/composables/Random";
 import BaseGenerator from "@/components/generator/BaseGenerator.vue";
 
-const {t} = useI18n({useScope: "global"});
+const {t} = useI18n();
 
 const store = useStreetStore();
 const {street} = storeToRefs(store);

@@ -9,7 +9,7 @@ import BaseGenerator from "@/components/generator/BaseGenerator.vue";
 import BaseTable from "@/components/common/baseTable/BaseTable.vue";
 import GeneratorResultElement from "@/components/generator/GeneratorResultElement.vue";
 
-const {t} = useI18n({useScope: "global"});
+const {t} = useI18n();
 
 const store = useScoreStore();
 const { score } = storeToRefs(store);
