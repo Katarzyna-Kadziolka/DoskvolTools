@@ -22,7 +22,6 @@ const selectedOption = ref(currentLanguage);
 
 watchEffect(() => {
   locale.value = options.find((x) => x.label === selectedOption.value)!.value;
-  navigator.language
 })
 
 </script>
